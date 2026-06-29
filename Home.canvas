@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"89530108b620199e","x":-220,"y":-60,"width":250,"height":60,"type":"text","text":""},
+		{"id":"989f36c4466dada7","x":120,"y":-320,"width":250,"height":60,"type":"text","text":""}
+	],
+	"edges":[
+		{"id":"00d752c4db8b8cb4","fromNode":"89530108b620199e","fromSide":"right","toNode":"989f36c4466dada7","toSide":"left","label":"ррп"}
+	]
+}

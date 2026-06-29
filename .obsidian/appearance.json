@@ -1,0 +1,12 @@
+{
+  "accentColor": "#1a754a",
+  "baseFontSize": 18,
+  "cssTheme": "Atom",
+  "textFontFamily": "",
+  "translucency": true,
+  "theme": "obsidian",
+  "interfaceFontFamily": "",
+  "enabledCssSnippets": [
+    "CustomIcon-AutoGen"
+  ]
+}

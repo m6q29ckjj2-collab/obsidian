@@ -1,0 +1,65 @@
+{
+  "settings": {
+    "migrated": 5,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 20,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "😁",
+      "FabBuromobelexperte",
+      "RaTower",
+      "RiForwardEndMiniLine",
+      "RiRouterLine"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": true,
+    "iconInTitlePosition": "inline",
+    "iconInFrontmatterEnabled": true,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "debugMode": false
+  },
+  "02 programming": "FabEmpire",
+  "02 programming/answers": {
+    "iconName": "FabAdversal",
+    "iconColor": "#b32323"
+  },
+  "10 archive": "RiInboxArchiveFill",
+  "Home.md": "RiHome8Fill",
+  "01 zadachi": "RiTaskFill",
+  "02 programming/01 next js": "RiNextjsFill",
+  "02 programming/00 JavaScript": "FabSquareJs",
+  "02 programming/02 react": {
+    "iconName": "FabReact",
+    "iconColor": "#0084ff"
+  },
+  "02 programming/02 react/2. Adding Interactivity/2.  State A Component's Memory.md": "FabConnectdevelop",
+  "02 programming/02 react/2. Adding Interactivity/4. State as a Snapshot.md": "Fab500px",
+  "02 programming/02 react/4. Escape Hatches/1. Referencing Values with Refs.md": "FabSquareJs",
+  "02 programming/02 react/1. Describing the UI/1. Describing the UI.md": "FabSquareJs",
+  "02 programming/К прочтению.md": "FabReadme",
+  "02 programming/03 Axios": "RiRouteFill",
+  "02 programming/10 Bundlers": "IbTrashWithLines",
+  "Home.canvas": "RiHomeGearFill",
+  "00 - Экономика": "FabAccessibleIcon",
+  "00 - Экономика/Фондовые рынки": "RiStockFill",
+  "02 programming/01 next js/Pages Router": "RiFilePaper2Fill",
+  "02 programming/01 next js/App Router": "RaIceCube",
+  "02 programming/01 next js/Pages Router/Data Fetching": "RiRouterLine",
+  "02 programming/01 next js/App Router/Rendering": "RiForwardEndMiniLine",
+  "02 programming/04 TS": "RaTower",
+  "02 programming/05 patterns": "FabBuromobelexperte"
+}

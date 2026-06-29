@@ -1,0 +1,23 @@
+{
+  "soundscape": "nintendo",
+  "volume": 35,
+  "autoplay": false,
+  "scrollSongTitle": true,
+  "customSoundscapes": [
+    {
+      "id": "66c4244b-137b-4091-bd0e-c5d00b331200",
+      "name": "lofi - piano",
+      "tracks": [
+        {
+          "name": "lofi - piano",
+          "id": "4oStw0r33so"
+        }
+      ]
+    }
+  ],
+  "myMusicIndex": [],
+  "myMusicFolderPath": "",
+  "reindexFrequency": "5",
+  "myMusicShuffle": false,
+  "currentTrackIndex": 0
+}

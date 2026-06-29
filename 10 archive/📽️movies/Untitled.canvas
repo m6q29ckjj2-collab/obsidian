@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"4ea9562c3ec23917","type":"text","text":"Ты водишь\n","x":-480,"y":-260,"width":400,"height":180,"color":"3"},
+		{"id":"7ec2caf97f4eeae0","type":"text","text":"Полицеский с ютюба \n-  https://youtu.be/gPz-YhYs5XI?t=842","x":-480,"y":-20,"width":440,"height":80}
+	],
+	"edges":[]
+}

@@ -1,0 +1,153 @@
+{
+  "cascadeColors": false,
+  "colorBackground": false,
+  "palette": [
+    {
+      "id": "oHWhEUPAi0I9VCN4S2G5k",
+      "name": "programming folder",
+      "value": "#0060fa"
+    },
+    {
+      "id": "U8ZOlS2EdeKTpnpYq7q6b",
+      "name": "f",
+      "value": "#6234b7"
+    },
+    {
+      "id": "I2-hV1kkLJRnpt5W35Cxq",
+      "name": "",
+      "value": "#ffffff"
+    },
+    {
+      "id": "057KVIU9G4IuZEJR-uyc3",
+      "name": "",
+      "value": "#00eb04"
+    },
+    {
+      "id": "BSc8_TxaKvsDLX7c-7BNO",
+      "name": "",
+      "value": "#b30000"
+    },
+    {
+      "id": "dyKghnFdlaJ6v_30NtjYV",
+      "name": "",
+      "value": "#00bfff"
+    },
+    {
+      "id": "C_qBDH6SORes9R8VsPu4n",
+      "name": "",
+      "value": "#ad007f"
+    },
+    {
+      "id": "YWjUNOTgyCa5XJRWJr9RV",
+      "name": "",
+      "value": "#9879d2"
+    },
+    {
+      "id": "dT5vYiWbofS3slFZXhuoG",
+      "name": "",
+      "value": "#fbff00"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "02 programming/02 react/2. Adding Interactivity/2.  State A Component's Memory.md",
+      "color": "oHWhEUPAi0I9VCN4S2G5k"
+    },
+    {
+      "path": "02 programming/answers",
+      "color": "U8ZOlS2EdeKTpnpYq7q6b"
+    },
+    {
+      "path": "02 programming/02 react/2. Adding Interactivity/3. Render and Commit.md",
+      "color": "U8ZOlS2EdeKTpnpYq7q6b"
+    },
+    {
+      "path": "02 programming/02 react",
+      "color": "oHWhEUPAi0I9VCN4S2G5k"
+    },
+    {
+      "path": "02 programming",
+      "color": "057KVIU9G4IuZEJR-uyc3"
+    },
+    {
+      "path": "10 archive",
+      "color": "BSc8_TxaKvsDLX7c-7BNO"
+    },
+    {
+      "path": "00 - Экономика",
+      "color": "U8ZOlS2EdeKTpnpYq7q6b"
+    },
+    {
+      "path": "02 programming/01 next js",
+      "color": "dyKghnFdlaJ6v_30NtjYV"
+    },
+    {
+      "path": "Home.md",
+      "color": "C_qBDH6SORes9R8VsPu4n"
+    },
+    {
+      "path": "01 zadachi",
+      "color": "YWjUNOTgyCa5XJRWJr9RV"
+    },
+    {
+      "path": "02 programming/10 Bundlers",
+      "color": "C_qBDH6SORes9R8VsPu4n"
+    },
+    {
+      "path": "02 programming/00 JavaScript",
+      "color": "BSc8_TxaKvsDLX7c-7BNO"
+    },
+    {
+      "path": "02 programming/К прочтению.md",
+      "color": "dyKghnFdlaJ6v_30NtjYV"
+    },
+    {
+      "path": "02 programming/03 Axios",
+      "color": "dT5vYiWbofS3slFZXhuoG"
+    },
+    {
+      "path": "Home.canvas",
+      "color": "YWjUNOTgyCa5XJRWJr9RV"
+    },
+    {
+      "path": "00 - Экономика/Фондовые рынки",
+      "color": "BSc8_TxaKvsDLX7c-7BNO"
+    },
+    {
+      "path": "02 programming/01 next js/Pages Router",
+      "color": "YWjUNOTgyCa5XJRWJr9RV"
+    },
+    {
+      "path": "02 programming/01 next js/App Router",
+      "color": "U8ZOlS2EdeKTpnpYq7q6b"
+    },
+    {
+      "path": "02 programming/01 next js/Pages Router/Data Fetching",
+      "color": "YWjUNOTgyCa5XJRWJr9RV"
+    },
+    {
+      "path": "02 programming/01 next js/App Router/Rendering",
+      "color": "U8ZOlS2EdeKTpnpYq7q6b"
+    },
+    {
+      "path": "02 programming/01 next js/App Router/Data Fetching",
+      "color": "U8ZOlS2EdeKTpnpYq7q6b"
+    },
+    {
+      "path": "02 programming/01 next js/App Router/Routing",
+      "color": "U8ZOlS2EdeKTpnpYq7q6b"
+    },
+    {
+      "path": "02 programming/04 TS",
+      "color": "057KVIU9G4IuZEJR-uyc3"
+    },
+    {
+      "path": "02 programming/05 patterns",
+      "color": "C_qBDH6SORes9R8VsPu4n"
+    },
+    {
+      "path": "02 programming/11 Kuber/First steps.md",
+      "color": "I2-hV1kkLJRnpt5W35Cxq"
+    }
+  ]
+}
