@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "📗",
       "😁",
       "FabBuromobelexperte",
       "RaTower",
-      "RiForwardEndMiniLine",
-      "RiRouterLine"
+      "RiForwardEndMiniLine"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -61,5 +61,6 @@
   "02 programming/01 next js/Pages Router/Data Fetching": "RiRouterLine",
   "02 programming/01 next js/App Router/Rendering": "RiForwardEndMiniLine",
   "02 programming/04 TS": "RaTower",
-  "02 programming/05 patterns": "FabBuromobelexperte"
+  "02 programming/05 patterns": "FabBuromobelexperte",
+  "evolution": "📗"
 }
