@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 programming/00 JavaScript/Myrich/spec/1 От мифов к спецификации ECMAScript 2025.md",
+                "file": "02 programming/00 JavaScript/Myrich/spec/1 От мифов к спецификации ECMAScript 2025/Квиз.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1 От мифов к спецификации ECMAScript 2025"
+              "title": "Квиз"
             }
           }
         ]
@@ -222,9 +222,17 @@
   },
   "active": "9c1a9e972b8810a9",
   "lastOpenFiles": [
+    "02 programming/00 JavaScript/Myrich/spec/1 От мифов к спецификации ECMAScript 2025/Карточки.md",
+    "02 programming/00 JavaScript/Myrich/spec/1 От мифов к спецификации ECMAScript 2025/От мифов к спецификации ECMAScript 2025.md",
+    "02 programming/00 JavaScript/Myrich/spec/2 От мифов к спецификации./JavaScript От мифов к спецификации..md",
+    "02 programming/00 JavaScript/Myrich/spec/2 От мифов к спецификации./Карточки.md",
+    "02 programming/00 JavaScript/Myrich/spec/2 От мифов к спецификации./Квиз.md",
+    "02 programming/00 JavaScript/Myrich/spec/2 От мифов к спецификации.",
+    "02 programming/00 JavaScript/Myrich/spec/1 От мифов к спецификации ECMAScript 2025/Квиз.md",
+    "prompts/Для информации.md",
     "prompts/notebook LLM.md",
-    "02 programming/00 JavaScript/Myrich/spec/1 От мифов к спецификации ECMAScript 2025.md",
-    "02 programming/00 JavaScript/Myrich/spec/2 Учебные карточки по спецификации ECMAScript 2025 (ECMA-262, 16th Edition).md",
+    "prompts/quiz.md",
+    "02 programming/00 JavaScript/Myrich/spec/1 От мифов к спецификации ECMAScript 2025",
     "02 programming/00 JavaScript/Myrich/spec",
     "02 programming/00 JavaScript/Myrich/Без названия 1.base",
     "02 programming/00 JavaScript/Myrich/Без названия.base",
@@ -258,14 +266,7 @@
     "10 archive/assets/Pasted image 20260416032145.png",
     "10 archive/assets/Pasted image 20260416032107.png",
     "EDA/Терамису.md",
-    "EDA/Картоха жареная с грибами.md",
-    "EDA/Без названия",
-    "EDA",
-    "02 programming/12 node/NODE_JS.md",
-    "02 programming/11 Kuber/First steps.md",
     "10 archive/assets/Pasted image 20260208162402.png",
-    "Excalidraw/Drawing 2024-11-02 21.06.29.excalidraw.md",
-    "Excalidraw/Drawing 2025-08-01 18.47.29.excalidraw.md",
     "10 archive/assets/Pasted image 20250912014544.png",
     "Home.canvas",
     "10 archive/assets/Pasted image 20250301125310.png",
