@@ -1,0 +1,1438 @@
+{
+  "showNotePath": false,
+  "showFolderPath": false,
+  "includeSubfolderNotes": true,
+  "randomizeQuestions": true,
+  "language": "English",
+  "questionHistory": {
+    "1g1lcpg": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782990756585,
+      "interval": 1,
+      "ef": 2.35,
+      "reps": 1
+    },
+    "19pnd6": {
+      "seen": 1,
+      "correct": 0,
+      "due": 1782990756585,
+      "interval": 1,
+      "ef": 2.3,
+      "reps": 0
+    },
+    "g3hsz7": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782990756585,
+      "interval": 1,
+      "ef": 2.3,
+      "reps": 0
+    },
+    "uw50kd": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782990756585,
+      "interval": 1,
+      "ef": 2.3,
+      "reps": 0
+    },
+    "jj3gxe": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782990756585,
+      "interval": 1,
+      "ef": 2.3,
+      "reps": 0
+    },
+    "t0kvyx": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556585,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1umahuv": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556585,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1y012rz": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556585,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "efsn1s": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556585,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "sv0z9k": {
+      "seen": 1,
+      "correct": 0,
+      "due": 1782990756585,
+      "interval": 1,
+      "ef": 2.3,
+      "reps": 0
+    },
+    "1vr55oo": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556585,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1jriznz": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782990756585,
+      "interval": 1,
+      "ef": 2.3,
+      "reps": 0
+    },
+    "pug068": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556585,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1wzqjdr": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556585,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1bjmfrk": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1f9xtgu": {
+      "seen": 1,
+      "correct": 0,
+      "due": 1782990756586,
+      "interval": 1,
+      "ef": 2.3,
+      "reps": 0
+    },
+    "wb4bjy": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "jhb5b5": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "7qfuyv": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "17vcr71": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "f5zssk": {
+      "seen": 1,
+      "correct": 0,
+      "due": 1782990756586,
+      "interval": 1,
+      "ef": 2.3,
+      "reps": 0
+    },
+    "1br89ey": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "2wjjqj": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1kyvxe9": {
+      "seen": 1,
+      "correct": 0,
+      "due": 1782990756586,
+      "interval": 1,
+      "ef": 2.3,
+      "reps": 0
+    },
+    "7hyerk": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "p9xo70": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782990756586,
+      "interval": 1,
+      "ef": 2.3,
+      "reps": 0
+    },
+    "3qplv2": {
+      "seen": 1,
+      "correct": 0,
+      "due": 1782990756586,
+      "interval": 1,
+      "ef": 2.3,
+      "reps": 0
+    },
+    "1qr3syg": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "g7kwze": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "19zc2fq": {
+      "seen": 1,
+      "correct": 0,
+      "due": 1782990756586,
+      "interval": 1,
+      "ef": 2.3,
+      "reps": 0
+    },
+    "y63emv": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782990756586,
+      "interval": 1,
+      "ef": 2.3,
+      "reps": 0
+    },
+    "11kd1z5": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782990756586,
+      "interval": 1,
+      "ef": 2.3,
+      "reps": 0
+    },
+    "1hlb2l5": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782990756586,
+      "interval": 1,
+      "ef": 2.3,
+      "reps": 0
+    },
+    "n4qaf5": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "gm3e1m": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "4bunfj": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "45s1y2": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782990756586,
+      "interval": 1,
+      "ef": 2.3,
+      "reps": 0
+    },
+    "apre4p": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "i49e02": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1v4nn6q": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "vs1pm8": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1yfpgsb": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "kzq72g": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "zve9z": {
+      "seen": 1,
+      "correct": 0,
+      "due": 1782990756586,
+      "interval": 1,
+      "ef": 2.3,
+      "reps": 0
+    },
+    "5t7tb": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "5yoi7y": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "zdir20": {
+      "seen": 1,
+      "correct": 0,
+      "due": 1782990756586,
+      "interval": 1,
+      "ef": 2.3,
+      "reps": 0
+    },
+    "nq140u": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782990756586,
+      "interval": 1,
+      "ef": 2.3,
+      "reps": 0
+    },
+    "1udngg7": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782990756586,
+      "interval": 1,
+      "ef": 2.3,
+      "reps": 0
+    },
+    "d2x4b5": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1lfzozf": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1oryb5d": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "vjwgfs": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "x3jre2": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "mhgngf": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "11usu0v": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1o3eeqt": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "wz2mj6": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "rjvm3l": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1cocwnp": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "ddzr35": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "15ozekr": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "om4v5s": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "12et8ev": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "16o5v1l": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "7c2py9": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783163556586,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1irbasn": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783166844455,
+      "interval": 3,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "h6o8wn": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1g35jfu": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1j98a50": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "d312up": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "4znu74": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1fdjox1": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1jxcr4j": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1v3qkmt": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "ihwq0f": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "9kg11m": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "lvxs3l": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "lokjd4": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "17cgcwp": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1g8yuap": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1f5a6fc": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1cflaqz": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1vu4lun": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1krhkzj": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "p9m36s": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "nhaa4": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "anzgkn": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "ihg7q9": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "iashb8": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "41zr3j": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "16fu70r": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "3zc8g9": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "3f0rbc": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "8aktxr": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "8zpvh0": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1d9rov": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1e2gw5w": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1f86387": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "igcaxw": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "n3rhxj": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1gbkp2k": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "2qv7wz": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "ujrl6q": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "uyhgy2": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "ki0zyo": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782994044455,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "sj2x7": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "5h0zpy": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "op9olt": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1w4uwhh": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "z8wjh6": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "2dfixg": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1q1wec": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1t4b5ww": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1c9ko8c": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "11pa0y7": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "xr5a5j": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "3wqz6h": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1svfqbe": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "mjqmkk": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "vhqgr0": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "8i2zp9": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1kdaeds": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "8euhl7": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "14izxwx": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "72n8j3": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1d14uvq": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1vk0scu": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "z1df5i": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "3icmqq": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "193d3j4": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1g3zm04": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "h3q4a": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "hjzeb0": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "f9miap": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "e9xdbt": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "m3pojz": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1wdsb4m": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803546,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "132re2k": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803547,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "9cwaa2": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803547,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "njjzvk": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803547,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1428z4v": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803547,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "18phnru": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803547,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "7m5z7p": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803547,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "hvz4pr": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803547,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "gjfsl4": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803547,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1jp6ved": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803547,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1sx12kt": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803547,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "15lk145": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803547,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1jdty8j": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803547,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "5c42ii": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803547,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "a6te0f": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803547,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "12qi534": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803547,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "ft9z63": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803547,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1hqgi1": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1782998803547,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1pln1yr": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783006837983,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "1gl59bf": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783006837983,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    },
+    "124serf": {
+      "seen": 1,
+      "correct": 1,
+      "due": 1783006837983,
+      "interval": 1,
+      "ef": 2.5,
+      "reps": 1
+    }
+  },
+  "errorBank": [
+    {
+      "question": {
+        "question": "Почему exotic objects требуют override internal methods?  ",
+        "options": [
+          "String-indexed properties  ",
+          "No prototype chain  ",
+          "Strict mode restriction  ",
+          "No properties  "
+        ],
+        "answer": 0
+      },
+      "addedAt": 1782904356585
+    },
+    {
+      "question": {
+        "question": "Какое утверждение наиболее точно описывает связь between ordinary objects and internal methods abstraction?  ",
+        "options": [
+          "Internal methods существуют только в документации и не влияют на runtime  ",
+          "Они задают формальную модель поведения объектов, независимую от реализации движка  ",
+          "Они запрещают использование Proxy  ",
+          "Они заменяют prototype chain  "
+        ],
+        "answer": 1
+      },
+      "addedAt": 1782904356585
+    },
+    {
+      "question": {
+        "question": "SharedArrayBuffer + Atomics означает:  ",
+        "options": [
+          "Sequential consistency  ",
+          "Data races always safe  ",
+          "Limited synchronization without global ordering  ",
+          "Disables event loop  "
+        ],
+        "answer": 2
+      },
+      "addedAt": 1782904356586
+    },
+    {
+      "question": {
+        "question": "Почему Float16Array важен?",
+        "options": [
+          "Повышает точность",
+          "Уменьшает память и bandwidth",
+          "Делает вычисления детерминированными",
+          "Заменяет Float64Array"
+        ],
+        "answer": 1
+      },
+      "addedAt": 1782904356586
+    },
+    {
+      "question": {
+        "question": "Почему Promise.try считается более семантически корректным, чем прямой вызов Promise.resolve(fn()) в случае синхронных ошибок?  ",
+        "options": [
+          "Потому что он ускоряет выполнение промисов  ",
+          "Потому что он гарантирует захват sync throw в Promise pipeline  ",
+          "Потому что он делает fn асинхронной  ",
+          "Потому что он отключает event loop  "
+        ],
+        "answer": 1
+      },
+      "addedAt": 1782904356586
+    },
+    {
+      "question": {
+        "question": "Что делает RegExp.escape?",
+        "options": [
+          "Ускоряет regex",
+          "Экранирует строки",
+          "Заменяет regex",
+          "Делает потокобезопасным"
+        ],
+        "answer": 1
+      },
+      "addedAt": 1782904356586
+    },
+    {
+      "question": {
+        "question": "Зачем Set.prototype.union/intersection/difference?",
+        "options": [
+          "Для оптимизации GC",
+          "Для стандартизации операций множеств",
+          "Для замены Map",
+          "Для сортировки Set"
+        ],
+        "answer": 1
+      },
+      "addedAt": 1782904356586
+    },
+    {
+      "question": {
+        "question": "Как работает prototype chain в памяти?",
+        "options": [
+          "Копирует методы",
+          "Хранит глобально",
+          "Делит поведение между объектами",
+          "Убирает объекты"
+        ],
+        "answer": 2
+      },
+      "addedAt": 1782904356586
+    },
+    {
+      "question": {
+        "question": "В ECMAScript объект создаётся через new CF(). CF имеет собственные свойства и prototype CF.prototype. Какое утверждение наиболее точно описывает разделение ответственности между CF и CF.prototype?  ",
+        "options": [
+          "CF.prototype используется только для хранения внутренних методов движка  ",
+          "CF содержит состояние конструктора, а CF.prototype определяет разделяемое поведение экземпляров  ",
+          "CF.prototype копируется в каждый экземпляр при создании  ",
+          "CF и CF.prototype объединяются в один объект на этапе выполнения  "
+        ],
+        "answer": 1
+      },
+      "addedAt": 1782904356586
+    }
+  ],
+  "provider": "OPENAI",
+  "openAIApiKey": "",
+  "openAIBaseURL": "https://api.openai.com/v1",
+  "openAITextGenModel": "gpt-3.5-turbo",
+  "openAIEmbeddingModel": "text-embedding-3-small",
+  "googleApiKey": "",
+  "googleBaseURL": "https://generativelanguage.googleapis.com",
+  "googleTextGenModel": "gemini-1.5-flash",
+  "googleEmbeddingModel": "text-embedding-004",
+  "anthropicApiKey": "",
+  "anthropicBaseURL": "https://api.anthropic.com",
+  "anthropicTextGenModel": "claude-3-haiku-20240307",
+  "perplexityApiKey": "",
+  "perplexityBaseURL": "https://api.perplexity.ai",
+  "perplexityTextGenModel": "llama-3.1-sonar-small-128k-chat",
+  "mistralApiKey": "",
+  "mistralBaseURL": "https://api.mistral.ai",
+  "mistralTextGenModel": "open-mistral-nemo",
+  "mistralEmbeddingModel": "mistral-embed",
+  "cohereApiKey": "",
+  "cohereBaseURL": "https://api.cohere.com",
+  "cohereTextGenModel": "command-r-08-2024",
+  "cohereEmbeddingModel": "embed-english-light-v3.0",
+  "ollamaBaseURL": "http://localhost:11434",
+  "ollamaTextGenModel": "",
+  "ollamaEmbeddingModel": "",
+  "generateTrueFalse": true,
+  "numberOfTrueFalse": 1,
+  "generateMultipleChoice": true,
+  "numberOfMultipleChoice": 1,
+  "generateSelectAllThatApply": true,
+  "numberOfSelectAllThatApply": 1,
+  "generateFillInTheBlank": true,
+  "numberOfFillInTheBlank": 1,
+  "generateMatching": true,
+  "numberOfMatching": 1,
+  "generateShortAnswer": true,
+  "numberOfShortAnswer": 1,
+  "generateLongAnswer": true,
+  "numberOfLongAnswer": 1,
+  "autoSave": false,
+  "savePath": "/",
+  "saveFormat": "Callout",
+  "quizMaterialProperty": "sources",
+  "inlineSeparator": "::",
+  "multilineSeparator": "?"
+}

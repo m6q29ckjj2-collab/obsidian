@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "39c4b28cbd095548",
+        "id": "2b03d73cd4efbea2",
         "type": "tabs",
         "children": [
           {
-            "id": "778a10cc411fd214",
+            "id": "70c7faf6337e340e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 programming/00 JavaScript/Myrich/spec/1 От мифов к спецификации ECMAScript 2025/Квиз.md",
+                "file": "04 evolution/Теория эволюции/01 Почему биологическая эволюция человека уже остановилась/Почему биологическая эволюция человека уже остановилась.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Квиз"
+              "title": "Почему биологическая эволюция человека уже остановилась"
             }
           }
         ]
@@ -90,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 359.5
   },
   "right": {
     "id": "4366e47ae3048384",
@@ -221,44 +221,45 @@
       "quiz-generator:Quiz Browser": false
     }
   },
-  "active": "778a10cc411fd214",
+  "active": "70c7faf6337e340e",
   "lastOpenFiles": [
-    "evolution/Теория эволюции/01 Почему биологическая эволюция человека уже остановилась/Квиз.md",
-    "evolution/Теория эволюции/02 Почему биологическая эволюция человека уже остановилась 1/Квиз.md",
-    "evolution/Теория эволюции/01 Почему биологическая эволюция человека уже остановилась/Карточки.md",
-    "evolution/Теория эволюции/01 Почему биологическая эволюция человека уже остановилась/Без названия.base",
-    "02 programming/00 JavaScript/Myrich/spec/1 От мифов к спецификации ECMAScript 2025/Квиз.md",
-    "02 programming/00 JavaScript/Myrich/spec/1 От мифов к спецификации ECMAScript 2025/Карточки.md",
-    "02 programming/00 JavaScript/Myrich/spec/2 От мифов к спецификации./Квиз.md",
-    "02 programming/00 JavaScript/Myrich/spec/2 От мифов к спецификации./Карточки.md",
-    "02 programming/00 JavaScript/Myrich/spec/3 База знаний по спецификации ECMAScript® 2025 (ECMA-262)/Квиз.md",
-    "02 programming/00 JavaScript/Myrich/spec/3 База знаний по спецификации ECMAScript® 2025 (ECMA-262)/Карточки.md",
-    "02 programming/00 JavaScript/Myrich/spec/3 База знаний по спецификации ECMAScript® 2025 (ECMA-262)/Без названия.base",
-    "D3js.md",
-    "prompts/quiz.md",
-    "02 programming/00 JavaScript/Myrich/spec/1 От мифов к спецификации ECMAScript 2025/От мифов к спецификации ECMAScript 2025.md",
-    "02 programming/00 JavaScript/Myrich/spec/3 База знаний по спецификации ECMAScript® 2025 (ECMA-262)/Полное руководство по архитектуре и стандартам ECMAScript® 2025.md",
+    "04 evolution/Теория эволюции/context/Карточки.md",
+    "04 evolution/Теория эволюции/01 Почему биологическая эволюция человека уже остановилась/Почему биологическая эволюция человека уже остановилась.md",
+    "04 evolution/Теория эволюции/01 Почему биологическая эволюция человека уже остановилась/Карточки.md",
+    "04 evolution/Теория эволюции/02 Эволюция сложности и механизмы устойчивости Анализ роли мутагенеза и отбора в биологических системах/Эволюция сложности и механизмы устойчивости Анализ роли мутагенеза и отбора в биологических системах.md",
+    "04 evolution/Теория эволюции/01 Почему биологическая эволюция человека уже остановилась/Квиз.md",
     "prompts/notebook LLM.md",
-    "02 programming/00 JavaScript/Myrich/spec/3 База знаний по спецификации ECMAScript® 2025 (ECMA-262)",
-    "prompts/Для информации.md",
-    "prompts/Для информации 1.md",
+    "prompts/quiz.md",
+    "Home.md",
+    "04 evolution/Теория эволюции/context",
+    "04 evolution/Теория эволюции/02 Эволюция сложности и механизмы устойчивости Анализ роли мутагенеза и отбора в биологических системах/Карточки.md",
+    "02 programming/К прочтению.md",
+    "02 programming/00 JavaScript/Myrich/spec/5 От ментальных моделей 1995 года до глубоких механизмов спецификации/Карточки.md",
+    "02 programming/00 JavaScript/Myrich/spec/5 От ментальных моделей 1995 года до глубоких механизмов спецификации/Квиз.md",
+    "02 programming/00 JavaScript/Myrich/spec/5 От ментальных моделей 1995 года до глубоких механизмов спецификации/От ментальных моделей 1995 года до глубоких механизмов спецификации.md",
+    "02 programming/00 JavaScript/Myrich/spec/4 Анализ фундаментальных основ (Три кита JS)/Карточки.md",
+    "02 programming/00 JavaScript/Myrich/spec/4 Анализ фундаментальных основ (Три кита JS)/Квиз.md",
+    "02 programming/00 JavaScript/Myrich/spec/4 Анализ фундаментальных основ (Три кита JS)/Анализ фундаментальных основ (Три кита JS).md",
+    "02 programming/00 JavaScript/Myrich/spec/3 База знаний по спецификации ECMAScript® 2025 (ECMA-262)/Квиз.md",
+    "02 programming/00 JavaScript/Myrich/spec/3 База знаний по спецификации ECMAScript® 2025 (ECMA-262)/Полное руководство по архитектуре и стандартам ECMAScript® 2025.md",
+    "02 programming/00 JavaScript/Myrich/spec/2 От мифов к спецификации./Квиз.md",
     "02 programming/00 JavaScript/Myrich/spec/2 От мифов к спецификации./JavaScript От мифов к спецификации..md",
-    "evolution/Теория эволюции/01 Почему биологическая эволюция человека уже остановилась/Почему биологическая эволюция человека уже остановилась.md",
-    "evolution/Теория эволюции/02 Почему биологическая эволюция человека уже остановилась 1/Карточки.md",
-    "evolution/Теория эволюции/02 Почему биологическая эволюция человека уже остановилась 1/Эволюция сложности и механизмы устойчивости Анализ роли мутагенеза и отбора в биологических системах.md",
-    "evolution/Теория эволюции/02 Почему биологическая эволюция человека уже остановилась 1",
+    "02 programming/00 JavaScript/Myrich/spec/2 От мифов к спецификации./Карточки.md",
+    "05 history/rome/1_Рим основали бандиты и братоубийцы/Карточки.md",
+    "05 history/rome/1_Рим основали бандиты и братоубийцы/1_Рим основали бандиты и братоубийцы.md",
+    "05 history/rome/1_Рим основали бандиты и братоубийцы/Квиз.md",
     "prompts/notebook LLM 1.md",
-    "prompts/quiz 1.md",
-    "evolution/Теория эволюции/01 Почему биологическая эволюция человека уже остановилась",
-    "evolution/Теория эволюции",
-    "evolution",
-    "02 programming/00 JavaScript/Myrich/spec/2 От мифов к спецификации.",
-    "02 programming/00 JavaScript/Myrich/spec/1 От мифов к спецификации ECMAScript 2025",
-    "02 programming/00 JavaScript/Myrich/spec",
-    "02 programming/TODO/todo-bd.md",
+    "prompts/Для информации 1.md",
+    "05 history/rome/1_Рим основали бандиты и братоубийцы",
+    "05 history/rome",
+    "05 history",
+    "02 programming/00 JavaScript/Myrich/spec/5 От ментальных моделей 1995 года до глубоких механизмов спецификации",
+    "02 programming/00 JavaScript/Myrich/spec/4 Анализ фундаментальных основ (Три кита JS)",
+    "02 programming/00 JavaScript/Myrich/spec/3 База знаний по спецификации ECMAScript® 2025 (ECMA-262)/Без названия.base",
+    "evolution/Теория эволюции/01 Почему биологическая эволюция человека уже остановилась/Без названия.base",
+    "02 programming/00 JavaScript/Myrich/spec/3 База знаний по спецификации ECMAScript® 2025 (ECMA-262)",
+    "04 evolution/Теория эволюции/02 Эволюция сложности и механизмы устойчивости Анализ роли мутагенеза и отбора в биологических системах",
     "02 programming/TODO/Без названия.canvas",
-    "02 programming/00 JavaScript/Myrich/1. Функционально программирование.md",
-    "Без названия.md",
     "10 archive/assets/Pasted image 20260416032616.png",
     "10 archive/assets/Pasted image 20260416032521.png",
     "10 archive/assets/Pasted image 20260416032450.png",

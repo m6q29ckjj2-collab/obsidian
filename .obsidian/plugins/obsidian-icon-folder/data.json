@@ -1,16 +1,16 @@
 {
   "settings": {
-    "migrated": 5,
+    "migrated": 6,
     "iconPacksPath": ".obsidian/icons",
     "fontSize": 20,
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🗽",
       "📗",
       "😁",
       "FabBuromobelexperte",
-      "RaTower",
-      "RiForwardEndMiniLine"
+      "RaTower"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -30,7 +30,9 @@
     "iconsInNotesEnabled": true,
     "iconsInLinksEnabled": true,
     "iconIdentifier": ":",
-    "debugMode": false
+    "debugMode": false,
+    "lucideIconPackType": "native",
+    "useInternalPlugins": false
   },
   "02 programming": "FabEmpire",
   "02 programming/answers": {
@@ -62,5 +64,6 @@
   "02 programming/01 next js/App Router/Rendering": "RiForwardEndMiniLine",
   "02 programming/04 TS": "RaTower",
   "02 programming/05 patterns": "FabBuromobelexperte",
-  "evolution": "📗"
+  "04 evolution": "📗",
+  "05 history": "🗽"
 }
