@@ -90,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 509.5
   },
   "right": {
     "id": "4366e47ae3048384",
@@ -222,7 +222,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4aafbcfa5fb4c968",
+  "active": "9b675530451e1199",
   "lastOpenFiles": [
     "05 history/rome_architecture/6 Herculaneum and Early Roman Interior Decoration/Herculaneum and Early Roman Interior Decoration.md",
     "05 history/rome_architecture/6 Herculaneum and Early Roman Interior Decoration/Квиз.md",
