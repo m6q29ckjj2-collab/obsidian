@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 programming/00 JavaScript/holy js/3 Практическое применение WebGL/Квиз.md",
+                "file": "02 programming/00 JavaScript/holy js/4 Удобные API с GraphQL/Квиз.md",
                 "mode": "source",
                 "source": false
               },
@@ -105,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 454.5
   },
   "right": {
     "id": "4366e47ae3048384",
@@ -223,7 +223,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 471.5
+    "width": 238.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,11 +247,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "416015f0bd2ba387",
+  "active": "9b675530451e1199",
   "lastOpenFiles": [
+    "02 programming/00 JavaScript/holy js/4 Удобные API с GraphQL/Карточки.md",
     "02 programming/00 JavaScript/holy js/4 Удобные API с GraphQL/Удобные API с GraphQL.md",
-    "02 programming/00 JavaScript/holy js/3 Практическое применение WebGL/Практическое применение WebGL.md",
+    "02 programming/00 JavaScript/holy js/5 В погоне за производительностью психология пользователя/Квиз.md",
+    "02 programming/00 JavaScript/holy js/5 В погоне за производительностью психология пользователя/Карточки.md",
+    "02 programming/00 JavaScript/holy js/5 В погоне за производительностью психология пользователя/В погоне за производительностью психология пользователя.md",
+    "02 programming/00 JavaScript/holy js/5 В погоне за производительностью психология пользователя",
+    "02 programming/00 JavaScript/holy js/4 Удобные API с GraphQL/Квиз.md",
     "02 programming/00 JavaScript/holy js/3 Практическое применение WebGL/Квиз.md",
+    "02 programming/00 JavaScript/holy js/4 Удобные API с GraphQL/Карточки.md.tmp.65110.e3b2dfa2f7aa",
+    "02 programming/00 JavaScript/holy js/3 Практическое применение WebGL/Практическое применение WebGL.md",
     "02 programming/00 JavaScript/holy js/3 Практическое применение WebGL/Карточки.md",
     "02 programming/00 JavaScript/holy js/2 Как я перестал верить технологиям/Карточки.md",
     "02 programming/00 JavaScript/holy js/4 Удобные API с GraphQL",
@@ -276,16 +283,9 @@
     "04 evolution/Теория эволюции/04 Расширение классической теории эволюции/Карточки.md",
     "04 evolution/Теория эволюции/04 Расширение классической теории эволюции/Расширение классической теории эволюции.md",
     "04 evolution/Теория эволюции/04 Расширение классической теории эволюции",
-    "prompts/quiz.md",
-    "prompts/notebook LLM 1.md",
-    "prompts/notebook LLM.md",
-    "prompts/Для информации.md",
-    "04 evolution/Теория эволюции/03 Эволюция в геномную эру/Эволюция в геномную эру.md",
     "04 evolution/Теория эволюции/03 Эволюция в геномную эру",
     "10 archive/assets/Pasted image 20260704132719.png",
     "02 programming/00 JavaScript/Myrich/spec/8 Хост-среда и природа скриптового языка",
-    "02 programming/00 JavaScript/Myrich/spec/7 \"Satori\" спецификации",
-    "02 programming/00 JavaScript/Myrich/spec/6 Архитектурный разбор выражений и фундамент языка",
     "02 programming/TODO/Без названия.canvas",
     "10 archive/assets/Pasted image 20260416032616.png",
     "10 archive/assets/Pasted image 20260416032521.png",
