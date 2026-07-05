@@ -11,14 +11,14 @@
             "id": "4aafbcfa5fb4c968",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/plugins/obsidian-spaced-repetition/data.json",
-                "bFile": ".obsidian/plugins/obsidian-spaced-repetition/data.json",
-                "aRef": ""
+                "file": "05 history/rome_architecture/6 Herculaneum and Early Roman Interior Decoration/Карточки.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: data.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Карточки"
             }
           }
         ]
@@ -182,9 +182,19 @@
               "icon": "viewIcon",
               "title": "Markdown-Autocomplete"
             }
+          },
+          {
+            "id": "0dfa772e0a9a7227",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -212,45 +222,45 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4aafbcfa5fb4c968",
+  "active": "9b675530451e1199",
   "lastOpenFiles": [
-    "Home.md",
-    "02 programming/00 JavaScript/holy js/4 Удобные API с GraphQL/Квиз.md",
-    "02 programming/00 JavaScript/holy js/4 Удобные API с GraphQL/Карточки.md",
-    "02 programming/00 JavaScript/holy js/4 Удобные API с GraphQL/Удобные API с GraphQL.md",
-    "02 programming/00 JavaScript/holy js/5 В погоне за производительностью психология пользователя/Квиз.md",
-    "02 programming/00 JavaScript/holy js/5 В погоне за производительностью психология пользователя/Карточки.md",
-    "02 programming/00 JavaScript/holy js/5 В погоне за производительностью психология пользователя/В погоне за производительностью психология пользователя.md",
-    "02 programming/00 JavaScript/holy js/5 В погоне за производительностью психология пользователя",
-    "02 programming/00 JavaScript/holy js/3 Практическое применение WebGL/Квиз.md",
-    "02 programming/00 JavaScript/holy js/4 Удобные API с GraphQL/Карточки.md.tmp.65110.e3b2dfa2f7aa",
-    "02 programming/00 JavaScript/holy js/3 Практическое применение WebGL/Практическое применение WebGL.md",
-    "02 programming/00 JavaScript/holy js/3 Практическое применение WebGL/Карточки.md",
-    "02 programming/00 JavaScript/holy js/2 Как я перестал верить технологиям/Карточки.md",
-    "02 programming/00 JavaScript/holy js/4 Удобные API с GraphQL",
-    "02 programming/00 JavaScript/holy js/2 Как я перестал верить технологиям/Как я перестал верить технологиям.md",
-    "02 programming/00 JavaScript/holy js/3 Практическое применение WebGL",
-    "02 programming/00 JavaScript/holy js/1 Производительность JavaScript через подзорную трубу/Производительность JavaScript через подзорную трубу.md",
-    "02 programming/00 JavaScript/holy js/2 Как я перестал верить технологиям/Квиз.md",
-    "02 programming/00 JavaScript/holy js/2 Как я перестал верить технологиям",
-    "02 programming/00 JavaScript/holy js/1 Производительность JavaScript через подзорную трубу/Квиз.md",
-    "02 programming/00 JavaScript/holy js/1 Производительность JavaScript через подзорную трубу/Карточки.md",
-    "04 evolution/Теория эволюции/03 Эволюция в геномную эру/Карточки.md",
-    "02 programming/00 JavaScript/holy js/1 Производительность JavaScript через подзорную трубу",
-    "02 programming/00 JavaScript/holy js",
-    "04 evolution/Теория эволюции/04 Расширение классической теории эволюции/Квиз.md",
-    "04 evolution/Теория эволюции/03 Эволюция в геномную эру/Квиз.md",
-    "04 evolution/Теория эволюции/02 Эволюция сложности и механизмы устойчивости Анализ роли мутагенеза и отбора в биологических системах/Квиз.md",
-    "04 evolution/Теория эволюции/02 Эволюция сложности и механизмы устойчивости Анализ роли мутагенеза и отбора в биологических системах/Эволюция сложности и механизмы устойчивости Анализ роли мутагенеза и отбора в биологических системах.md",
-    "04 evolution/Теория эволюции/02 Эволюция сложности и механизмы устойчивости Анализ роли мутагенеза и отбора в биологических системах/Карточки.md",
-    "04 evolution/Теория эволюции/01 Почему биологическая эволюция человека уже остановилась/Карточки.md",
-    "04 evolution/Теория эволюции/01 Почему биологическая эволюция человека уже остановилась/Квиз.md",
-    "prompts/quiz 1.md",
-    "04 evolution/Теория эволюции/04 Расширение классической теории эволюции/Карточки.md",
-    "04 evolution/Теория эволюции/04 Расширение классической теории эволюции",
-    "04 evolution/Теория эволюции/03 Эволюция в геномную эру",
+    "05 history/rome_architecture/6 Herculaneum and Early Roman Interior Decoration/Herculaneum and Early Roman Interior Decoration.md",
+    "05 history/rome_architecture/6 Herculaneum and Early Roman Interior Decoration/Квиз.md",
+    "05 history/rome_architecture/6 Herculaneum and Early Roman Interior Decoration/Карточки.md",
+    "05 history/rome_architecture/1 Introduction to Roman Architecture/Introduction to Roman Architecture.md",
+    "05 history/rome_architecture/1 Introduction to Roman Architecture/Квиз.md",
+    "05 history/rome_architecture/1 Introduction to Roman Architecture/Карточки.md",
+    "Story.md",
+    "05 history/rome_architecture/9 From Brick to Marble - Augustus Assembles Rome/Квиз.md",
+    "05 history/rome_architecture/9 From Brick to Marble - Augustus Assembles Rome/Карточки.md",
+    "05 history/rome_architecture/9 From Brick to Marble - Augustus Assembles Rome/From Brick to Marble - Augustus Assembles Rome.md",
+    "05 history/rome_architecture/8 Special Subjects on Pompeian Walls/Квиз.md",
+    "05 history/rome_architecture/8 Special Subjects on Pompeian Walls/Карточки.md",
+    "05 history/rome_architecture/8 Special Subjects on Pompeian Walls/Special Subjects on Pompeian Walls.md",
+    "05 history/rome_architecture/7 Painting Palaces and Villas in the First Century AD/Квиз.md",
+    "05 history/rome_architecture/7 Painting Palaces and Villas in the First Century AD/Карточки.md",
+    "05 history/rome_architecture/7 Painting Palaces and Villas in the First Century AD/Painting Palaces and Villas in the First Century AD.md",
+    "05 history/rome_architecture/5 Houses and Villas at Pompeii/Квиз.md",
+    "05 history/rome_architecture/5 Houses and Villas at Pompeii/Карточки.md",
+    "05 history/rome_architecture/5 Houses and Villas at Pompeii/Houses and Villas at Pompeii.md",
+    "05 history/rome_architecture/4 Civic Life Interrupted - Pompeii and Vesuvius/Квиз.md",
+    "05 history/rome_architecture/4 Civic Life Interrupted - Pompeii and Vesuvius/Карточки.md",
+    "05 history/rome_architecture/4 Civic Life Interrupted - Pompeii and Vesuvius/Civic Life Interrupted - Pompeii and Vesuvius.md",
+    "05 history/rome_architecture/3 Technology and Revolution in Roman Architecture/Квиз.md",
+    "05 history/rome_architecture/3 Technology and Revolution in Roman Architecture/Карточки.md",
+    "05 history/rome_architecture/3 Technology and Revolution in Roman Architecture/Technology and Revolution in Roman Architecture.md",
+    "05 history/rome_architecture/2 It Takes a City - Founding of Rome and Urbanism in Italy/Квиз.md",
+    "05 history/rome_architecture/9 From Brick to Marble - Augustus Assembles Rome",
+    "05 history/rome_architecture/8 Special Subjects on Pompeian Walls",
+    "05 history/rome_architecture/7 Painting Palaces and Villas in the First Century AD",
+    "05 history/rome_architecture/6 Herculaneum and Early Roman Interior Decoration",
+    "05 history/rome_architecture/5 Houses and Villas at Pompeii",
+    "05 history/rome_architecture/4 Civic Life Interrupted - Pompeii and Vesuvius",
+    "05 history/rome_architecture/3 Technology and Revolution in Roman Architecture",
+    "05 history/rome_architecture/2 It Takes a City - Founding of Rome and Urbanism in Italy",
+    "05 history/rome_architecture/10 Tombs of Roman Aristocrats, Freedmen, and Slaves",
+    "05 history/rome_architecture/1 Introduction to Roman Architecture",
     "10 archive/assets/Pasted image 20260704132719.png",
-    "02 programming/00 JavaScript/Myrich/spec/8 Хост-среда и природа скриптового языка",
     "02 programming/TODO/Без названия.canvas",
     "10 archive/assets/Pasted image 20260416032616.png",
     "10 archive/assets/Pasted image 20260416032521.png",
