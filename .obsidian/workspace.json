@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9084b87cfcbc95e4",
+        "id": "3c8c6179e8679b86",
         "type": "tabs",
         "children": [
           {
-            "id": "4aafbcfa5fb4c968",
+            "id": "0179f217d317405a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05 history/rome_architecture/6 Herculaneum and Early Roman Interior Decoration/Карточки.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Карточки"
+              "title": "Новая вкладка"
             }
           }
         ]
@@ -222,14 +218,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9b675530451e1199",
+  "active": "0179f217d317405a",
   "lastOpenFiles": [
+    "05 history/rome_architecture/6 Herculaneum and Early Roman Interior Decoration/Карточки.md",
     "_ios_auto_test3.md",
     "_ios_auto_test2.md",
     "_ios_sync_test.md",
     "05 history/rome_architecture/6 Herculaneum and Early Roman Interior Decoration/Herculaneum and Early Roman Interior Decoration.md",
     "05 history/rome_architecture/6 Herculaneum and Early Roman Interior Decoration/Квиз.md",
-    "05 history/rome_architecture/6 Herculaneum and Early Roman Interior Decoration/Карточки.md",
     "05 history/rome_architecture/1 Introduction to Roman Architecture/Introduction to Roman Architecture.md",
     "05 history/rome_architecture/1 Introduction to Roman Architecture/Квиз.md",
     "05 history/rome_architecture/1 Introduction to Roman Architecture/Карточки.md",
