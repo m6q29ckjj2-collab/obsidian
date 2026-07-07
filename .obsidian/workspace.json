@@ -11,10 +11,14 @@
             "id": "0179f217d317405a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02 programming/00 JavaScript/holy js/5 В погоне за производительностью психология пользователя/В погоне за производительностью психология пользователя.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "В погоне за производительностью психология пользователя"
             }
           }
         ]
@@ -208,7 +212,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -232,8 +237,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c07c30656f154b9d",
+  "active": "0179f217d317405a",
   "lastOpenFiles": [
+    "02 programming/00 JavaScript/holy js/4 Удобные API с GraphQL/Удобные API с GraphQL.md",
+    "02 programming/00 JavaScript/holy js/4 Удобные API с GraphQL/Квиз.md",
+    "02 programming/00 JavaScript/holy js/4 Удобные API с GraphQL/Карточки.md",
+    "02 programming/00 JavaScript/holy js/3 Практическое применение WebGL/Практическое применение WebGL.md",
+    "02 programming/00 JavaScript/holy js/3 Практическое применение WebGL/Карточки.md",
+    "02 programming/00 JavaScript/holy js/1 Производительность JavaScript через подзорную трубу/Производительность JavaScript через подзорную трубу.md",
+    "Home.md",
+    "02 programming/00 JavaScript/holy js/1 Производительность JavaScript через подзорную трубу/Квиз.md",
+    "02 programming/00 JavaScript/holy js/1 Производительность JavaScript через подзорную трубу/Карточки.md",
     "05 history/rome_architecture/6 Herculaneum and Early Roman Interior Decoration/Карточки.md",
     "_ios_auto_test3.md",
     "_ios_auto_test2.md",
@@ -251,15 +265,6 @@
     "05 history/rome_architecture/8 Special Subjects on Pompeian Walls/Карточки.md",
     "05 history/rome_architecture/8 Special Subjects on Pompeian Walls/Special Subjects on Pompeian Walls.md",
     "05 history/rome_architecture/7 Painting Palaces and Villas in the First Century AD/Квиз.md",
-    "05 history/rome_architecture/7 Painting Palaces and Villas in the First Century AD/Карточки.md",
-    "05 history/rome_architecture/7 Painting Palaces and Villas in the First Century AD/Painting Palaces and Villas in the First Century AD.md",
-    "05 history/rome_architecture/5 Houses and Villas at Pompeii/Квиз.md",
-    "05 history/rome_architecture/5 Houses and Villas at Pompeii/Карточки.md",
-    "05 history/rome_architecture/5 Houses and Villas at Pompeii/Houses and Villas at Pompeii.md",
-    "05 history/rome_architecture/4 Civic Life Interrupted - Pompeii and Vesuvius/Квиз.md",
-    "05 history/rome_architecture/4 Civic Life Interrupted - Pompeii and Vesuvius/Карточки.md",
-    "05 history/rome_architecture/4 Civic Life Interrupted - Pompeii and Vesuvius/Civic Life Interrupted - Pompeii and Vesuvius.md",
-    "05 history/rome_architecture/3 Technology and Revolution in Roman Architecture/Квиз.md",
     "05 history/rome_architecture/9 From Brick to Marble - Augustus Assembles Rome",
     "05 history/rome_architecture/8 Special Subjects on Pompeian Walls",
     "05 history/rome_architecture/7 Painting Palaces and Villas in the First Century AD",
