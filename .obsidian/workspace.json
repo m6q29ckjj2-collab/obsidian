@@ -11,10 +11,14 @@
             "id": "978b04fcebede2a5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Эльбрус — снаряжение.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "Эльбрус — снаряжение"
             }
           }
         ]
@@ -243,9 +247,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0b1f09ed69c7025b",
+  "active": "978b04fcebede2a5",
   "lastOpenFiles": [
+    "Без названия.base",
     "Home.md",
+    "Эльбрус — снаряжение.md",
     "02 programming/00 JavaScript/holy js/5 В погоне за производительностью психология пользователя/В погоне за производительностью психология пользователя.md",
     "02 programming/00 JavaScript/holy js/4 Удобные API с GraphQL/Удобные API с GraphQL.md",
     "02 programming/00 JavaScript/holy js/4 Удобные API с GraphQL/Квиз.md",
@@ -269,8 +275,6 @@
     "05 history/rome_architecture/9 From Brick to Marble - Augustus Assembles Rome/Карточки.md",
     "05 history/rome_architecture/9 From Brick to Marble - Augustus Assembles Rome/From Brick to Marble - Augustus Assembles Rome.md",
     "05 history/rome_architecture/8 Special Subjects on Pompeian Walls/Квиз.md",
-    "05 history/rome_architecture/8 Special Subjects on Pompeian Walls/Карточки.md",
-    "05 history/rome_architecture/8 Special Subjects on Pompeian Walls/Special Subjects on Pompeian Walls.md",
     "05 history/rome_architecture/9 From Brick to Marble - Augustus Assembles Rome",
     "05 history/rome_architecture/8 Special Subjects on Pompeian Walls",
     "05 history/rome_architecture/7 Painting Palaces and Villas in the First Century AD",
