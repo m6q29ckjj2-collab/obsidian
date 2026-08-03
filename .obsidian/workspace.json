@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Эльбрус — снаряжение.md",
+                "file": "06 english/Модуль 7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Эльбрус — снаряжение"
+              "title": "Модуль 7"
             }
           }
         ]
@@ -213,8 +213,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "review-queue-list-view"
+              "icon": "SpacedRepIcon",
+              "title": "Очередь заметок на повторение"
             }
           }
         ],
@@ -249,10 +249,19 @@
   },
   "active": "978b04fcebede2a5",
   "lastOpenFiles": [
-    "Без названия.md",
-    "Эльбрус — снаряжение.md",
-    "Без названия.base",
+    "06 english/Модуль 6.md",
+    "06 english/Модуль 5.md",
+    "06 english/Модуль 3.md",
+    "06 english/Модуль 2.md",
+    "06 english/Модуль 1.md",
+    "D3js.md",
+    "06 english/Модуль 7.md",
+    "06 english/Модуль 4.md",
+    "06 english",
     "Home.md",
+    "Эльбрус — снаряжение.md",
+    "Без названия.md",
+    "Без названия.base",
     "02 programming/00 JavaScript/holy js/5 В погоне за производительностью психология пользователя/В погоне за производительностью психология пользователя.md",
     "02 programming/00 JavaScript/holy js/4 Удобные API с GraphQL/Удобные API с GraphQL.md",
     "02 programming/00 JavaScript/holy js/4 Удобные API с GraphQL/Квиз.md",
@@ -268,14 +277,6 @@
     "_ios_sync_test.md",
     "05 history/rome_architecture/6 Herculaneum and Early Roman Interior Decoration/Herculaneum and Early Roman Interior Decoration.md",
     "05 history/rome_architecture/6 Herculaneum and Early Roman Interior Decoration/Квиз.md",
-    "05 history/rome_architecture/1 Introduction to Roman Architecture/Introduction to Roman Architecture.md",
-    "05 history/rome_architecture/1 Introduction to Roman Architecture/Квиз.md",
-    "05 history/rome_architecture/1 Introduction to Roman Architecture/Карточки.md",
-    "Story.md",
-    "05 history/rome_architecture/9 From Brick to Marble - Augustus Assembles Rome/Квиз.md",
-    "05 history/rome_architecture/9 From Brick to Marble - Augustus Assembles Rome/Карточки.md",
-    "05 history/rome_architecture/9 From Brick to Marble - Augustus Assembles Rome/From Brick to Marble - Augustus Assembles Rome.md",
-    "05 history/rome_architecture/8 Special Subjects on Pompeian Walls/Квиз.md",
     "05 history/rome_architecture/9 From Brick to Marble - Augustus Assembles Rome",
     "05 history/rome_architecture/8 Special Subjects on Pompeian Walls",
     "05 history/rome_architecture/7 Painting Palaces and Villas in the First Century AD",
@@ -284,7 +285,6 @@
     "05 history/rome_architecture/4 Civic Life Interrupted - Pompeii and Vesuvius",
     "05 history/rome_architecture/3 Technology and Revolution in Roman Architecture",
     "05 history/rome_architecture/2 It Takes a City - Founding of Rome and Urbanism in Italy",
-    "05 history/rome_architecture/10 Tombs of Roman Aristocrats, Freedmen, and Slaves",
     "10 archive/assets/Pasted image 20260704132719.png",
     "02 programming/TODO/Без названия.canvas",
     "10 archive/assets/Pasted image 20260416032616.png",
