@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Other/К прочтению.md",
+                "file": "06 english/Detroit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "К прочтению"
+              "title": "Detroit"
             }
           }
         ]
@@ -249,14 +249,20 @@
   },
   "active": "978b04fcebede2a5",
   "lastOpenFiles": [
-    "06 english/Detroit.md",
-    "06 english/Модуль 7.md",
     "06 english/Модуль 6.md",
     "06 english/Модуль 5.md",
+    "06 english/Detroit.md",
+    "06 english/Модуль 7.md",
+    "06 english/Модуль 1.md",
+    "07 cinema/S01E01.md",
+    "07 cinema/Кухня — разбор.md",
+    "07 cinema/Ремесло против таланта.md",
+    "Templates/Разбор серии.md",
+    "Other/К прочтению.md",
+    "07 cinema",
     "06 english/Модуль 4.md",
     "06 english/Модуль 3.md",
     "06 english/Модуль 2.md",
-    "06 english/Модуль 1.md",
     "D3js.md",
     "06 english",
     "Home.md",
@@ -272,11 +278,6 @@
     "02 programming/00 JavaScript/holy js/1 Производительность JavaScript через подзорную трубу/Производительность JavaScript через подзорную трубу.md",
     "02 programming/00 JavaScript/holy js/1 Производительность JavaScript через подзорную трубу/Квиз.md",
     "02 programming/00 JavaScript/holy js/1 Производительность JavaScript через подзорную трубу/Карточки.md",
-    "05 history/rome_architecture/6 Herculaneum and Early Roman Interior Decoration/Карточки.md",
-    "_ios_auto_test3.md",
-    "_ios_auto_test2.md",
-    "_ios_sync_test.md",
-    "05 history/rome_architecture/6 Herculaneum and Early Roman Interior Decoration/Herculaneum and Early Roman Interior Decoration.md",
     "05 history/rome_architecture/9 From Brick to Marble - Augustus Assembles Rome",
     "05 history/rome_architecture/8 Special Subjects on Pompeian Walls",
     "05 history/rome_architecture/7 Painting Palaces and Villas in the First Century AD",
@@ -284,7 +285,6 @@
     "05 history/rome_architecture/5 Houses and Villas at Pompeii",
     "05 history/rome_architecture/4 Civic Life Interrupted - Pompeii and Vesuvius",
     "05 history/rome_architecture/3 Technology and Revolution in Roman Architecture",
-    "05 history/rome_architecture/2 It Takes a City - Founding of Rome and Urbanism in Italy",
     "10 archive/assets/Pasted image 20260704132719.png",
     "02 programming/TODO/Без названия.canvas",
     "10 archive/assets/Pasted image 20260416032616.png",
