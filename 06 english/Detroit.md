@@ -335,3 +335,185 @@ Give it a try. 🎯🙂
 - It's not as hard as it looks — **give it a try**.
 - I'd never skied before, but I gave it **a try**.
 - Why not **give it a try**? You've nothing to lose.
+
+criminal record 📋🚔
+?
+/ˈkrɪm.ɪ.nəl ˈrek.ərd/ — судимость, приводы (официальная запись в полиции)
+- He has no **criminal record**.
+- A **criminal record** makes it hard to find work.
+- They ran a check on her **criminal record**.
+
+to have a drink 🍺🥃
+?
+выпить, пропустить стаканчик (чаще всего про алкоголь)
+- Let's **have a drink** after work.
+- He'd clearly **had a few drinks**.
+- Can I **get you a drink**?
+
+to assign a case 📁👮
+?
+/əˈsaɪn ə keɪs/ — назначить, поручить дело (следователю)
+- The case **was assigned to** Detective Reed.
+- Who **assigned** you **this case**?
+- She's been **assigned** three **cases** this week.
+
+homicide 🔪⚖️
+?
+/ˈhɑː.mɪ.saɪd/ — убийство (юридический термин, включая непредумышленное). *Murder* — умышленное
+- He works in **Homicide**.
+- The death was ruled a **homicide**.
+- **Homicide** detectives arrived within the hour.
+
+investigator 🕵️🔎
+?
+/ɪnˈves.tɪ.ɡeɪ.tər/ — следователь, детектив, дознаватель
+- A private **investigator** was hired to find him.
+- **Investigators** are still at the scene.
+- The lead **investigator** gave a statement.
+
+to have a record for ... 📄🚨
+?
+иметь приводы/судимость за что-то
+- He **has a record for** burglary.
+- She **has a record for** assault going back years.
+- Does he **have a record for** anything violent?
+
+theft 💼🏃
+?
+/θeft/ — кража (сам факт преступления). *Thief* — вор
+- He was arrested for **theft**.
+- Bike **theft** has doubled this year.
+- **Identity theft** is a growing problem.
+
+assault 👊⚖️
+?
+/əˈsɔːlt/ — нападение, побои (юр.); штурм. *Aggravated assault* — нападение при отягчающих
+- He was charged with **assault**.
+- The **assault** took place outside the bar.
+- Troops launched an **assault** on the position.
+
+to aggravate 📈😤
+?
+/ˈæɡ.rə.veɪt/ — 1) усугублять, отягчать 2) разг. раздражать
+- Stress only **aggravates** the condition.
+- Don't **aggravate** him, he's had a bad day.
+- **Aggravating** circumstances increased the sentence.
+
+victim 😢🎯
+?
+/ˈvɪk.tɪm/ — жертва, пострадавший
+- The **victim** was identified this morning.
+- She fell **victim** to a phone scam.
+- Support is available for **victims** of crime.
+
+murder weapon 🔪🔍
+?
+/ˈmɜːr.dər ˈwep.ən/ — орудие убийства
+- The **murder weapon** was never found.
+- Fingerprints on the **murder weapon** matched his.
+- Police believe the knife is the **murder weapon**.
+
+to break in 🚪🔨
+?
+/breɪk ɪn/ — вламываться, проникать со взломом. Сущ. — *break-in*
+- Someone **broke in** through the back window.
+- They **broke into** the warehouse at night.
+- There's been a **break-in** at the office.
+
+to examine 🔬👁️
+?
+/ɪɡˈzæm.ɪn/ — тщательно осмотреть, изучить
+- The doctor **examined** her leg.
+- Forensics are **examining** the vehicle.
+- Let's **examine** the evidence more closely.
+
+to analyze 📊🧪
+?
+/ˈæn.əl.aɪz/ — анализировать, разбирать (BrE пишется *analyse*)
+- The lab will **analyze** the blood sample.
+- We need to **analyze** what went wrong.
+- **Analyzing** the data took three weeks.
+
+crime scene 🚧🔦
+?
+/kraɪm siːn/ — место преступления
+- Don't contaminate the **crime scene**.
+- The **crime scene** was sealed off for two days.
+- **Crime scene** investigators collected the samples.
+
+evidence 🧾🔍
+?
+/ˈev.ɪ.dəns/ — доказательства, улики. ⚠️ неисчисляемое: *evidence is*, не ~~evidences~~
+- There isn't enough **evidence** to charge him.
+- A piece of **evidence** went missing.
+- The **evidence** points to someone inside.
+
+sign 🪧👀
+?
+/saɪn/ — 1) признак, знак 2) вывеска, табличка 3) подписывать. ⚠️ g не читается
+- There were no **signs** of a struggle.
+- Follow the **signs** to the exit.
+- **Sign** here, please.
+
+Never mind. 🤷‍♂️💨
+?
+Неважно. Забудь. Не бери в голову. (снимает свой же вопрос или чужое извинение)
+- "What did you say?" — "**Never mind**, it wasn't important."
+- **Never mind** the mess, come in.
+- "Sorry I'm late." — "**Never mind**, we've only just started."
+
+Back off! ✋😠
+?
+Отвали! Отойди! (буквально — отступи назад; тж. «не лезь»)
+- **Back off** — I'm warning you.
+- Tell your brother to **back off**.
+- The police told the crowd to **back off**.
+
+I won't be long. ⏱️🚪
+?
+Я быстро. Я ненадолго. (обещание скоро вернуться)
+- Wait here, **I won't be long**.
+- **I won't be long** — twenty minutes at most.
+- She said she **wouldn't be long**, but that was an hour ago.
+
+Make yourself at home. 🏠🛋️
+?
+Чувствуй себя как дома. (приглашение расположиться свободно)
+- Come in, **make yourself at home**.
+- **Make yourself at home** — there's coffee in the kitchen.
+- He told us to **make ourselves at home** and disappeared.
+
+Got it. 👍💡
+?
+Понял. Ясно. Тж. «поймал» и вопросом *Got it?* — «понял?»
+- "Third door on the left." — "**Got it.**"
+- **Got it**? Good, let's move.
+- I threw her the keys and she **got it** one-handed.
+
+landlord 🏠🔑
+?
+/ˈlænd.lɔːrd/ — арендодатель, домовладелец (муж.). В BrE тж. хозяин паба
+- The **landlord** raised the rent again.
+- Our **landlord** never fixes anything.
+- The **landlord** pulled us two pints.
+
+landlady 🏠👩
+?
+/ˈlændˌleɪ.di/ — арендодательница, хозяйка жилья (жен.)
+- The **landlady** lives on the ground floor.
+- My **landlady** is surprisingly reasonable.
+- Ask the **landlady** about the heating.
+
+tenant 🧳📄
+?
+/ˈten.ənt/ — арендатор, съёмщик, квартирант
+- The previous **tenants** left the place spotless.
+- **Tenants** have rights too.
+- She's been a **tenant** here for six years.
+
+to pay rent 💸🏠
+?
+/peɪ rent/ — платить за аренду. ⚠️ *rent* значит и «снимать», и «сдавать» — уточняет *rent out*
+- I **pay rent** on the first of every month.
+- He's two months behind on the **rent**.
+- They **rent out** the top floor to students.
