@@ -413,9 +413,9 @@ murder weapon 🔪🔍
 - Fingerprints on the **murder weapon** matched his.
 - Police believe the knife is the **murder weapon**.
 
-to break in 🚪🔨
+to break in / a break-in 🚪🔨
 ?
-/breɪk ɪn/ — вламываться, проникать со взломом. Сущ. — *break-in*
+Глагол /breɪk ˈɪn/ — вламываться. Сущ. /ˈbreɪk.ɪn/ — взлом, вторжение. ⚠️ ударение переезжает на первый слог, как у *suspect*
 - Someone **broke in** through the back window.
 - They **broke into** the warehouse at night.
 - There's been a **break-in** at the office.
@@ -517,3 +517,157 @@ to pay rent 💸🏠
 - I **pay rent** on the first of every month.
 - He's two months behind on the **rent**.
 - They **rent out** the top floor to students.
+
+to hire 🤝🚗
+?
+/ˈhaɪər/ — 1) нанимать (на работу) 2) BrE брать напрокат (AmE — *rent*)
+- We're **hiring** three new engineers.
+- They **hired** a car for the weekend.
+- He was **hired** on the spot.
+
+It's my fault. / It's not my fault. 🙋‍♂️👉
+?
+/fɔːlt/ — Это моя вина / Это не моя вина. ⚠️ вина — *fault*, не ~~guilt~~ (это чувство вины)
+- **It's my fault** — I should have checked.
+- **It's not my fault** the train was late.
+- Whose **fault** is it, then?
+
+to take off ✈️👕
+?
+1) сваливать, срываться с места 2) взлетать 3) снимать (одежду) 4) резко пойти в гору
+- He **took off** the second he saw the police.
+- The plane **takes off** at six.
+- **Take off** your coat and sit down.
+
+to walk out on smb 💔🚪
+?
+бросить кого-то, уйти от кого-то (*walk out on smb for smb* — уйти ради другого)
+- She **walked out on** him after ten years.
+- He **walked out on** his wife **for** her best friend.
+- You can't just **walk out on** your own kids.
+
+Don't you dare (do smth)! 😠☝️
+?
+/der/ — Не смей! (сильная угроза-запрет). *Dare* — сметь, осмеливаться
+- **Don't you dare** touch that.
+- **Don't you dare** lie to me.
+- How **dare** you speak to her like that?
+
+to protect smb 🛡️🤲
+?
+/prəˈtekt/ — защищать, оберегать (заранее прикрывать от опасности)
+- A father's job is to **protect** his children.
+- Sunscreen **protects** your skin.
+- These laws **protect** tenants from eviction.
+
+to defend ⚔️⚖️
+?
+/dɪˈfend/ — оборонять, отбивать нападение; отстаивать (в споре, в суде). ⚠️ *protect* — прикрывать заранее, *defend* — отбиваться, когда уже напали
+- They **defended** the city for six weeks.
+- He **defended** her decision in front of everyone.
+- Who's **defending** him at the trial?
+
+to hurt smb 🤕💔
+?
+/hɜːrt/ — сделать больно (физически или морально). ⚠️ неправильный: hurt — hurt — hurt
+- I didn't mean to **hurt** you.
+- He **hurt** his knee playing football.
+- My back **hurts**.
+
+to obey 🫡📏
+?
+/əˈbeɪ/ — подчиняться, слушаться, повиноваться
+- Soldiers are trained to **obey** orders.
+- The dog won't **obey** anyone but her.
+- You must **obey** the law, whether you like it or not.
+
+to get mad 😡💢
+?
+/ɡet mæd/ — разозлиться, выйти из себя. *Mad at smb* — злиться на кого-то
+- Don't **get mad** — I'm only joking.
+- She **got mad** when she found out.
+- He's still **mad at** me about the car.
+
+to catch a bus 🚌🏃
+?
+/kætʃ ə bʌs/ — сесть на автобус, успеть на автобус. *Miss the bus* — опоздать на него
+- I need to **catch the 8:15 bus**.
+- We ran and just **caught the bus**.
+- If we don't hurry we'll **miss the bus**.
+
+to leave the light(s) on 💡🌙
+?
+оставить свет включённым. *Leave smth on/off* — оставить включённым/выключенным
+- I always **leave a light on** when I'm out.
+- Who **left the lights on** all night?
+- **Leave** the heating **on** low.
+
+What's your emergency? 📞🚨
+?
+/ɪˈmɜːr.dʒən.si/ — «Что у вас случилось?» — стандартный ответ оператора 911
+- "911, **what's your emergency?**"
+- In an **emergency**, press this button.
+- The **emergency** exit is at the rear.
+
+Get him outta here! 👉🚪
+?
+Убери его отсюда! (*outta* = *out of* в беглой речи)
+- **Get him outta here** before I lose my temper.
+- **Get** that dog **out of here**!
+- Let's **get outta here**.
+
+to make smb do smth 💪👉
+?
+заставить кого-то сделать. ⚠️ после *make* — инфинитив БЕЗ *to*. Но в пассиве *to* возвращается
+- You can't **make me go**.
+- She **made him apologise**.
+- He **was made to wait** three hours.
+
+Leave him alone! 🙅‍♂️🚶
+?
+Оставь его в покое! Отстань от него!
+- **Leave him alone**, he's had enough.
+- Just **leave me alone** for five minutes.
+- Why can't they **leave her alone**?
+
+to fight back 👊🔁
+?
+/faɪt ˈbæk/ — давать сдачи, сопротивляться (тж. сдерживать слёзы)
+- She **fought back** and he ran.
+- The company **fought back** with a lawsuit.
+- He **fought back** tears as he spoke.
+
+to destroy 💣🔥
+?
+/dɪˈstrɔɪ/ — уничтожать, разрушать (до конца, безвозвратно)
+- Fire **destroyed** the entire building.
+- The evidence had been **destroyed**.
+- Don't let one mistake **destroy** your career.
+
+This is not fair. ⚖️😤
+?
+/fer/ — Это нечестно. Это несправедливо.
+- **This isn't fair** and you know it.
+- It's not **fair** to blame her.
+- All's **fair** in love and war.
+
+mind 🧠💭
+?
+/maɪnd/ — 1) разум, сознание 2) возражать (*Do you mind?*) 3) *never mind* — неважно
+- It never crossed my **mind**.
+- Do you **mind** if I sit here?
+- I've changed my **mind**.
+
+palace 🏰👑
+?
+/ˈpæl.əs/ — дворец. ⚠️ второй слог безударный — /-ləs/, не «-лэйс»
+- Buckingham **Palace** is open in summer.
+- They lived in a **palace** with forty rooms.
+- The **palace** issued a short statement.
+
+to accuse smb of smth 👉⚖️
+?
+/əˈkjuːz/ — обвинять кого-то в чём-то. ⚠️ предлог **of**, не ~~in~~. После него — герундий
+- They **accused** him **of** stealing.
+- She was **accused of** lying to the court.
+- Are you **accusing me of** something?
