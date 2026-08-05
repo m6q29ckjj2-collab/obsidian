@@ -391,6 +391,7 @@ assault 👊⚖️
 - He was charged with **assault**.
 - The **assault** took place outside the bar.
 - Troops launched an **assault** on the position.
+<!--SR:!2026-08-06,0,230-->
 
 to aggravate 📈😤
 ?
@@ -468,6 +469,7 @@ Back off! ✋😠
 - **Back off** — I'm warning you.
 - Tell your brother to **back off**.
 - The police told the crowd to **back off**.
+<!--SR:!2026-08-06,0,230-->
 
 I won't be long. ⏱️🚪
 ?
