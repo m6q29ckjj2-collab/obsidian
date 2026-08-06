@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 english/Detroit.md",
+                "file": "Эльбрус — снаряжение.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Detroit"
+              "title": "Эльбрус — снаряжение"
             }
           }
         ]
@@ -249,9 +249,11 @@
   },
   "active": "978b04fcebede2a5",
   "lastOpenFiles": [
+    "Story.md",
+    "PROJECT ZOMBOID.md",
+    "06 english/Detroit.md",
     "06 english/Модуль 6.md",
     "06 english/Модуль 5.md",
-    "06 english/Detroit.md",
     "06 english/Модуль 7.md",
     "06 english/Модуль 1.md",
     "07 cinema/S01E01.md",
@@ -276,8 +278,6 @@
     "02 programming/00 JavaScript/holy js/3 Практическое применение WebGL/Практическое применение WebGL.md",
     "02 programming/00 JavaScript/holy js/3 Практическое применение WebGL/Карточки.md",
     "02 programming/00 JavaScript/holy js/1 Производительность JavaScript через подзорную трубу/Производительность JavaScript через подзорную трубу.md",
-    "02 programming/00 JavaScript/holy js/1 Производительность JavaScript через подзорную трубу/Квиз.md",
-    "02 programming/00 JavaScript/holy js/1 Производительность JavaScript через подзорную трубу/Карточки.md",
     "05 history/rome_architecture/9 From Brick to Marble - Augustus Assembles Rome",
     "05 history/rome_architecture/8 Special Subjects on Pompeian Walls",
     "05 history/rome_architecture/7 Painting Palaces and Villas in the First Century AD",
