@@ -6,6 +6,7 @@ housework 🏠🧽
 - I spend my whole Sunday doing **housework**.
 - He never helps with the **housework**.
 - There's still a mountain of **housework** left.
+<!--SR:!2026-08-11,4,270-->
 
 mess 🌪️🧦
 ?
@@ -13,6 +14,7 @@ mess 🌪️🧦
 - Your room is a complete **mess**.
 - Sorry about the **mess** — I wasn't expecting anyone.
 - I really **messed** that up.
+<!--SR:!2026-08-08,1,230-->
 
 to mess around with 🔧🤏
 ?
@@ -20,6 +22,7 @@ to mess around with 🔧🤏
 - Don't **mess around with** my things.
 - He spent all afternoon **messing around with** the engine.
 - Stop **messing around with** that and listen to me.
+<!--SR:!2026-08-08,1,210-->
 
 to take care of smb 🤱💙
 ?
@@ -27,6 +30,7 @@ to take care of smb 🤱💙
 - She **takes care of** her mother full time.
 - Who's going to **take care of** the dog while we're away?
 - Don't worry, I'll **take care of** it.
+<!--SR:!2026-08-08,1,230-->
 
 to look after smb 👀🧒
 ?
@@ -34,6 +38,7 @@ to look after smb 👀🧒
 - Can you **look after** the kids for an hour?
 - She **looked after** him when he was ill.
 - Who's **looking after** the shop?
+<!--SR:!2026-08-08,1,230-->
 
 task ✅📋
 ?
@@ -41,6 +46,7 @@ task ✅📋
 - I've got three **tasks** left before lunch.
 - It's a simple **task**, but it takes time.
 - He was given the **task** of cleaning the whole house.
+<!--SR:!2026-08-08,1,230-->
 
 urgent 🚨⏰
 ?
@@ -48,6 +54,7 @@ urgent 🚨⏰
 - This is **urgent** — drop everything else.
 - She left an **urgent** message for you.
 - It's not **urgent**, it can wait until tomorrow.
+<!--SR:!2026-08-08,1,230-->
 
 optional 🤷‍♂️➕
 ?
@@ -55,6 +62,7 @@ optional 🤷‍♂️➕
 - Attendance is **optional**.
 - The heated seats are **optional** on this model.
 - Dessert is **optional**, but I'd recommend it.
+<!--SR:!2026-08-08,1,230-->
 
 downstairs ⬇️🪜
 ?
@@ -62,6 +70,7 @@ downstairs ⬇️🪜
 - She's **downstairs** in the kitchen.
 - I heard someone go **downstairs** in the night.
 - The **downstairs** bathroom is out of order.
+<!--SR:!2026-08-08,1,230-->
 
 upstairs ⬆️🛏️
 ?
@@ -69,6 +78,7 @@ upstairs ⬆️🛏️
 - The kids are **upstairs** playing.
 - I'll be **upstairs** if you need me.
 - He carried the boxes **upstairs** one by one.
+<!--SR:!2026-08-08,1,230-->
 
 trash 🗑️🍌
 ?
@@ -76,6 +86,7 @@ trash 🗑️🍌
 - Throw it in the **trash**.
 - The **trash** hasn't been collected all week.
 - That film was absolute **trash**.
+<!--SR:!2026-08-08,1,230-->
 
 to take the trash out 🗑️🚪
 ?
@@ -83,6 +94,7 @@ to take the trash out 🗑️🚪
 - It's your turn to **take the trash out**.
 - I forgot to **take out the trash** again.
 - He **took the trash out** before he left.
+<!--SR:!2026-08-08,1,230-->
 
 the dishes 🍽️🧼
 ?
@@ -90,6 +102,7 @@ the dishes 🍽️🧼
 - Leave **the dishes** — I'll do them later.
 - **The dishes** are piling up in the sink.
 - Whose turn is it to do **the dishes**?
+<!--SR:!2026-08-08,1,230-->
 
 to wash the dishes 🚿🍽️
 ?
@@ -97,6 +110,7 @@ to wash the dishes 🚿🍽️
 - I'll cook if you **wash the dishes**.
 - She was **washing the dishes** when the phone rang.
 - Nobody likes **washing dishes** by hand.
+<!--SR:!2026-08-11,4,270-->
 
 dishwasher 🫧🤖
 ?
@@ -104,6 +118,7 @@ dishwasher 🫧🤖
 - Just put the plates in the **dishwasher**.
 - The **dishwasher** is broken again.
 - Is this pan **dishwasher**-safe?
+<!--SR:!2026-08-08,1,230-->
 
 vacuum cleaner (= vacuum) 🌀🧹
 ?
@@ -111,6 +126,7 @@ vacuum cleaner (= vacuum) 🌀🧹
 - The **vacuum cleaner** is in the closet under the stairs.
 - I need to **vacuum** the living room.
 - Our old **vacuum** barely picks anything up.
+<!--SR:!2026-08-08,1,230-->
 
 backyard 🌳🏡
 ?
@@ -118,6 +134,7 @@ backyard 🌳🏡
 - The kids are playing in the **backyard**.
 - We grilled steaks in the **backyard**.
 - There's a shed at the end of the **backyard**.
+<!--SR:!2026-08-08,1,230-->
 
 to clean 🧽✨
 ?
@@ -125,6 +142,7 @@ to clean 🧽✨
 - I **cleaned** the whole apartment this morning.
 - Could you **clean** the windows?
 - He never **cleans** up after himself.
+<!--SR:!2026-08-08,1,230-->
 
 counter 🍳🪵
 ?
@@ -132,6 +150,7 @@ counter 🍳🪵
 - Just leave the keys on the **counter**.
 - She wiped the kitchen **counter** down.
 - He was standing behind the **counter** taking orders.
+<!--SR:!2026-08-08,1,230-->
 
 coffee table ☕🪑
 ?
@@ -139,6 +158,7 @@ coffee table ☕🪑
 - Put your feet down off the **coffee table**.
 - The magazines are on the **coffee table**.
 - We bought a glass **coffee table** for the living room.
+<!--SR:!2026-08-08,1,230-->
 
 laundry 🧺👕
 ?
@@ -146,6 +166,7 @@ laundry 🧺👕
 - The **laundry** basket is overflowing.
 - I've got three loads of **laundry** to get through.
 - She dropped her shirts at the **laundry** on the corner.
+<!--SR:!2026-08-08,1,230-->
 
 to do the laundry 🧺🌀
 ?
@@ -153,6 +174,7 @@ to do the laundry 🧺🌀
 - I need to **do the laundry** before Monday.
 - He **does the laundry** every Sunday morning.
 - Can you **do a load of laundry** while I'm out?
+<!--SR:!2026-08-08,1,230-->
 
 to make the bed 🛏️✨
 ?
@@ -160,6 +182,7 @@ to make the bed 🛏️✨
 - **Make your bed** before you leave.
 - She **makes the bed** the moment she gets up.
 - The bed hadn't been **made** in days.
+<!--SR:!2026-08-08,1,190-->
 
 to ventilate 🌬️🪟
 ?
@@ -167,6 +190,7 @@ to ventilate 🌬️🪟
 - Open a window and **ventilate** the room.
 - The basement isn't properly **ventilated**.
 - You should **ventilate** the kitchen while cooking.
+<!--SR:!2026-08-08,1,210-->
 
 restroom 🚻🚪
 ?
@@ -174,6 +198,7 @@ restroom 🚻🚪
 - Excuse me, where's the **restroom**?
 - The **restrooms** are down the hall on the left.
 - She stepped into the **restroom** to wash her hands.
+<!--SR:!2026-08-08,1,230-->
 
 bathroom 🛁🪥
 ?
@@ -181,6 +206,7 @@ bathroom 🛁🪥
 - The **bathroom** is upstairs, second door.
 - He was in the **bathroom** brushing his teeth.
 - Our apartment has two **bathrooms**.
+<!--SR:!2026-08-08,1,230-->
 
 to mop the floor 🧹💦
 ?
@@ -188,6 +214,7 @@ to mop the floor 🧹💦
 - I'll **mop the floor** once everyone's out of the kitchen.
 - She **mopped the floor** twice and it's still sticky.
 - Somebody spilled juice — can you **mop it up**?
+<!--SR:!2026-08-08,1,210-->
 
 mop 🧹🪣
 ?
@@ -195,6 +222,7 @@ mop 🧹🪣
 - The **mop** is in the corner by the bucket.
 - Wring the **mop** out before you use it.
 - He grabbed a **mop** and got to work.
+<!--SR:!2026-08-08,1,230-->
 
 curtain 🪟🎭
 ?
@@ -202,6 +230,7 @@ curtain 🪟🎭
 - Draw the **curtains** — it's getting dark.
 - Sunlight came through a gap in the **curtains**.
 - The **curtain** fell and the audience applauded.
+<!--SR:!2026-08-08,1,230-->
 
 draw ✏️🤝
 ?
@@ -209,6 +238,7 @@ draw ✏️🤝
 - She **drew** the curtains and turned on the lamp.
 - He can **draw** faces from memory.
 - The match ended in a **draw**.
+<!--SR:!2026-08-08,1,230-->
 
 chess ♟️🧠
 ?
@@ -216,6 +246,7 @@ chess ♟️🧠
 - He's been playing **chess** since he was six.
 - **Chess** teaches you to think three moves ahead.
 - There's a **chess** set on the shelf.
+<!--SR:!2026-08-08,1,230-->
 
 to play chess ♟️⏱️
 ?
@@ -223,6 +254,7 @@ to play chess ♟️⏱️
 - Do you want to **play chess**?
 - They **play chess** in the park every Sunday.
 - I used to **play chess** with my grandfather.
+<!--SR:!2026-08-11,4,270-->
 
 canvas 🎨🖼️
 ?
@@ -230,6 +262,7 @@ canvas 🎨🖼️
 - The **canvas** was still blank.
 - He painted it on a huge **canvas**.
 - The tent is made of heavy **canvas**.
+<!--SR:!2026-08-08,1,230-->
 
 sketch ✏️📓
 ?
@@ -237,6 +270,7 @@ sketch ✏️📓
 - She made a quick **sketch** of the building.
 - He always carries a **sketch**book.
 - The show opens with a comedy **sketch**.
+<!--SR:!2026-08-08,1,230-->
 
 different 🔀🧩
 ?
@@ -244,6 +278,7 @@ different 🔀🧩
 - This is completely **different** from what I expected.
 - We come from very **different** backgrounds.
 - Try doing it a **different** way.
+<!--SR:!2026-08-08,1,230-->
 
 What's the difference between ... and ...? ❓⚖️
 ?
@@ -251,6 +286,7 @@ What's the difference between ... and ...? ❓⚖️
 - **What's the difference between** a crocodile and an alligator?
 - **What's the difference between** the two models?
 - I don't see **the difference between** them.
+<!--SR:!2026-08-08,1,230-->
 
 What difference does it make? 🤷‍♂️💬
 ?
@@ -258,6 +294,7 @@ What difference does it make? 🤷‍♂️💬
 - So he lied. **What difference does it make** now?
 - **What difference does it make** who told me?
 - It makes no **difference** to me either way.
+<!--SR:!2026-08-08,1,230-->
 
 dining 🍽️🕯️
 ?
@@ -265,6 +302,7 @@ dining 🍽️🕯️
 - We ate at the **dining** table for once.
 - The hotel has three **dining** areas.
 - **Dining** car service starts at seven.
+<!--SR:!2026-08-08,1,230-->
 
 dining room 🍽️🏠
 ?
@@ -272,6 +310,7 @@ dining room 🍽️🏠
 - Dinner's ready — everyone to the **dining room**.
 - They turned the **dining room** into an office.
 - The **dining room** seats twelve.
+<!--SR:!2026-08-08,1,230-->
 
 to serve (food) 🍲👐
 ?
@@ -279,6 +318,7 @@ to serve (food) 🍲👐
 - Dinner is **served** at eight.
 - They **serve** breakfast until eleven.
 - She **served** us all a bowl of soup.
+<!--SR:!2026-08-08,1,230-->
 
 I'm starving. 🍔😵
 ?
@@ -286,6 +326,7 @@ I'm starving. 🍔😵
 - **I'm starving** — when's dinner?
 - We were **starving** by the time we got back.
 - Aren't you **starving** after all that walking?
+<!--SR:!2026-08-08,1,210-->
 
 humanity 🌍❤️
 ?
@@ -293,6 +334,7 @@ humanity 🌍❤️
 - A discovery that changed the course of **humanity**.
 - He showed real **humanity** towards his prisoners.
 - Crimes against **humanity**.
+<!--SR:!2026-08-08,1,230-->
 
 identity 🪞🆔
 ?
@@ -300,6 +342,7 @@ identity 🪞🆔
 - She struggled with her sense of **identity**.
 - The police confirmed his **identity**.
 - **Identity** theft is a growing problem.
+<!--SR:!2026-08-08,1,230-->
 
 to break down ⚙️😢
 ?
@@ -307,6 +350,7 @@ to break down ⚙️😢
 - My car **broke down** on the motorway.
 - She **broke down** in tears halfway through.
 - Let's **break** the problem **down** into steps.
+<!--SR:!2026-08-08,1,230-->
 
 to make a choice 🔀🤔
 ?
@@ -314,6 +358,7 @@ to make a choice 🔀🤔
 - At some point you have to **make a choice**.
 - She **made the choice** to stay.
 - You **made your choice** — live with it.
+<!--SR:!2026-08-08,1,230-->
 
 to stop by 🚪👋
 ?
@@ -321,6 +366,7 @@ to stop by 🚪👋
 - **Stop by** any time you're in the area.
 - I'll **stop by** the store on my way home.
 - She **stopped by** to drop off the keys.
+<!--SR:!2026-08-08,1,230-->
 
 We'll see about that. 🤨⏳
 ?
@@ -328,6 +374,7 @@ We'll see about that. 🤨⏳
 - "You can't stop me." — "**We'll see about that.**"
 - He says he'll be finished by Friday. **We'll see about that.**
 - **We'll see about that** when the time comes.
+<!--SR:!2026-08-08,1,230-->
 
 Give it a try. 🎯🙂
 ?
@@ -335,6 +382,7 @@ Give it a try. 🎯🙂
 - It's not as hard as it looks — **give it a try**.
 - I'd never skied before, but I gave it **a try**.
 - Why not **give it a try**? You've nothing to lose.
+<!--SR:!2026-08-08,1,230-->
 
 criminal record 📋🚔
 ?
@@ -342,6 +390,7 @@ criminal record 📋🚔
 - He has no **criminal record**.
 - A **criminal record** makes it hard to find work.
 - They ran a check on her **criminal record**.
+<!--SR:!2026-08-08,1,210-->
 
 to have a drink 🍺🥃
 ?
@@ -349,6 +398,7 @@ to have a drink 🍺🥃
 - Let's **have a drink** after work.
 - He'd clearly **had a few drinks**.
 - Can I **get you a drink**?
+<!--SR:!2026-08-11,4,270-->
 
 to assign a case 📁👮
 ?
@@ -356,6 +406,7 @@ to assign a case 📁👮
 - The case **was assigned to** Detective Reed.
 - Who **assigned** you **this case**?
 - She's been **assigned** three **cases** this week.
+<!--SR:!2026-08-08,1,210-->
 
 homicide 🔪⚖️
 ?
@@ -363,6 +414,7 @@ homicide 🔪⚖️
 - He works in **Homicide**.
 - The death was ruled a **homicide**.
 - **Homicide** detectives arrived within the hour.
+<!--SR:!2026-08-08,1,210-->
 
 investigator 🕵️🔎
 ?
@@ -370,6 +422,7 @@ investigator 🕵️🔎
 - A private **investigator** was hired to find him.
 - **Investigators** are still at the scene.
 - The lead **investigator** gave a statement.
+<!--SR:!2026-08-08,1,230-->
 
 to have a record for ... 📄🚨
 ?
@@ -377,6 +430,7 @@ to have a record for ... 📄🚨
 - He **has a record for** burglary.
 - She **has a record for** assault going back years.
 - Does he **have a record for** anything violent?
+<!--SR:!2026-08-08,1,210-->
 
 theft 💼🏃
 ?
@@ -384,6 +438,7 @@ theft 💼🏃
 - He was arrested for **theft**.
 - Bike **theft** has doubled this year.
 - **Identity theft** is a growing problem.
+<!--SR:!2026-08-08,1,230-->
 
 assault 👊⚖️
 ?
@@ -391,7 +446,7 @@ assault 👊⚖️
 - He was charged with **assault**.
 - The **assault** took place outside the bar.
 - Troops launched an **assault** on the position.
-<!--SR:!2026-08-06,0,230-->
+<!--SR:!2026-08-08,1,170-->
 
 to aggravate 📈😤
 ?
@@ -399,6 +454,7 @@ to aggravate 📈😤
 - Stress only **aggravates** the condition.
 - Don't **aggravate** him, he's had a bad day.
 - **Aggravating** circumstances increased the sentence.
+<!--SR:!2026-08-08,1,210-->
 
 victim 😢🎯
 ?
@@ -406,6 +462,7 @@ victim 😢🎯
 - The **victim** was identified this morning.
 - She fell **victim** to a phone scam.
 - Support is available for **victims** of crime.
+<!--SR:!2026-08-08,1,210-->
 
 murder weapon 🔪🔍
 ?
@@ -413,6 +470,7 @@ murder weapon 🔪🔍
 - The **murder weapon** was never found.
 - Fingerprints on the **murder weapon** matched his.
 - Police believe the knife is the **murder weapon**.
+<!--SR:!2026-08-08,1,230-->
 
 to break in / a break-in 🚪🔨
 ?
@@ -420,6 +478,7 @@ to break in / a break-in 🚪🔨
 - Someone **broke in** through the back window.
 - They **broke into** the warehouse at night.
 - There's been a **break-in** at the office.
+<!--SR:!2026-08-08,1,210-->
 
 to examine 🔬👁️
 ?
@@ -427,6 +486,7 @@ to examine 🔬👁️
 - The doctor **examined** her leg.
 - Forensics are **examining** the vehicle.
 - Let's **examine** the evidence more closely.
+<!--SR:!2026-08-08,1,230-->
 
 to analyze 📊🧪
 ?
@@ -434,6 +494,7 @@ to analyze 📊🧪
 - The lab will **analyze** the blood sample.
 - We need to **analyze** what went wrong.
 - **Analyzing** the data took three weeks.
+<!--SR:!2026-08-08,1,230-->
 
 crime scene 🚧🔦
 ?
@@ -441,6 +502,7 @@ crime scene 🚧🔦
 - Don't contaminate the **crime scene**.
 - The **crime scene** was sealed off for two days.
 - **Crime scene** investigators collected the samples.
+<!--SR:!2026-08-08,1,210-->
 
 evidence 🧾🔍
 ?
@@ -448,6 +510,7 @@ evidence 🧾🔍
 - There isn't enough **evidence** to charge him.
 - A piece of **evidence** went missing.
 - The **evidence** points to someone inside.
+<!--SR:!2026-08-08,1,230-->
 
 sign 🪧👀
 ?
@@ -455,6 +518,7 @@ sign 🪧👀
 - There were no **signs** of a struggle.
 - Follow the **signs** to the exit.
 - **Sign** here, please.
+<!--SR:!2026-08-08,1,230-->
 
 Never mind. 🤷‍♂️💨
 ?
@@ -462,6 +526,7 @@ Never mind. 🤷‍♂️💨
 - "What did you say?" — "**Never mind**, it wasn't important."
 - **Never mind** the mess, come in.
 - "Sorry I'm late." — "**Never mind**, we've only just started."
+<!--SR:!2026-08-08,1,230-->
 
 Back off! ✋😠
 ?
@@ -469,7 +534,7 @@ Back off! ✋😠
 - **Back off** — I'm warning you.
 - Tell your brother to **back off**.
 - The police told the crowd to **back off**.
-<!--SR:!2026-08-06,0,230-->
+<!--SR:!2026-08-09,2,210-->
 
 I won't be long. ⏱️🚪
 ?
@@ -477,6 +542,7 @@ I won't be long. ⏱️🚪
 - Wait here, **I won't be long**.
 - **I won't be long** — twenty minutes at most.
 - She said she **wouldn't be long**, but that was an hour ago.
+<!--SR:!2026-08-08,1,230-->
 
 Make yourself at home. 🏠🛋️
 ?
@@ -484,6 +550,7 @@ Make yourself at home. 🏠🛋️
 - Come in, **make yourself at home**.
 - **Make yourself at home** — there's coffee in the kitchen.
 - He told us to **make ourselves at home** and disappeared.
+<!--SR:!2026-08-08,1,210-->
 
 Got it. 👍💡
 ?
@@ -491,6 +558,7 @@ Got it. 👍💡
 - "Third door on the left." — "**Got it.**"
 - **Got it**? Good, let's move.
 - I threw her the keys and she **got it** one-handed.
+<!--SR:!2026-08-08,1,230-->
 
 landlord 🏠🔑
 ?
@@ -498,6 +566,7 @@ landlord 🏠🔑
 - The **landlord** raised the rent again.
 - Our **landlord** never fixes anything.
 - The **landlord** pulled us two pints.
+<!--SR:!2026-08-08,1,230-->
 
 landlady 🏠👩
 ?
@@ -505,6 +574,7 @@ landlady 🏠👩
 - The **landlady** lives on the ground floor.
 - My **landlady** is surprisingly reasonable.
 - Ask the **landlady** about the heating.
+<!--SR:!2026-08-08,1,210-->
 
 tenant 🧳📄
 ?
@@ -512,6 +582,7 @@ tenant 🧳📄
 - The previous **tenants** left the place spotless.
 - **Tenants** have rights too.
 - She's been a **tenant** here for six years.
+<!--SR:!2026-08-08,1,190-->
 
 to pay rent 💸🏠
 ?
@@ -519,6 +590,7 @@ to pay rent 💸🏠
 - I **pay rent** on the first of every month.
 - He's two months behind on the **rent**.
 - They **rent out** the top floor to students.
+<!--SR:!2026-08-08,1,230-->
 
 to hire 🤝🚗
 ?
@@ -526,6 +598,7 @@ to hire 🤝🚗
 - We're **hiring** three new engineers.
 - They **hired** a car for the weekend.
 - He was **hired** on the spot.
+<!--SR:!2026-08-08,1,230-->
 
 It's my fault. / It's not my fault. 🙋‍♂️👉
 ?
@@ -533,6 +606,7 @@ It's my fault. / It's not my fault. 🙋‍♂️👉
 - **It's my fault** — I should have checked.
 - **It's not my fault** the train was late.
 - Whose **fault** is it, then?
+<!--SR:!2026-08-08,1,230-->
 
 to take off ✈️👕
 ?
@@ -540,6 +614,7 @@ to take off ✈️👕
 - He **took off** the second he saw the police.
 - The plane **takes off** at six.
 - **Take off** your coat and sit down.
+<!--SR:!2026-08-08,1,230-->
 
 to walk out on smb 💔🚪
 ?
@@ -547,6 +622,7 @@ to walk out on smb 💔🚪
 - She **walked out on** him after ten years.
 - He **walked out on** his wife **for** her best friend.
 - You can't just **walk out on** your own kids.
+<!--SR:!2026-08-08,1,210-->
 
 Don't you dare (do smth)! 😠☝️
 ?
@@ -554,6 +630,7 @@ Don't you dare (do smth)! 😠☝️
 - **Don't you dare** touch that.
 - **Don't you dare** lie to me.
 - How **dare** you speak to her like that?
+<!--SR:!2026-08-08,1,210-->
 
 to protect smb 🛡️🤲
 ?
@@ -561,6 +638,7 @@ to protect smb 🛡️🤲
 - A father's job is to **protect** his children.
 - Sunscreen **protects** your skin.
 - These laws **protect** tenants from eviction.
+<!--SR:!2026-08-08,1,230-->
 
 to defend ⚔️⚖️
 ?
@@ -568,6 +646,7 @@ to defend ⚔️⚖️
 - They **defended** the city for six weeks.
 - He **defended** her decision in front of everyone.
 - Who's **defending** him at the trial?
+<!--SR:!2026-08-08,1,230-->
 
 to hurt smb 🤕💔
 ?
@@ -575,6 +654,7 @@ to hurt smb 🤕💔
 - I didn't mean to **hurt** you.
 - He **hurt** his knee playing football.
 - My back **hurts**.
+<!--SR:!2026-08-11,4,270-->
 
 to obey 🫡📏
 ?
@@ -582,6 +662,7 @@ to obey 🫡📏
 - Soldiers are trained to **obey** orders.
 - The dog won't **obey** anyone but her.
 - You must **obey** the law, whether you like it or not.
+<!--SR:!2026-08-08,1,210-->
 
 to get mad 😡💢
 ?
@@ -589,6 +670,7 @@ to get mad 😡💢
 - Don't **get mad** — I'm only joking.
 - She **got mad** when she found out.
 - He's still **mad at** me about the car.
+<!--SR:!2026-08-08,1,230-->
 
 to catch a bus 🚌🏃
 ?
@@ -596,6 +678,7 @@ to catch a bus 🚌🏃
 - I need to **catch the 8:15 bus**.
 - We ran and just **caught the bus**.
 - If we don't hurry we'll **miss the bus**.
+<!--SR:!2026-08-08,1,230-->
 
 to leave the light(s) on 💡🌙
 ?
@@ -603,6 +686,7 @@ to leave the light(s) on 💡🌙
 - I always **leave a light on** when I'm out.
 - Who **left the lights on** all night?
 - **Leave** the heating **on** low.
+<!--SR:!2026-08-08,1,230-->
 
 What's your emergency? 📞🚨
 ?
@@ -610,6 +694,7 @@ What's your emergency? 📞🚨
 - "911, **what's your emergency?**"
 - In an **emergency**, press this button.
 - The **emergency** exit is at the rear.
+<!--SR:!2026-08-08,1,230-->
 
 Get him outta here! 👉🚪
 ?
@@ -617,6 +702,7 @@ Get him outta here! 👉🚪
 - **Get him outta here** before I lose my temper.
 - **Get** that dog **out of here**!
 - Let's **get outta here**.
+<!--SR:!2026-08-08,1,230-->
 
 to make smb do smth 💪👉
 ?
@@ -624,6 +710,7 @@ to make smb do smth 💪👉
 - You can't **make me go**.
 - She **made him apologise**.
 - He **was made to wait** three hours.
+<!--SR:!2026-08-08,1,230-->
 
 Leave him alone! 🙅‍♂️🚶
 ?
@@ -631,6 +718,7 @@ Leave him alone! 🙅‍♂️🚶
 - **Leave him alone**, he's had enough.
 - Just **leave me alone** for five minutes.
 - Why can't they **leave her alone**?
+<!--SR:!2026-08-08,1,210-->
 
 to fight back 👊🔁
 ?
@@ -638,6 +726,7 @@ to fight back 👊🔁
 - She **fought back** and he ran.
 - The company **fought back** with a lawsuit.
 - He **fought back** tears as he spoke.
+<!--SR:!2026-08-11,4,270-->
 
 to destroy 💣🔥
 ?
@@ -645,6 +734,7 @@ to destroy 💣🔥
 - Fire **destroyed** the entire building.
 - The evidence had been **destroyed**.
 - Don't let one mistake **destroy** your career.
+<!--SR:!2026-08-08,1,230-->
 
 This is not fair. ⚖️😤
 ?
@@ -652,6 +742,7 @@ This is not fair. ⚖️😤
 - **This isn't fair** and you know it.
 - It's not **fair** to blame her.
 - All's **fair** in love and war.
+<!--SR:!2026-08-08,1,210-->
 
 mind 🧠💭
 ?
@@ -659,6 +750,7 @@ mind 🧠💭
 - It never crossed my **mind**.
 - Do you **mind** if I sit here?
 - I've changed my **mind**.
+<!--SR:!2026-08-08,1,230-->
 
 palace 🏰👑
 ?
@@ -666,6 +758,7 @@ palace 🏰👑
 - Buckingham **Palace** is open in summer.
 - They lived in a **palace** with forty rooms.
 - The **palace** issued a short statement.
+<!--SR:!2026-08-08,1,230-->
 
 to accuse smb of smth 👉⚖️
 ?
@@ -673,3 +766,4 @@ to accuse smb of smth 👉⚖️
 - They **accused** him **of** stealing.
 - She was **accused of** lying to the court.
 - Are you **accusing me of** something?
+<!--SR:!2026-08-08,1,170-->
