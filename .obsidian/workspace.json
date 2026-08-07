@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 english/HP1 — глава 1.md",
+                "file": "02 programming/00 JavaScript/Myrich/ECMAScript под капотом/Видео/01 Assignment Patterns/Отчёт.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HP1 — глава 1"
+              "title": "Отчёт"
             }
           }
         ]
@@ -249,6 +249,9 @@
   },
   "active": "978b04fcebede2a5",
   "lastOpenFiles": [
+    "02 programming/00 JavaScript/Myrich/ECMAScript под капотом/Видео/01 Assignment Patterns/Квиз.md",
+    "02 programming/00 JavaScript/Myrich/ECMAScript под капотом/Видео/01 Assignment Patterns/Карточки.md",
+    "06 english/HP1 — глава 1.md",
     "06 english/HP1.md",
     "06 english/Гарри Поттер 1 — как читать.md",
     "06 english/Модуль 3.md",
@@ -261,7 +264,6 @@
     "02 programming/00 JavaScript/Myrich/ECMAScript под капотом/Видео/06 Тип String по спецификации (часть 1)/Карточки.md",
     "07 cinema/Фильмы/Крёстный отец.md",
     "02 programming/00 JavaScript/Myrich/ECMAScript под капотом/Видео/09 Object по спецификации/Квиз.md.tmp.42242.79998e626269",
-    "02 programming/00 JavaScript/Myrich/ECMAScript под капотом/Видео/01 Assignment Patterns/Карточки.md",
     "02 programming/00 JavaScript/Myrich/ECMAScript под капотом/Видео/03 Замыкания по спецификации/Отчёт.md",
     "07 cinema/Фильмы/Фильмы — разбор.md.tmp.42699.955dcff76166",
     "07 cinema/Темы/Как обычный человек доходит до чудовищного.md",
@@ -276,8 +278,6 @@
     "02 programming/00 JavaScript/Myrich/ECMAScript под капотом/Видео/15 this — короткая версия/Отчёт.md",
     "07 cinema/Фильмы — разбор.md",
     "02 programming/00 JavaScript/Myrich/ECMAScript под капотом/Видео/14 this на прикладах (UA)/Квиз.md",
-    "02 programming/00 JavaScript/Myrich/ECMAScript под капотом/Видео/03 Замыкания по спецификации/Квиз.md",
-    "02 programming/00 JavaScript/Myrich/ECMAScript под капотом/Видео/03 Замыкания по спецификации/Карточки.md",
     "02 programming/00 JavaScript/Myrich/ECMAScript под капотом/Видео/16 this — полная версия",
     "02 programming/00 JavaScript/Myrich/ECMAScript под капотом/Видео/15 this — короткая версия",
     "02 programming/00 JavaScript/Myrich/ECMAScript под капотом/Видео/14 this на прикладах (UA)",
