@@ -2108,11 +2108,11 @@
     }
   ],
   "pausedQuiz": {
-    "questionIndex": 0,
+    "questionIndex": 2,
     "answers": [
+      true,
       false,
-      null,
-      null,
+      false,
       null,
       null,
       null,
@@ -2131,8 +2131,8 @@
       null
     ],
     "ratings": [
-      null,
-      null,
+      1,
+      1,
       null,
       null,
       null,
@@ -2363,7 +2363,7 @@
       }
     ],
     "sourceLabel": "Квиз",
-    "timestamp": 1786225946071
+    "timestamp": 1786227889741
   },
   "provider": "OPENAI",
   "openAIApiKey": "",
