@@ -11,7 +11,7 @@ source: "Node.js 2026 🚀🌱 (Telegram, Тимур Шемсединов)"
 
 > [!info] Источник и статус охвата
 > Вытащено из вкладки Links (Shared Media) группы «Node.js 2026 🚀🌱» в Telegram Web.
-> **Охват на данный момент: от последних сообщений (выпуск #267, конец 2025) до Weekly call #88 (2023-01-14) и Node.js 2022-2023 Q&A call #11.** Это уже почти три года истории.
+> **Полный охват: от последних сообщений (конец 2025, выпуск #267) до самого начала группы — анонса курса Node.js 2022-2023 (сентябрь 2022, видео «Node JS 2022-2023 практический курс», youtu.be/UGGzSEfCjPU) и Weekly call #70 (2022-09-03).** Прокрутка вкладки Links дошла до конца — три подряд прохода вернули один и тот же набор ссылок, дальше история не загружается. Собрано ~300 видео за более чем три года существования группы.
 > История группы уходит явно глубже — попадались упоминания доклада 2021 года и группа явно жила ещё до курса Node.js 2023 #1. Продолжаю сбор дальше в прошлое по явному запросу «докопать до конца».
 > Отфильтровано сознательно: повторяющиеся ссылки на Google Meet (комнаты для созвонов, не видео), GitHub-репозитории/issues, статьи и посты (Patreon, LinkedIn, Instagram, nodejs.org blog, форумы) — они не входят в этот список, только видео.
 
@@ -104,6 +104,23 @@ source: "Node.js 2026 🚀🌱 (Telegram, Тимур Шемсединов)"
 - #91 (2023-02-04) — https://youtu.be/BupL7_M1EnI
 - #90 (2023-01-28) — *(ссылка не найдена при сборе)*
 - #88 (2023-01-14) — https://youtu.be/pOVsksux_bg
+- #86 (2022-12-31) — https://youtu.be/uvBeaEnLaH8
+- #85 (2022-12-24) — https://youtu.be/HO8kqYiuHzA
+- #84 (2022-12-17) — https://youtu.be/HIlQyD-FBWM
+- #83 (2022-12-03) — https://youtu.be/Xbail8QXwJk
+- #82 (2022-11-26) — https://youtu.be/dUhnZBcW2no
+- #81 (2022-11-19) — https://youtu.be/WnwzObiXRbA
+- #80 (2022-11-12) — *(ссылка не найдена при сборе)*
+- #79 (2022-11-05) — https://youtu.be/IKb39YQ6nf8
+- #78 (2022-10-29) — https://youtu.be/FrlUfPuLglg
+- #77 (2022-10-22) — https://youtu.be/NDekYRbizOc
+- #76 (2022-10-15) — https://youtu.be/Y8eiRRCk3oU
+- #75 (2022-10-08) — https://youtu.be/JKlXOYSF97g
+- #74 (2022-10-01) — https://youtu.be/tVbucFvrQhY
+- #73 (2022-09-24) — https://youtu.be/WXxmZELa68o
+- #72 (2022-09-17) — https://youtu.be/GarIimK-c-0
+- #71 (2022-09-10) — https://youtu.be/dA9AaR7Qs6c
+- #70 (2022-09-03) — https://youtu.be/Ux3n0Cyzp38
 
 ## Курсы Node.js / Async / Patterns — Q&A calls (по годам курса)
 
@@ -171,6 +188,15 @@ source: "Node.js 2026 🚀🌱 (Telegram, Тимур Шемсединов)"
 - #15 — https://youtu.be/3RTrQvUKjwU
 - #13 — https://youtu.be/T_3_VIoNPO0
 - #11 — https://youtu.be/i3SoEVGOs2c
+- #10 — https://youtu.be/gRsOcyT0wGE
+- #9 — *(ссылка не найдена при сборе)*
+- #8 — https://youtu.be/UHVp6pG2gts
+- #7 — *(ссылка не найдена при сборе)*
+- #5 — https://youtu.be/NZJXuwzb0IQ
+- #4 — https://youtu.be/07VOUC767JI
+- #3 — https://youtu.be/6-VsHl3Ttsk
+- #2 — *(ссылка не найдена при сборе)*
+- #1 — https://youtu.be/P-jPExAF6tI
 - #33 — https://youtu.be/erfQTnMh0wY
 - #34 — https://youtu.be/fXgmOsgQ2r8
 - #35 — https://youtu.be/m8JwGpH3DXo
@@ -227,6 +253,16 @@ source: "Node.js 2026 🚀🌱 (Telegram, Тимур Шемсединов)"
 - 🧑‍💻 Применение Chat GPT в оптимизации JavaScript для Node.js — https://youtu.be/Ebrzqj8cGUY
 - WHITEBOARD #15. Распределенные, параллельные и конкурентные системы на уровне данных и вычислений — https://youtu.be/9EgEbb2RXwc
 - 🚀 Node.js 🧑‍💻 Введение в технологию — https://youtu.be/mRvzgBGLVyM
+- 🚀 Node.js ✨ Базы данных, модель, заголовки .d.ts и линтеры ✨ 2022-2023 — https://youtu.be/ouLse6JYdK4
+- 💻 Блок заданий #2 к курсу Node.js & Backend — https://youtu.be/2V6qKcUfM-0
+- 🚀 Node.js ✨ Layers and Low Coupling на примере конфига и транспорта — https://youtu.be/hVnAHCG3er0
+- 💻 Блок заданий #1 к курсу Node.js & Backend — https://youtu.be/OWk2DUYMSyc
+- 🚀 Roadmap ✨ План развития для технологического стека JavaScript и Node.js ✨ Карта обучения — https://youtu.be/9eayd1xggFs
+- 🚀 Node.js ✨ Архитектура приложений: слои и внедрение зависимостей — https://youtu.be/O3TeD5yU9aw
+- 🚀 Node.js ✨ Структура приложений: модули, пакеты и зависимости — https://youtu.be/d6DjTAAHxPU
+- Лекция Тимура (трёхлетней давности) по встроенному API ноды — https://youtu.be/sOkjR-N6IAs
+- 🎧 Node JS 2022-2023 практический курс: API, DB, архитектура, DDD, GoF, DI, фреймворк-агностик (анонс курса) — https://youtu.be/UGGzSEfCjPU
+- Утечки памяти в Node.js и JavaScript, сборка мусора и профилирование — https://youtu.be/0oZa64SB2wM
 
 ## SOLID / GoF паттерны (отдельная серия)
 
@@ -249,12 +285,15 @@ source: "Node.js 2026 🚀🌱 (Telegram, Тимур Шемсединов)"
 - Штучний інтелект замінює програмістів | Тимур Шемседінов, Микола Фельдман | Альфа й Омега — https://www.youtube.com/live/AHOqrEp7AT4?feature=share
 - Тимур Шемсединов: асинхронный JS, однопоточный NodeJS, libuv — TekTok Podcast #1 — https://www.youtube.com/live/ND5HNHicACI?feature=share
 - Про образование программиста с Тимуром Шемсединовым — https://www.youtube.com/live/pcwccVihgeg?feature=share
+- I would never use an ORM — Matteo Collina | NodeConf EU 2022 — https://youtu.be/atABji4xqiI
+- Я 💛 Фронтенд. Node.js фреймворки, или Туда и обратно — Андрей Мелихов — https://youtube.com/watch?v=dh3rKUYNlUw
 
 ---
 
 ## TODO
 
-- [ ] Продолжить сбор глубже января 2023 (Weekly call #88) — группа явно старше (упоминания доклада 2021 года и курса Node.js 2023 #1 ещё не достигнуты)
-- [ ] Найти пропущенные ссылки для #103, #94, #90 (Weekly calls) и #22 (Q&A call)
+- [x] Сбор ссылок завершён — дошли до самого начала группы (Weekly call #70, анонс курса Node.js 2022-2023, Q&A call #1)
+- [ ] Найти пропущенные ссылки (не найдены при сборе, попадали в разрывы между снимками экрана): Weekly calls #170, #141(Q&A), #103, #94, #90, #80, #22(Q&A), #9(Q&A), #7(Q&A), #2(Q&A) — их видео либо не существует отдельно от текста, либо нужно доскроллить точечно в самой Telegram
+- [ ] Устранить неточности нумерации (#164/#150 и #157/#167 могли задвоиться при ручной сверке — при следующем проходе перепроверить по видео, а не только по номеру)
 - [ ] Устранить неточности нумерации (#164/#150 и #157/#167 могли задвоиться при ручной сверке — при следующем проходе перепроверить по видео, а не только по номеру)
 - [ ] Найти пропущенные ссылки для #170 и #141
