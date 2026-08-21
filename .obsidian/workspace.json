@@ -90,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 200
   },
   "right": {
     "id": "4366e47ae3048384",
@@ -249,6 +249,8 @@
   },
   "active": "978b04fcebede2a5",
   "lastOpenFiles": [
+    "02 programming/00 JavaScript/ECMAScript спецификация/24 Коллекции по ключу/Квиз.md",
+    "02 programming/00 JavaScript/ECMAScript спецификация/24 Коллекции по ключу/Отчёт.md",
     "02 programming/00 JavaScript/ECMAScript спецификация/28 Рефлексия/Квиз.md",
     "02 programming/00 JavaScript/ECMAScript спецификация/28 Рефлексия/Отчёт.md",
     "02 programming/00 JavaScript/ECMAScript спецификация/21 Числа и даты/Отчёт.md",
@@ -275,9 +277,7 @@
     "02 programming/00 JavaScript/ECMAScript спецификация/25 Структурированные данные/Карточки.md",
     "02 programming/00 JavaScript/ECMAScript спецификация/25 Структурированные данные/Отчёт.md",
     "02 programming/00 JavaScript/ECMAScript спецификация/25 Структурированные данные",
-    "02 programming/00 JavaScript/ECMAScript спецификация/24 Коллекции по ключу/Квиз.md",
     "02 programming/00 JavaScript/ECMAScript спецификация/24 Коллекции по ключу/Карточки.md",
-    "02 programming/00 JavaScript/ECMAScript спецификация/24 Коллекции по ключу/Отчёт.md",
     "02 programming/00 JavaScript/ECMAScript спецификация/24 Коллекции по ключу",
     "02 programming/00 JavaScript/ECMAScript спецификация/23 Индексированные коллекции/Квиз.md",
     "02 programming/00 JavaScript/ECMAScript спецификация/23 Индексированные коллекции/Карточки.md",
