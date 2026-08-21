@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 programming/12 node/Node.js 2026 — видео из ТГ.md",
+                "file": "02 programming/00 JavaScript/ECMAScript спецификация/05 Нотация/Отчёт.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Node.js 2026 — видео из ТГ"
+              "title": "Отчёт"
             }
           }
         ]
@@ -249,8 +249,8 @@
   },
   "active": "978b04fcebede2a5",
   "lastOpenFiles": [
-    "02 programming/00 JavaScript/ECMAScript спецификация/28 Рефлексия/Отчёт.md",
     "02 programming/12 node/Node.js 2026 — видео из ТГ.md",
+    "02 programming/00 JavaScript/ECMAScript спецификация/28 Рефлексия/Отчёт.md",
     "02 programming/00 JavaScript/ECMAScript спецификация/24 Коллекции по ключу/Квиз.md",
     "02 programming/00 JavaScript/ECMAScript спецификация/25 Структурированные данные/Квиз.md",
     "02 programming/00 JavaScript/ECMAScript спецификация/24 Коллекции по ключу/Отчёт.md",
