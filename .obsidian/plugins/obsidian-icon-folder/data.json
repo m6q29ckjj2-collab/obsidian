@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🎥",
+      "🇺🇸",
       "🗽",
       "📗",
-      "😁",
-      "FabBuromobelexperte",
-      "RaTower"
+      "😁"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -65,5 +65,7 @@
   "02 programming/04 TS": "RaTower",
   "02 programming/05 patterns": "FabBuromobelexperte",
   "04 evolution": "📗",
-  "05 history": "🗽"
+  "05 history": "🗽",
+  "06 english": "🇺🇸",
+  "07 cinema": "🎥"
 }
