@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 programming/00 JavaScript/ECMAScript спецификация/06 Типы данных/Отчёт.md",
+                "file": "Эльбрус-текст.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Отчёт"
+              "title": "Эльбрус-текст"
             }
           }
         ]
@@ -249,6 +249,8 @@
   },
   "active": "978b04fcebede2a5",
   "lastOpenFiles": [
+    "02 programming/00 JavaScript/ECMAScript спецификация/06 Типы данных/Отчёт.md",
+    "Эльбрус-текст.md",
     "02 programming/00 JavaScript/ECMAScript спецификация/05 Нотация/Отчёт.md",
     "02 programming/12 node/Node.js 2026 — видео из ТГ.md",
     "02 programming/00 JavaScript/ECMAScript спецификация/28 Рефлексия/Отчёт.md",
@@ -279,9 +281,7 @@
     "02 programming/00 JavaScript/ECMAScript спецификация/25 Структурированные данные/Карточки.md",
     "02 programming/00 JavaScript/ECMAScript спецификация/25 Структурированные данные/Отчёт.md",
     "02 programming/00 JavaScript/ECMAScript спецификация/25 Структурированные данные",
-    "02 programming/00 JavaScript/ECMAScript спецификация/24 Коллекции по ключу/Карточки.md",
     "02 programming/00 JavaScript/ECMAScript спецификация/24 Коллекции по ключу",
-    "02 programming/00 JavaScript/ECMAScript спецификация/23 Индексированные коллекции/Квиз.md",
     "02 programming/00 JavaScript/ECMAScript спецификация/23 Индексированные коллекции",
     "02 programming/00 JavaScript/ECMAScript спецификация/22 Обработка текста",
     "02 programming/00 JavaScript/ECMAScript спецификация/21 Числа и даты",
