@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Эльбрус-текст.md",
+                "file": "TI 2026 — гранд-финал, разбор ставок.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Эльбрус-текст"
+              "title": "TI 2026 — гранд-финал, разбор ставок"
             }
           }
         ]
@@ -249,8 +249,14 @@
   },
   "active": "978b04fcebede2a5",
   "lastOpenFiles": [
-    "02 programming/00 JavaScript/ECMAScript спецификация/06 Типы данных/Отчёт.md",
+    "02 programming/12 node/Metarhia Weekly calls/267/Квиз.md",
+    "02 programming/12 node/Metarhia Weekly calls/267/Карточки.md",
+    "02 programming/12 node/Metarhia Weekly calls/267/Отчёт.md",
+    "02 programming/12 node/Metarhia Weekly calls/267",
+    "02 programming/12 node/Metarhia Weekly calls",
     "Эльбрус-текст.md",
+    "TI 2026 — гранд-финал, разбор ставок.md",
+    "02 programming/00 JavaScript/ECMAScript спецификация/06 Типы данных/Отчёт.md",
     "02 programming/00 JavaScript/ECMAScript спецификация/05 Нотация/Отчёт.md",
     "02 programming/12 node/Node.js 2026 — видео из ТГ.md",
     "02 programming/00 JavaScript/ECMAScript спецификация/28 Рефлексия/Отчёт.md",
@@ -275,16 +281,10 @@
     "02 programming/00 JavaScript/ECMAScript спецификация/27 Абстракции управления",
     "02 programming/00 JavaScript/ECMAScript спецификация/26 Управление памятью/Квиз.md",
     "02 programming/00 JavaScript/ECMAScript спецификация/26 Управление памятью/Карточки.md",
-    "02 programming/00 JavaScript/ECMAScript спецификация/26 Управление памятью/Отчёт.md",
     "02 programming/00 JavaScript/ECMAScript спецификация/26 Управление памятью",
-    "02 programming/00 JavaScript/ECMAScript спецификация/18 Встроенные объекты — общее/Отчёт.md",
-    "02 programming/00 JavaScript/ECMAScript спецификация/25 Структурированные данные/Карточки.md",
-    "02 programming/00 JavaScript/ECMAScript спецификация/25 Структурированные данные/Отчёт.md",
     "02 programming/00 JavaScript/ECMAScript спецификация/25 Структурированные данные",
     "02 programming/00 JavaScript/ECMAScript спецификация/24 Коллекции по ключу",
     "02 programming/00 JavaScript/ECMAScript спецификация/23 Индексированные коллекции",
-    "02 programming/00 JavaScript/ECMAScript спецификация/22 Обработка текста",
-    "02 programming/00 JavaScript/ECMAScript спецификация/21 Числа и даты",
     "10 archive/assets/Pasted image 20260704132719.png",
     "02 programming/TODO/Без названия.canvas",
     "10 archive/assets/Pasted image 20260416032616.png",
