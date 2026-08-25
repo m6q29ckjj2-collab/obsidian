@@ -33,8 +33,7 @@
               "title": "примечания к выпуску 1.13.7"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -248,7 +247,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "011e0d63e31c2361",
+  "active": "7801bead5b437ae7",
   "lastOpenFiles": [
     "Home.md",
     "02 programming/12 node/Metarhia Weekly calls/262/Карточки.md",
