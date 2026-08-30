@@ -83,3 +83,66 @@ appeal 💫🗺️
 - This tile has high scenic **appeal**.
 - The idea doesn't **appeal** to me at all.
 - She made an **appeal** for help.
+
+council 🏛️🗳️
+?
+/ˈkaʊn.səl/ — совет (группа людей, принимающая решения)
+- The **council** meets once a month.
+- He was elected to the city **council**.
+- The **council** of ministers approved the plan.
+
+minister ⚖️🎩
+?
+/ˈmɪn.ɪ.stər/ — министр
+- She was appointed foreign **minister**.
+- The prime **minister** gave a speech.
+- Each **minister** oversees a different department.
+
+to found 🏗️🏙️
+?
+/faʊnd/ — основывать (город, организацию); прош. время found (совпадает с find!)
+- Rome was **founded** on seven hills.
+- They plan to **found** a new colony.
+- The city was **founded** in the 12th century.
+
+hill ⛰️🌄
+?
+/hɪl/ — холм
+- The village sits on top of a **hill**.
+- Defending a **hill** gives a combat bonus.
+- We hiked up a steep **hill**.
+
+combat strength ⚔️💪
+?
+/ˈkɒm.bæt streŋθ/ — боевая сила, показатель силы юнита в бою
+- This unit has high **combat strength**.
+- Terrain bonuses increase **combat strength** on hills.
+- The upgrade boosts **combat strength** by 4.
+
+adjacent 📍↔️
+?
+/əˈdʒeɪ.sənt/ — соседний, прилегающий (обычно adjacent to smth)
+- The tile is **adjacent** to a river.
+- Bonuses apply to districts **adjacent** to the capital.
+- Their houses are **adjacent** to each other.
+
+mountain ⛰️❄️
+?
+/ˈmaʊn.tən/ — гора
+- They climbed the highest **mountain** in the region.
+- Units can't cross **mountain** tiles.
+- The view from the **mountain** was stunning.
+
+woods 🌲🌳
+?
+/wʊdz/ — лес (обычно небольшой, множественное число как единый объект)
+- They went for a walk in the **woods**.
+- A cabin stood deep in the **woods**.
+- Clearing the **woods** removes the movement penalty.
+
+national park 🏞️🌳
+?
+/ˈnæʃ.ən.əl pɑːrk/ — национальный парк
+- The area was declared a **national park**.
+- Tourists visit the **national park** every summer.
+- Founding a **national park** boosts nearby appeal.
