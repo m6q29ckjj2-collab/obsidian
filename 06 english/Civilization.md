@@ -146,3 +146,122 @@ national park 🏞️🌳
 - The area was declared a **national park**.
 - Tourists visit the **national park** every summer.
 - Founding a **national park** boosts nearby appeal.
+
+rough 🪨📏
+?
+/rʌf/ — 1) грубый, шероховатый, неровный 2) приблизительный 3) тяжёлый, суровый. ⚠️ читается «раф»: *gh* здесь звучит как /f/
+- **Rough** terrain slows your units down.
+- Can you give me a **rough** estimate?
+- He's had a really **rough** week.
+
+rough terrain ⛰️🥾
+?
+/rʌf təˈreɪn/ — пересечённая, труднопроходимая местность (холмы, лес, камни). ⚠️ *terrain* — ударение на второй слог
+- Units move slower across **rough terrain**.
+- The jeep is built for **rough terrain**.
+- They crossed twenty miles of **rough terrain** on foot.
+
+continuity 🔗⏳
+?
+/ˌkɑːn.təˈnuː.ə.t̬i/ — непрерывность, преемственность; последовательность без разрывов
+- The new manager wants **continuity**, not big changes.
+- There's no **continuity** between the two parts of the plan.
+- Wonders under construction keep their **continuity** bonus.
+
+to embark 🚢⚓
+?
+/ɪmˈbɑːrk/ — 1) сесть на корабль, погрузиться на судно 2) *embark on smth* — взяться за что-то, пуститься в (дело, путешествие)
+- Land units can **embark** to cross the ocean.
+- The passengers **embarked** at dawn.
+- She's about to **embark on** a new career.
+
+to raise an empire 🏛️⬆️
+?
+/reɪz ən ˈem.paɪr/ — создать, возвести империю. *raise* тут не «поднять», а «построить с нуля, поставить на ноги»
+- **Raise an empire** that will stand for centuries.
+- They **raised an empire** on trade, not war.
+- It takes generations to **raise an empire** like that.
+
+to raise vs to rise ⬆️🤲
+?
+/reɪz/ vs /raɪz/ — ⚠️ raise = поднимать **что-то** (нужен объект); rise = подниматься **самому** (объекта нет). raise-raised-raised, rise-rose-risen
+- He **raised** his hand. — но: The sun **rises** at six.
+- They **raised** taxes again. — но: Prices **rose** sharply.
+- She **raised** three children alone. — но: Smoke **rose** from the chimney.
+
+humble 🙇‍♂️🏚️
+?
+/ˈhʌm.bəl/ — 1) скромный, непритязательный (о человеке — без хвастовства) 2) простой, бедный (о происхождении, жилье)
+- Every great empire has **humble** beginnings.
+- He stayed **humble** even after the victory.
+- They grew up in a **humble** little house.
+
+to thrive 🌱📈
+?
+/θraɪv/ — процветать, идти в гору, бурно развиваться. О городах, бизнесе, растениях, людях
+- Coastal cities **thrive** on trade.
+- The business is **thriving** since they moved.
+- Some plants **thrive** in poor soil.
+
+abundant 🌾💧
+?
+/əˈbʌn.dənt/ — обильный, имеющийся в избытке. Часто *abundant in smth* — богатый чем-то
+- The region is **abundant** in fresh water.
+- Coal was **abundant** and cheap back then.
+- **Abundant** resources let the city grow fast.
+
+revealing 🔍💡
+?
+/rɪˈviː.lɪŋ/ — 1) показательный, много говорящий (о фразе, реакции) 2) откровенный, слишком открытый (об одежде)
+- His answer was very **revealing**.
+- It's **revealing** that nobody argued with her.
+- She thought the dress was too **revealing**.
+
+comprehensive 📚✅
+?
+/ˌkɑːm.prɪˈhen.sɪv/ — всесторонний, исчерпывающий, охватывающий всё. ⚠️ НЕ «понятный» — это *comprehensible*
+- They published a **comprehensive** report on the war.
+- We need a **comprehensive** plan, not quick fixes.
+- The guide gives a **comprehensive** list of resources.
+
+pottery 🏺🎨
+?
+/ˈpɑː.t̬ɚ.i/ — 1) керамика, глиняная посуда 2) гончарное дело. ⚠️ неисчисляемое: *pottery is*, не ~~potteries~~
+- The museum has a large collection of ancient **pottery**.
+- **Pottery** was one of the first crafts.
+- She took up **pottery** last winter.
+
+rural 🌾🚜
+?
+/ˈrʊr.əl/ — сельский, деревенский; относящийся к сельской местности. Противоположность — *urban*
+- Most of the population still lives in **rural** areas.
+- **Rural** roads are in poor condition.
+- He grew up in a small **rural** village.
+
+accomplishment 🏆✅
+?
+/əˈkɑːm.plɪʃ.mənt/ — достижение, свершение; то, что удалось сделать. Исчисляемое: *her greatest accomplishments*
+- Building the pyramids was a huge **accomplishment**.
+- She listed her **accomplishments** on one page.
+- Finishing the book felt like a real **accomplishment**.
+
+wreckage 🚢💥
+?
+/ˈrek.ɪdʒ/ — обломки, останки (корабля, самолёта, здания после катастрофы). ⚠️ неисчисляемое: *the wreckage was*, не ~~wreckages~~. Начальное *w* не читается
+- Divers found the **wreckage** on the sea floor.
+- They pulled two survivors from the **wreckage**.
+- The **wreckage** of the old fort still stands there.
+
+to engulf 🌊🔥
+?
+/ɪnˈɡʌlf/ — поглотить, охватить целиком (об огне, воде, толпе, чувстве). Чаще в пассиве: *be engulfed in / by smth*
+- The whole street was **engulfed** in flames.
+- Rising water **engulfed** the lower districts.
+- He was **engulfed** by a wave of panic.
+
+warehouse 📦🏭
+?
+/ˈwer.haʊs/ — склад, складское помещение. ⚠️ первый слог как *where*, не «вар»
+- The goods are stored in a **warehouse** near the port.
+- They converted the old **warehouse** into flats.
+- A **warehouse** keeps your resources from spoiling.
