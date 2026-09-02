@@ -265,3 +265,10 @@ warehouse 📦🏭
 - The goods are stored in a **warehouse** near the port.
 - They converted the old **warehouse** into flats.
 - A **warehouse** keeps your resources from spoiling.
+
+to tremble 😨🍃
+?
+/ˈtrem.bəl/ — дрожать, трястись (от страха, холода, слабости); о земле — содрогаться
+- Her hands **trembled** as she opened the letter.
+- The ground **trembled** under the marching army.
+- Empires **tremble** when their neighbours grow strong.
