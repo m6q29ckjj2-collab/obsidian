@@ -1,0 +1,113 @@
+:root {
+  --accent: #6c5ce7;
+  --bg: #1a1d24;
+  --border: #2c303a;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: #0f1115;
+  color: #eaeaea;
+  line-height: 1.6;
+}
+
+.content {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 80px 24px 400px;
+}
+
+/* ---------- сам селект ---------- */
+
+/*
+  Вся суть — position: relative на обёртке.
+  Меню внутри неё стоит position: absolute и позиционируется
+  ОТНОСИТЕЛЬНО этой обёртки, а не относительно viewport.
+  Значит когда страница скроллится, обёртка со всем её содержимым
+  (кнопкой и меню) едет как единое целое — браузер сам двигает и то,
+  и другое в один и тот же кадр рендера. Никакого JS на scroll не нужно,
+  поэтому и лага/рассинхрона в принципе быть не может.
+*/
+.custom-select {
+  position: relative;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.select-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: #eaeaea;
+  cursor: pointer;
+  text-align: left;
+}
+
+.select-btn:hover {
+  border-color: var(--accent);
+}
+
+.arrow {
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #999;
+  border-bottom: 2px solid #999;
+  transform: rotate(45deg);
+  transition: transform 0.15s ease;
+}
+
+.custom-select.open .arrow {
+  transform: rotate(-135deg);
+}
+
+.select-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
+
+  /* скрыто по умолчанию, показывается через класс .open на обёртке */
+  display: none;
+  z-index: 10;
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.custom-select.open .select-menu {
+  display: block;
+}
+
+.select-menu li {
+  padding: 10px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.select-menu li:hover,
+.select-menu li.active {
+  background: var(--accent);
+  color: #fff;
+}
+
+.filler {
+  margin-top: 80px;
+  padding: 40px 0;
+  border-top: 1px solid var(--border);
+  color: #666;
+  font-style: italic;
+}

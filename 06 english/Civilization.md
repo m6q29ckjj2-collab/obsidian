@@ -272,3 +272,73 @@ to tremble 😨🍃
 - Her hands **trembled** as she opened the letter.
 - The ground **trembled** under the marching army.
 - Empires **tremble** when their neighbours grow strong.
+
+eligible ✅📋
+?
+/ˈel.ɪ.dʒə.bəl/ — имеющий право на что-то, подходящий по условиям. Обычно *eligible for smth* / *eligible to do smth*
+- Only coastal cities are **eligible** for this bonus.
+- You're **eligible** for a discount after five years.
+- She wasn't **eligible** to vote yet.
+
+to hinder 🚧🐢
+?
+/ˈhɪn.dɚ/ — мешать, затруднять, тормозить (не останавливать совсем, а замедлять)
+- Rough terrain **hinders** the movement of troops.
+- Bad weather **hindered** the rescue operation.
+- Nothing should **hinder** progress at this stage.
+
+district 🏙️🗺️
+?
+/ˈdɪs.trɪkt/ — район, округ (часть города или страны с особым назначением)
+- The city built a new industrial **district**.
+- She lives in the old **district** near the river.
+- Each **district** gives its own bonus.
+
+warehouse district 📦🏙️
+?
+/ˈwer.haʊs ˈdɪs.trɪkt/ — складской район; квартал складов у порта или железной дороги
+- The **warehouse district** stands right by the docks.
+- Old **warehouse districts** are often turned into lofts.
+- Build a **warehouse district** to store more resources.
+
+naval ⚓🚢
+?
+/ˈneɪ.vəl/ — военно-морской, флотский. ⚠️ от *navy* (флот); не путать с *navel* /ˈneɪ.vəl/ — пупок, звучит одинаково
+- The empire built a strong **naval** force.
+- A **naval** battle decided the whole war.
+- **Naval** units can't enter land tiles.
+
+naval trade ⚓📦
+?
+/ˈneɪ.vəl treɪd/ — морская торговля, торговля по морю
+- Coastal cities grew rich on **naval trade**.
+- **Naval trade** routes are faster but riskier.
+- The harbour opens new **naval trade** options.
+
+to be short on smth 📉🤏
+?
+/ʃɔːrt ɑːn/ — испытывать нехватку чего-то, «не хватает». *short on both* — не хватает и того, и другого
+- We're **short on** food and gold — **short on both**.
+- I'm a bit **short on** time today.
+- The city is **short on** housing.
+
+settlement 🏘️📜
+?
+/ˈset̬.əl.mənt/ — 1) поселение 2) урегулирование, соглашение (спора, конфликта)
+- The first **settlements** appeared near the river.
+- It was a small farming **settlement**.
+- The two sides finally reached a **settlement**.
+
+joyous 😄✨
+?
+/ˈdʒɔɪ.əs/ — радостный, ликующий. Книжное и торжественное; в обычной речи скажут *happy* или *cheerful*
+- It was a **joyous** occasion for the whole town.
+- The crowd let out a **joyous** shout.
+- **Joyous** settlements produce more than happy ones.
+
+X or Xer 📊⬆️
+?
+/ɔːr/ — конструкция «X или лучше», то есть «не ниже X по шкале». Прилагательное + его же сравнительная степень
+- Bonuses apply in **happy or happier** settlements. — Happy и выше
+- Open to students aged sixteen **or older**.
+- Any result **good or better** counts as a pass.

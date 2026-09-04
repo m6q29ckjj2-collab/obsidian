@@ -59,3 +59,21 @@ peculiar 🤨🌀
 - There was a **peculiar** smell in the room.
 - He has a **peculiar** way of walking.
 - It's **peculiar** that nobody noticed.
+
+## Глава 3
+
+whelk 🐚🌊
+?
+/welk/ — морская улитка, брюхоногий моллюск (съедобный, продаётся варёным у моря). ⚠️ читается «уэлк», не «вэлк»
+- They sell **whelks** and chips near the pier.
+- A **whelk** clung to the wet rock.
+- He'd never eaten a **whelk** in his life.
+
+## Разное
+
+caveat ⚠️📝
+?
+/ˈkæv.i.æt/ — оговорка, предостережение; условие, о котором надо помнить. Формальное, из юридического языка
+- I'll agree, with one **caveat**.
+- The report comes with several **caveats**.
+- **Caveat**: these numbers are estimates only.

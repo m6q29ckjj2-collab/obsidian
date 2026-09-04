@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Custom select + portal demo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="content">
+    <h1>Custom select + portal</h1>
+    <p>Меню телепортируется в <code>document.body</code> (портал), чтобы его не обрезал <code>overflow: hidden</code> родителя. Позиционирование — по принципам Floating UI, без самой библиотеки: координаты считаются в системе <b>документа</b> (<code>position: absolute</code>), поэтому при прокрутке страницы меню едет вместе с кнопкой силами браузера, без участия JS.</p>
+
+    <h2>1. Внутри карточки с <code>overflow: hidden</code></h2>
+    <div class="clip-card">
+      <p class="clip-card-label">overflow: hidden — тут меню обрежется без портала</p>
+
+      <div class="custom-select">
+        <button type="button" class="select-btn">
+          <span class="select-value">Выбери вариант</span>
+          <span class="arrow"></span>
+        </button>
+
+        <ul class="select-menu">
+          <li data-value="apple">Яблоко</li>
+          <li data-value="banana">Банан</li>
+          <li data-value="cherry">Вишня</li>
+          <li data-value="grape">Виноград</li>
+          <li data-value="orange">Апельсин</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2>2. Внутри собственного скролл-контейнера</h2>
+    <p class="hint">Тут селект лежит в блоке со своим <code>overflow-y: auto</code>. Меню в этом случае портируется <b>не в <code>body</code>, а в сам этот контейнер</b> — тогда браузер прокручивает его вместе с содержимым нативно, и JS во время скролла не работает вообще. Покрути <b>внутри</b> рамки и <b>всю страницу</b> — меню остаётся приклеенным к кнопке в обоих случаях. Высота меню при этом ограничивается доступным местом (аналог middleware <code>size</code>), чтобы оно не обрезалось краем контейнера.</p>
+
+    <div class="scroll-box">
+      <p>Прокрути этот блок вниз до селекта ↓</p>
+      <div class="scroll-spacer">свободное место</div>
+
+      <div class="custom-select">
+        <button type="button" class="select-btn">
+          <span class="select-value">Выбери город</span>
+          <span class="arrow"></span>
+        </button>
+
+        <ul class="select-menu">
+          <li data-value="msk">Москва</li>
+          <li data-value="spb">Санкт-Петербург</li>
+          <li data-value="nsk">Новосибирск</li>
+          <li data-value="ekb">Екатеринбург</li>
+          <li data-value="kzn">Казань</li>
+        </ul>
+      </div>
+
+      <div class="scroll-spacer">и ещё место снизу</div>
+      <p>Конец внутреннего блока.</p>
+    </div>
+
+    <section class="filler">Прокрути страницу с открытым меню — оно остаётся точно под кнопкой, хотя физически лежит в &lt;body&gt;.</section>
+    <section class="filler">Ещё текста для скролла...</section>
+    <section class="filler">И ещё чуть-чуть...</section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Custom select demo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="content">
+    <h1>Custom select demo</h1>
+    <p>Открой список и покрути страницу колесом — меню никуда не «уплывает» и не отстаёт, потому что оно вообще не следит за скроллом через JS. Оно просто лежит внутри обёртки селекта в обычном потоке документа.</p>
+
+    <div class="custom-select" id="customSelect">
+      <button type="button" class="select-btn" id="selectBtn">
+        <span id="selectValue">Выбери вариант</span>
+        <span class="arrow"></span>
+      </button>
+
+      <ul class="select-menu" id="selectMenu">
+        <li data-value="apple">Яблоко</li>
+        <li data-value="banana">Банан</li>
+        <li data-value="cherry">Вишня</li>
+        <li data-value="grape">Виноград</li>
+        <li data-value="orange">Апельсин</li>
+      </ul>
+    </div>
+
+    <section class="filler">Прокрути ниже — селект едет вместе со страницей, меню остаётся точно под ним.</section>
+    <section class="filler">Ещё немного текста для скролла...</section>
+    <section class="filler">И ещё...</section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

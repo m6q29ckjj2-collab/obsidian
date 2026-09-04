@@ -1,0 +1,114 @@
+:root {
+  --track-height: 60vh;
+  --tracker-size: 22px;
+  --accent: #6c5ce7;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: #0f1115;
+  color: #eaeaea;
+  line-height: 1.6;
+}
+
+/* ---------- полоска прогресса сверху ---------- */
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background: linear-gradient(90deg, var(--accent), #00d2ff);
+  transform-origin: left center;
+  transform: scaleX(0); /* стартовое состояние для JS-fallback */
+  z-index: 100;
+
+  /* --- главный трюк: анимация привязана не ко времени, а к скроллу документа --- */
+  animation: growProgress linear;
+  animation-timeline: scroll(root block);
+}
+
+@keyframes growProgress {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+/* ---------- вертикальный трек и шарик справа ---------- */
+
+.track {
+  position: fixed;
+  top: 50%;
+  right: 32px;
+  height: var(--track-height);
+  width: 2px;
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-50%);
+  z-index: 100;
+}
+
+.tracker {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: var(--tracker-size);
+  height: var(--tracker-size);
+  margin-left: calc(var(--tracker-size) / -2 + 1px);
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 12px var(--accent);
+  transform: translateY(0); /* стартовое состояние для JS-fallback */
+
+  animation: moveDown linear;
+  animation-timeline: scroll(root block);
+}
+
+@keyframes moveDown {
+  from { transform: translateY(0); }
+  to   { transform: translateY(calc(var(--track-height) - var(--tracker-size))); }
+}
+
+/* ---------- контент ---------- */
+
+.content {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 80px 24px 160px;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+}
+
+.block {
+  margin-top: 64px;
+  padding: 24px;
+  background: #1a1d24;
+  border-radius: 12px;
+  border: 1px solid #262a33;
+}
+
+.block h2 {
+  margin-top: 0;
+  color: var(--accent);
+}
+
+code {
+  background: #262a33;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.filler {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+  font-style: italic;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scroll-sync demo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Полоска прогресса скролла сверху страницы -->
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- Вертикальный трек справа, вдоль него едет "шарик" синхронно со скроллом -->
+  <div class="track">
+    <div class="tracker" id="tracker"></div>
+  </div>
+
+  <main class="content">
+    <header class="hero">
+      <h1>Scroll-sync demo</h1>
+      <p>Крути колесо мыши / свайпай вниз. Полоска сверху и шарик справа двигаются <b>в тот же кадр</b>, что и сама страница — без задержки в 1 кадр, которая бывает при обычном подходе через <code>scroll</code>-евент.</p>
+    </header>
+
+    <section class="block">
+      <h2>Секция 1</h2>
+      <p>Основной приём здесь — CSS Scroll-Driven Animations (<code>animation-timeline: scroll()</code>). Анимация в этом случае считается не в JS на главном потоке, а прямо в compositor'е браузера, синхронно с самим актом прокрутки. Поэтому лага нет в принципе — это не "быстрый JS", это другая архитектура: браузер сам привязывает прогресс анимации к scrollTop контейнера.</p>
+    </section>
+
+    <section class="block">
+      <h2>Секция 2</h2>
+      <p>Если браузер не поддерживает <code>animation-timeline</code> (старые Safari/Firefox), скрипт подключает fallback: <code>requestAnimationFrame</code>-цикл, который каждый кадр читает <code>window.scrollY</code> и сразу выставляет <code>transform</code>. Это тоже без диспетчеризации scroll-евентов (они у браузера троттлятся), поэтому тоже плавно, почти без видимого лага, но чуть менее синхронно, чем чистый CSS-путь.</p>
+    </section>
+
+    <section class="block">
+      <h2>Секция 3</h2>
+      <p>Дальше просто много текста, чтобы страница скроллилась подольше и было видно движение трекера от 0% до 100%.</p>
+    </section>
+
+    <section class="block filler" id="filler"></section>
+
+    <section class="block">
+      <h2>Конец</h2>
+      <p>Шарик справа должен быть внизу трека, а полоска сверху — заполнена на 100%.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
