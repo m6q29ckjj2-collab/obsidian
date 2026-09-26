@@ -366,3 +366,58 @@ to hold all the cards ♠️💪
 - In this negotiation, we **hold all the cards**.
 - She knew she **held all the cards** and took her time.
 - Once he had the evidence, he **held all the cards**.
+
+## RU → EN (обратные карточки)
+#flashcards/english/nationaltreasure/ru-en
+
+доверить, поручить на хранение::to entrust
+оставшийся в живых, уцелевший::surviving
+тиран, деспот::tyrant
+военачальник, полевой командир::warlord
+братство::brotherhood
+провозить контрабандой, переправлять тайно::to smuggle
+наследие::legacy
+теория заговора::conspiracy theory
+как таковой, само по себе::per se
+беспечный, пренебрежительный, легкомысленный::cavalier
+достоверный, вызывающий доверие::credible
+информатор, тот, кто даёт наводку::tipster
+взволнованный, растерянный, сбитый с толку::flustered
+заметный, бросающийся в глаза::conspicuous
+сомнительный, вызывающий вопросы::questionable
+помеха, препятствие::hindrance
+договориться, всё организовать::to make arrangements
+цивилизованный, культурный, воспитанный::civilised
+реагент (химическое вещество)::reagent
+старинный, антикварный::antique
+пожертвовать, передать в дар::to donate
+случайность, случай (формальное слово)::happenstance
+соответствовать чему-то::to correspond to
+гравюра::etching
+залог (имущество как обеспечение)::collateral
+суматоха, шум, переполох::commotion
+покинуть, освободить (помещение)::to vacate
+содержание под стражей, опека::custody
+предать сообщника, обмануть после сговора::double-cross
+козырь на переговорах, предмет торга::bargaining chip
+взятка::bribe
+статус-кво, существующее положение дел::status quo
+серьёзность (положения)::gravity
+замечательный, поразительный::remarkable
+термит::termite
+винтовая, извилистая лестница::winding staircase
+шпиль (церковной башни)::steeple
+означать, символизировать::to signify
+миф, вымысел::myth
+заноза::splinter
+гноиться / назревать (о проблеме)::to fester
+вознаграждение нашедшему::finder's fee
+трофеи, добыча, награда::spoils
+незаконное проникновение на чужую территорию::trespassing
+покушение на убийство::attempted murder
+экспозиция, выставка::exhibit
+поместье, усадьба::estate
+переосмыслить, изменить представление::to redefine
+человечество::mankind
+обман, бахвальство / делать вид::bluff
+иметь полное превосходство, контролировать ситуацию::to hold all the cards
