@@ -10,6 +10,7 @@ to entrust 🤝🔑
 - She **entrusted** him with the key.
 - The letter was **entrusted** to a close friend.
 - I wouldn't **entrust** this task to just anyone.
+<!--SR:!2026-09-27,1,230-->
 
 surviving (adj) 🕰️🙁
 ?
@@ -24,6 +25,7 @@ tyrant 👑😠
 - The people rose up against the **tyrant**.
 - He ruled like a **tyrant**.
 - History remembers him as a cruel **tyrant**.
+<!--SR:!2026-09-27,1,230-->
 
 warlord ⚔️🏴
 ?
@@ -31,6 +33,7 @@ warlord ⚔️🏴
 - The region was controlled by a local **warlord**.
 - Rival **warlords** fought for territory.
 - The **warlord** commanded a private army.
+<!--SR:!2026-09-27,1,230-->
 
 brotherhood 🤲🏛️
 ?
@@ -38,6 +41,7 @@ brotherhood 🤲🏛️
 - He joined a secret **brotherhood**.
 - The soldiers felt a strong sense of **brotherhood**.
 - The **brotherhood** kept its rituals hidden.
+<!--SR:!2026-09-27,1,230-->
 
 to smuggle 🚢🤫
 ?
@@ -45,6 +49,7 @@ to smuggle 🚢🤫
 - They tried to **smuggle** goods across the border.
 - The letter was **smuggled** out of the prison.
 - He was caught **smuggling** documents abroad.
+<!--SR:!2026-09-27,1,230-->
 
 legacy 🏺📜
 ?
@@ -59,6 +64,7 @@ conspiracy theory 🕵️❓
 - Nobody believed his **conspiracy theory**.
 - The internet is full of **conspiracy theories**.
 - He dismissed it as just a **conspiracy theory**.
+<!--SR:!2026-09-27,1,230-->
 
 per se 🎯➖
 ?
@@ -75,6 +81,7 @@ cavalier (adj) 😏🚫
 - He was **cavalier** about the risks.
 - She has a **cavalier** attitude toward money.
 - Don't be so **cavalier** with people's feelings.
+<!--SR:!2026-09-27,1,230-->
 
 credible 🧐✅
 ?
@@ -89,6 +96,7 @@ tipster ☎️🗣️
 - The police got a call from an anonymous **tipster**.
 - The **tipster** refused to give their name.
 - Acting on a **tipster**'s call, they searched the house.
+<!--SR:!2026-09-27,1,230-->
 
 flustered 😳💦
 ?
@@ -96,6 +104,7 @@ flustered 😳💦
 - She got **flustered** during the interview.
 - He seemed **flustered** and forgot his lines.
 - Don't get **flustered** — just take your time.
+<!--SR:!2026-09-27,1,230-->
 
 conspicuous 👀🚨
 ?
@@ -103,6 +112,7 @@ conspicuous 👀🚨
 - He felt **conspicuous** in his bright red coat.
 - Try not to look so **conspicuous**.
 - The car was **conspicuous** in the empty lot.
+<!--SR:!2026-09-27,1,230-->
 
 questionable (legality) ⚖️🤔
 ?
@@ -110,6 +120,7 @@ questionable (legality) ⚖️🤔
 - His methods were of **questionable** legality.
 - That's a **questionable** decision.
 - The data quality is **questionable**.
+<!--SR:!2026-09-29,3,250-->
 
 hindrance 🚧😤
 ?
@@ -117,6 +128,7 @@ hindrance 🚧😤
 - His fear was a real **hindrance**.
 - Try not to be a **hindrance** to the team.
 - Lack of sleep became a **hindrance** to his work.
+<!--SR:!2026-09-27,1,230-->
 
 to make arrangements 📋🤝
 ?
@@ -140,6 +152,7 @@ reagent 🧪🔬
 - The **reagent** revealed the hidden ink.
 - Mix the sample with the **reagent**.
 - Handle this **reagent** carefully — it's corrosive.
+<!--SR:!2026-09-27,1,230-->
 
 antique (adj) 🏺🕰️
 ?
@@ -161,6 +174,7 @@ happenstance 🎲✨
 - We met by pure **happenstance**.
 - It was **happenstance**, not planning.
 - Discovered purely by **happenstance**.
+<!--SR:!2026-09-27,1,230-->
 
 to correspond to 🔗➡️
 ?
@@ -168,6 +182,7 @@ to correspond to 🔗➡️
 - Each number **corresponds to** a letter.
 - This code **corresponds to** a page number.
 - The symbol **corresponds to** a specific word.
+<!--SR:!2026-09-27,1,230-->
 
 etching 🖼️✒️
 ?
@@ -175,6 +190,7 @@ etching 🖼️✒️
 - The bill has an **etching** of a building.
 - He collects old **etchings**.
 - The **etching** shows fine detail.
+<!--SR:!2026-09-27,1,230-->
 
 collateral 💰🔒
 ?
@@ -182,6 +198,7 @@ collateral 💰🔒
 - He offered his watch as **collateral**.
 - The bank required **collateral** for the loan.
 - She used the car as **collateral**.
+<!--SR:!2026-09-27,1,230-->
 
 commotion 😵💥
 ?
@@ -196,6 +213,7 @@ to vacate 🚪🏃
 - Please **vacate** the building immediately.
 - Tenants must **vacate** by Friday.
 - They were ordered to **vacate** the area.
+<!--SR:!2026-09-27,1,230-->
 
 custody 👮🔒
 ?
@@ -210,6 +228,7 @@ double-cross 🔪🤝
 - He tried to **double-cross** his partner.
 - Don't trust him — he'll **double-cross** you.
 - She feared a **double-cross**.
+<!--SR:!2026-09-27,1,230-->
 
 bargaining chip ♟️💬
 ?
@@ -224,6 +243,7 @@ bribe 💵🤐
 - He offered the guard a **bribe**.
 - She refused to take the **bribe**.
 - They were caught giving a **bribe**.
+<!--SR:!2026-09-27,1,230-->
 
 ## Часть 4 — Развязка
 
@@ -233,6 +253,7 @@ status quo ⚖️🔄
 - He wanted to change the **status quo**.
 - The deal kept the **status quo**.
 - Everyone was happy with the **status quo**.
+<!--SR:!2026-09-27,1,230-->
 
 gravity (of a situation) ⚠️😨
 ?
@@ -240,6 +261,7 @@ gravity (of a situation) ⚠️😨
 - He didn't understand the **gravity** of the situation.
 - She spoke with the **gravity** it deserved.
 - The **gravity** of his mistake became clear.
+<!--SR:!2026-09-27,1,230-->
 
 remarkable 🌟😲
 ?
@@ -254,6 +276,7 @@ termite 🐜🪵
 - The wood was full of **termite** damage.
 - **Termites** can destroy a house from inside.
 - They found **termites** in the old beams.
+<!--SR:!2026-09-27,1,230-->
 
 winding staircase 🌀🪜
 ?
@@ -261,6 +284,7 @@ winding staircase 🌀🪜
 - They climbed the **winding staircase** to the tower.
 - The **winding staircase** led underground.
 - She got dizzy on the **winding staircase**.
+<!--SR:!2026-09-27,1,230-->
 
 steeple 🏛️⬆️
 ?
@@ -282,6 +306,7 @@ myth 📖❌
 - The story turned out to be a **myth**.
 - It's a common **myth** that we use only 10% of our brain.
 - The legend was dismissed as a **myth**.
+<!--SR:!2026-09-27,1,230-->
 
 splinter 🪵😖
 ?
@@ -289,6 +314,7 @@ splinter 🪵😖
 - He got a **splinter** in his hand.
 - She pulled the **splinter** out carefully.
 - A tiny **splinter** can really hurt.
+<!--SR:!2026-09-27,1,230-->
 
 to fester 🤕⏳
 ?
@@ -296,6 +322,7 @@ to fester 🤕⏳
 - The wound began to **fester**.
 - Old resentments **festered** for years.
 - Don't let the problem **fester** — deal with it now.
+<!--SR:!2026-09-27,1,230-->
 
 finder's fee 🔍💰
 ?
@@ -303,6 +330,7 @@ finder's fee 🔍💰
 - He was offered a generous **finder's fee**.
 - She collected a **finder's fee** for the lost ring.
 - They negotiated the **finder's fee** in advance.
+<!--SR:!2026-09-27,1,230-->
 
 spoils 🏆💎
 ?
@@ -324,6 +352,7 @@ attempted murder 🔫⚖️
 - He was charged with **attempted murder**.
 - The case involved **attempted murder** charges.
 - She survived the **attempted murder**.
+<!--SR:!2026-09-27,1,230-->
 
 exhibit 🖼️🏛️
 ?
@@ -331,6 +360,7 @@ exhibit 🖼️🏛️
 - The museum opened a new **exhibit**.
 - This **exhibit** features ancient artefacts.
 - Thousands visited the **exhibit** on its first day.
+<!--SR:!2026-09-27,1,230-->
 
 estate 🏡🌳
 ?
@@ -338,6 +368,7 @@ estate 🏡🌳
 - He bought a huge country **estate**.
 - The family **estate** has been theirs for generations.
 - They held the wedding on the **estate**.
+<!--SR:!2026-09-27,1,230-->
 
 to redefine 🔄📚
 ?
@@ -345,6 +376,7 @@ to redefine 🔄📚
 - The discovery **redefined** what we know about history.
 - This technology could **redefine** the industry.
 - Her work **redefined** the genre.
+<!--SR:!2026-09-27,1,230-->
 
 mankind 🌍🧑‍🤝‍🧑
 ?
@@ -352,6 +384,7 @@ mankind 🌍🧑‍🤝‍🧑
 - It was a discovery that would benefit all **mankind**.
 - The invention changed the course of **mankind**.
 - Some threats endanger all of **mankind**.
+<!--SR:!2026-09-27,1,230-->
 
 bluff 🃏😐
 ?
@@ -359,6 +392,7 @@ bluff 🃏😐
 - He was just trying to **bluff** his way out.
 - Nobody could tell if she was **bluffing**.
 - His confidence was just a **bluff**.
+<!--SR:!2026-09-29,3,250-->
 
 to hold all the cards ♠️💪
 ?
@@ -366,6 +400,7 @@ to hold all the cards ♠️💪
 - In this negotiation, we **hold all the cards**.
 - She knew she **held all the cards** and took her time.
 - Once he had the evidence, he **held all the cards**.
+<!--SR:!2026-09-27,1,230-->
 
 ## RU → EN (обратные карточки)
 #flashcards/english/nationaltreasure/ru-en
