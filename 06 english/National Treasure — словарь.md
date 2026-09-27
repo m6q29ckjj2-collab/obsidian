@@ -10,6 +10,7 @@ to entrust 🤝🔑
 - She **entrusted** him with the key.
 - The letter was **entrusted** to a close friend.
 - I wouldn't **entrust** this task to just anyone.
+![[audio/entrust.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 surviving (adj) 🕰️🙁
@@ -18,6 +19,7 @@ surviving (adj) 🕰️🙁
 - He's the last **surviving** member of the group.
 - Few **surviving** documents mention the event.
 - Her **surviving** relatives live abroad.
+![[audio/surviving.m4a]]
 
 tyrant 👑😠
 ?
@@ -25,6 +27,7 @@ tyrant 👑😠
 - The people rose up against the **tyrant**.
 - He ruled like a **tyrant**.
 - History remembers him as a cruel **tyrant**.
+![[audio/tyrant.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 warlord ⚔️🏴
@@ -33,6 +36,7 @@ warlord ⚔️🏴
 - The region was controlled by a local **warlord**.
 - Rival **warlords** fought for territory.
 - The **warlord** commanded a private army.
+![[audio/warlord.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 brotherhood 🤲🏛️
@@ -41,6 +45,7 @@ brotherhood 🤲🏛️
 - He joined a secret **brotherhood**.
 - The soldiers felt a strong sense of **brotherhood**.
 - The **brotherhood** kept its rituals hidden.
+![[audio/brotherhood.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 to smuggle 🚢🤫
@@ -49,6 +54,7 @@ to smuggle 🚢🤫
 - They tried to **smuggle** goods across the border.
 - The letter was **smuggled** out of the prison.
 - He was caught **smuggling** documents abroad.
+![[audio/smuggle.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 legacy 🏺📜
@@ -57,6 +63,7 @@ legacy 🏺📜
 - He left behind a great **legacy**.
 - This is part of the family's **legacy**.
 - Her scientific **legacy** lives on.
+![[audio/legacy.m4a]]
 
 conspiracy theory 🕵️❓
 ?
@@ -64,6 +71,7 @@ conspiracy theory 🕵️❓
 - Nobody believed his **conspiracy theory**.
 - The internet is full of **conspiracy theories**.
 - He dismissed it as just a **conspiracy theory**.
+![[audio/conspiracy-theory.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 per se 🎯➖
@@ -72,6 +80,7 @@ per se 🎯➖
 - It's not dangerous, **per se**, just unusual.
 - The idea itself isn't bad, **per se**.
 - Not illegal **per se**, but risky.
+![[audio/per-se.m4a]]
 
 ## Часть 2 — Подготовка к кражe
 
@@ -81,6 +90,7 @@ cavalier (adj) 😏🚫
 - He was **cavalier** about the risks.
 - She has a **cavalier** attitude toward money.
 - Don't be so **cavalier** with people's feelings.
+![[audio/cavalier.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 credible 🧐✅
@@ -89,6 +99,7 @@ credible 🧐✅
 - His story didn't sound very **credible**.
 - We need **credible** evidence.
 - She's a **credible** witness.
+![[audio/credible.m4a]]
 
 tipster ☎️🗣️
 ?
@@ -96,6 +107,7 @@ tipster ☎️🗣️
 - The police got a call from an anonymous **tipster**.
 - The **tipster** refused to give their name.
 - Acting on a **tipster**'s call, they searched the house.
+![[audio/tipster.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 flustered 😳💦
@@ -104,6 +116,7 @@ flustered 😳💦
 - She got **flustered** during the interview.
 - He seemed **flustered** and forgot his lines.
 - Don't get **flustered** — just take your time.
+![[audio/flustered.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 conspicuous 👀🚨
@@ -112,6 +125,7 @@ conspicuous 👀🚨
 - He felt **conspicuous** in his bright red coat.
 - Try not to look so **conspicuous**.
 - The car was **conspicuous** in the empty lot.
+![[audio/conspicuous.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 questionable (legality) ⚖️🤔
@@ -120,6 +134,7 @@ questionable (legality) ⚖️🤔
 - His methods were of **questionable** legality.
 - That's a **questionable** decision.
 - The data quality is **questionable**.
+![[audio/questionable.m4a]]
 <!--SR:!2026-09-29,3,250-->
 
 hindrance 🚧😤
@@ -128,6 +143,7 @@ hindrance 🚧😤
 - His fear was a real **hindrance**.
 - Try not to be a **hindrance** to the team.
 - Lack of sleep became a **hindrance** to his work.
+![[audio/hindrance.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 to make arrangements 📋🤝
@@ -136,6 +152,7 @@ to make arrangements 📋🤝
 - I'll **make arrangements** for the trip.
 - She **made arrangements** to meet him later.
 - Leave it to me — I'll handle the **arrangements**.
+![[audio/make-arrangements.m4a]]
 
 civilised 🎩🍷
 ?
@@ -143,6 +160,7 @@ civilised 🎩🍷
 - Let's discuss this in a **civilised** manner.
 - That's not a very **civilised** way to behave.
 - He acted more **civilised** than expected.
+![[audio/civilised.m4a]]
 
 ## Часть 3 — Шифры и погоня
 
@@ -152,6 +170,7 @@ reagent 🧪🔬
 - The **reagent** revealed the hidden ink.
 - Mix the sample with the **reagent**.
 - Handle this **reagent** carefully — it's corrosive.
+![[audio/reagent.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 antique (adj) 🏺🕰️
@@ -160,6 +179,7 @@ antique (adj) 🏺🕰️
 - She collects **antique** furniture.
 - It's an **antique** desk from the 1800s.
 - He sold the **antique** clock for a fortune.
+![[audio/antique.m4a]]
 
 to donate 🎁🤲
 ?
@@ -167,6 +187,7 @@ to donate 🎁🤲
 - He **donated** the letters to a museum.
 - They **donated** money to charity.
 - She plans to **donate** her collection.
+![[audio/donate.m4a]]
 
 happenstance 🎲✨
 ?
@@ -174,6 +195,7 @@ happenstance 🎲✨
 - We met by pure **happenstance**.
 - It was **happenstance**, not planning.
 - Discovered purely by **happenstance**.
+![[audio/happenstance.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 to correspond to 🔗➡️
@@ -182,6 +204,7 @@ to correspond to 🔗➡️
 - Each number **corresponds to** a letter.
 - This code **corresponds to** a page number.
 - The symbol **corresponds to** a specific word.
+![[audio/correspond-to.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 etching 🖼️✒️
@@ -190,6 +213,7 @@ etching 🖼️✒️
 - The bill has an **etching** of a building.
 - He collects old **etchings**.
 - The **etching** shows fine detail.
+![[audio/etching.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 collateral 💰🔒
@@ -198,6 +222,7 @@ collateral 💰🔒
 - He offered his watch as **collateral**.
 - The bank required **collateral** for the loan.
 - She used the car as **collateral**.
+![[audio/collateral.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 commotion 😵💥
@@ -206,6 +231,7 @@ commotion 😵💥
 - There was a huge **commotion** outside.
 - The fire caused quite a **commotion**.
 - What's all this **commotion** about?
+![[audio/commotion.m4a]]
 
 to vacate 🚪🏃
 ?
@@ -213,6 +239,7 @@ to vacate 🚪🏃
 - Please **vacate** the building immediately.
 - Tenants must **vacate** by Friday.
 - They were ordered to **vacate** the area.
+![[audio/vacate.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 custody 👮🔒
@@ -221,6 +248,7 @@ custody 👮🔒
 - He was taken into police **custody**.
 - She has full **custody** of the children.
 - The suspect is in FBI **custody**.
+![[audio/custody.m4a]]
 
 double-cross 🔪🤝
 ?
@@ -228,6 +256,7 @@ double-cross 🔪🤝
 - He tried to **double-cross** his partner.
 - Don't trust him — he'll **double-cross** you.
 - She feared a **double-cross**.
+![[audio/double-cross.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 bargaining chip ♟️💬
@@ -236,6 +265,7 @@ bargaining chip ♟️💬
 - The hostage became a **bargaining chip**.
 - He used the documents as a **bargaining chip**.
 - That information is our only **bargaining chip**.
+![[audio/bargaining-chip.m4a]]
 
 bribe 💵🤐
 ?
@@ -243,6 +273,7 @@ bribe 💵🤐
 - He offered the guard a **bribe**.
 - She refused to take the **bribe**.
 - They were caught giving a **bribe**.
+![[audio/bribe.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 ## Часть 4 — Развязка
@@ -253,6 +284,7 @@ status quo ⚖️🔄
 - He wanted to change the **status quo**.
 - The deal kept the **status quo**.
 - Everyone was happy with the **status quo**.
+![[audio/status-quo.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 gravity (of a situation) ⚠️😨
@@ -261,6 +293,7 @@ gravity (of a situation) ⚠️😨
 - He didn't understand the **gravity** of the situation.
 - She spoke with the **gravity** it deserved.
 - The **gravity** of his mistake became clear.
+![[audio/gravity.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 remarkable 🌟😲
@@ -269,6 +302,7 @@ remarkable 🌟😲
 - It was a truly **remarkable** discovery.
 - She has a **remarkable** memory.
 - What a **remarkable** view!
+![[audio/remarkable.m4a]]
 
 termite 🐜🪵
 ?
@@ -276,6 +310,7 @@ termite 🐜🪵
 - The wood was full of **termite** damage.
 - **Termites** can destroy a house from inside.
 - They found **termites** in the old beams.
+![[audio/termite.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 winding staircase 🌀🪜
@@ -284,6 +319,7 @@ winding staircase 🌀🪜
 - They climbed the **winding staircase** to the tower.
 - The **winding staircase** led underground.
 - She got dizzy on the **winding staircase**.
+![[audio/winding-staircase.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 steeple 🏛️⬆️
@@ -292,6 +328,7 @@ steeple 🏛️⬆️
 - The church **steeple** could be seen for miles.
 - A bell hung in the **steeple**.
 - Lightning struck the **steeple**.
+![[audio/steeple.m4a]]
 
 to signify 🔔➡️
 ?
@@ -299,6 +336,7 @@ to signify 🔔➡️
 - The gesture **signifies** respect.
 - This symbol **signifies** danger.
 - The bell **signified** the start of the ceremony.
+![[audio/signify.m4a]]
 
 myth 📖❌
 ?
@@ -306,6 +344,7 @@ myth 📖❌
 - The story turned out to be a **myth**.
 - It's a common **myth** that we use only 10% of our brain.
 - The legend was dismissed as a **myth**.
+![[audio/myth.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 splinter 🪵😖
@@ -314,6 +353,7 @@ splinter 🪵😖
 - He got a **splinter** in his hand.
 - She pulled the **splinter** out carefully.
 - A tiny **splinter** can really hurt.
+![[audio/splinter.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 to fester 🤕⏳
@@ -322,6 +362,7 @@ to fester 🤕⏳
 - The wound began to **fester**.
 - Old resentments **festered** for years.
 - Don't let the problem **fester** — deal with it now.
+![[audio/fester.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 finder's fee 🔍💰
@@ -330,6 +371,7 @@ finder's fee 🔍💰
 - He was offered a generous **finder's fee**.
 - She collected a **finder's fee** for the lost ring.
 - They negotiated the **finder's fee** in advance.
+![[audio/finder-s-fee.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 spoils 🏆💎
@@ -338,6 +380,7 @@ spoils 🏆💎
 - They divided the **spoils** among themselves.
 - Enjoy the **spoils** of your success.
 - The **spoils** of war were shared unequally.
+![[audio/spoils.m4a]]
 
 trespassing 🚫🚶
 ?
@@ -345,6 +388,7 @@ trespassing 🚫🚶
 - He was arrested for **trespassing**.
 - No **trespassing** — private property.
 - They were charged with **trespassing** on government land.
+![[audio/trespassing.m4a]]
 
 attempted murder 🔫⚖️
 ?
@@ -352,6 +396,7 @@ attempted murder 🔫⚖️
 - He was charged with **attempted murder**.
 - The case involved **attempted murder** charges.
 - She survived the **attempted murder**.
+![[audio/attempted-murder.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 exhibit 🖼️🏛️
@@ -360,6 +405,7 @@ exhibit 🖼️🏛️
 - The museum opened a new **exhibit**.
 - This **exhibit** features ancient artefacts.
 - Thousands visited the **exhibit** on its first day.
+![[audio/exhibit.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 estate 🏡🌳
@@ -368,6 +414,7 @@ estate 🏡🌳
 - He bought a huge country **estate**.
 - The family **estate** has been theirs for generations.
 - They held the wedding on the **estate**.
+![[audio/estate.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 to redefine 🔄📚
@@ -376,6 +423,7 @@ to redefine 🔄📚
 - The discovery **redefined** what we know about history.
 - This technology could **redefine** the industry.
 - Her work **redefined** the genre.
+![[audio/redefine.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 mankind 🌍🧑‍🤝‍🧑
@@ -384,6 +432,7 @@ mankind 🌍🧑‍🤝‍🧑
 - It was a discovery that would benefit all **mankind**.
 - The invention changed the course of **mankind**.
 - Some threats endanger all of **mankind**.
+![[audio/mankind.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 bluff 🃏😐
@@ -392,6 +441,7 @@ bluff 🃏😐
 - He was just trying to **bluff** his way out.
 - Nobody could tell if she was **bluffing**.
 - His confidence was just a **bluff**.
+![[audio/bluff.m4a]]
 <!--SR:!2026-09-29,3,250-->
 
 to hold all the cards ♠️💪
@@ -400,6 +450,7 @@ to hold all the cards ♠️💪
 - In this negotiation, we **hold all the cards**.
 - She knew she **held all the cards** and took her time.
 - Once he had the evidence, he **held all the cards**.
+![[audio/hold-all-the-cards.m4a]]
 <!--SR:!2026-09-27,1,230-->
 
 ## RU → EN (обратные карточки)
