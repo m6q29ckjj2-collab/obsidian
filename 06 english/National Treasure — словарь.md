@@ -1,4 +1,4 @@
-#flashcards/english #flashcards/english/nationaltreasure
+#flashcards/english #flashcards/english/nationaltreasure/en-ru
 
 ← [[National Treasure — субтитры (EN)]]
 
