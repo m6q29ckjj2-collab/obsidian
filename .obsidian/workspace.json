@@ -35,7 +35,8 @@
               "title": "National Treasure — словарь"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -249,10 +250,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1be5cbaa06221f3c",
+  "active": "56d27461bb5c4f79",
   "lastOpenFiles": [
-    "06 english/National Treasure — словарь.md",
     "06 english/National Treasure — рассказ со словами.md",
+    "06 english/National Treasure — словарь.md",
     "06 english/Life is Strange.md",
     "06 english/audio/story.m4a",
     "06 english/Модуль 5.md",
