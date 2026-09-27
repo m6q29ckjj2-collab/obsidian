@@ -507,3 +507,75 @@ to hold all the cards ♠️💪
 человечество::mankind
 обман, бахвальство / делать вид::bluff
 иметь полное превосходство, контролировать ситуацию::to hold all the cards
+
+## Ещё слова из примеров
+
+resentment 😠⏳
+?
+/rɪˈzentmənt/ — обида, негодование, накопленное недовольство
+- Years of **resentment** built up between them.
+- She couldn't hide her **resentment** at being overlooked.
+- Old **resentments** festered for years.
+
+rival 🥊⚖️
+?
+/ˈraɪvəl/ — соперник, конкурент
+- The two companies are bitter **rivals**.
+- He easily beat his closest **rival**.
+- Their **rival** team won the championship.
+
+to dismiss 🙅🧠
+?
+/dɪsˈmɪs/ — отвергать, не принимать во внимание
+- He **dismissed** the idea as impossible.
+- She **dismissed** his warning without a second thought.
+- Critics **dismissed** the theory early on.
+
+corrosive 🧪⚠️
+?
+/kəˈroʊsɪv/ — разрушающий, коррозийный (химически агрессивный)
+- The **corrosive** liquid damaged the metal surface.
+- Rust is caused by a slow **corrosive** process.
+- Handle **corrosive** chemicals with gloves.
+
+hostage 🔒😨
+?
+/ˈhɑːstɪdʒ/ — заложник
+- The gunman took two **hostages**.
+- They negotiated the **hostage**'s release.
+- She was held **hostage** for three days.
+
+to strike (struck) ⚡🔨
+?
+/straɪk/ — ударить; (о молнии) поразить, ударить
+- Lightning **struck** the old tree.
+- He **struck** the nail with a hammer.
+- The ship **struck** a rock and sank.
+
+artefact 🏺🔍
+?
+/ˈɑːrtɪfækt/ — артефакт, предмет старины
+- The museum displayed ancient **artefacts**.
+- Archaeologists found several **artefacts** at the site.
+- Each **artefact** told part of the story.
+
+to endanger ⚠️🐾
+?
+/ɪnˈdeɪndʒər/ — подвергать опасности
+- Reckless driving **endangers** other people.
+- Pollution **endangers** marine life.
+- His actions **endangered** the whole mission.
+
+tenant 🏠📝
+?
+/ˈtenənt/ — арендатор, квартиросъёмщик
+- The **tenant** paid rent every month.
+- The landlord raised the **tenant**'s rent.
+- Several **tenants** complained about the noise.
+
+to negotiate 🤝💬
+?
+/nɪˈɡoʊʃieɪt/ — вести переговоры, договариваться
+- They **negotiated** a better price.
+- She **negotiated** her way out of trouble.
+- The two sides **negotiated** for hours.
