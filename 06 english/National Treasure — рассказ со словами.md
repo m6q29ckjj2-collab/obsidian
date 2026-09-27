@@ -1,5 +1,7 @@
 ## The Last Tenant
 
+![[audio/story.m4a]]
+
 Marla Voss had covered small-town crime for eleven years, but nothing had prepared her for the story that would **redefine** her career.
 
 It started with a call from an anonymous **tipster** who claimed to have **credible** proof that Gideon Hale — the town's most **conspicuous** landlord — was hiding something inside his family **estate**.
