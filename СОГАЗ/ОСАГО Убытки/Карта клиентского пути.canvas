@@ -1,666 +1,81 @@
 {
- "nodes": [
-  {
-   "id": "g_ext",
-   "type": "group",
-   "label": "Внешние входы",
-   "x": -1360,
-   "y": -140,
-   "width": 400,
-   "height": 1300,
-   "color": "6"
-  },
-  {
-   "id": "g_start",
-   "type": "group",
-   "label": "Старт",
-   "x": -880,
-   "y": -140,
-   "width": 1180,
-   "height": 1300,
-   "color": "5"
-  },
-  {
-   "id": "g_hub",
-   "type": "group",
-   "label": "Хаб и шаги черновика",
-   "x": 380,
-   "y": -620,
-   "width": 1840,
-   "height": 1500,
-   "color": "3"
-  },
-  {
-   "id": "g_tail",
-   "type": "group",
-   "label": "Оформление и отправка",
-   "x": 380,
-   "y": 940,
-   "width": 2600,
-   "height": 620,
-   "color": "4"
-  },
-  {
-   "id": "sos",
-   "type": "text",
-   "text": "**Таб SOS**\n`DisasterScreen`\nсобытие `slug = osago`\n→ флаг `osago_losses`, иначе webview",
-   "x": -1320,
-   "y": -100,
-   "width": 320,
-   "height": 170,
-   "color": "6"
-  },
-  {
-   "id": "connect",
-   "type": "text",
-   "text": "**Connect → ReportInsuranceScreen**\nсобытие `slug = osago`\n→ флаг, иначе webview",
-   "x": -1320,
-   "y": 100,
-   "width": 320,
-   "height": 170,
-   "color": "6"
-  },
-  {
-   "id": "ptab",
-   "type": "text",
-   "text": "**PolicyDetails**\nвкладка «Страховые случаи»\nкнопка для OSAGO (флаг)",
-   "x": -1320,
-   "y": 300,
-   "width": 320,
-   "height": 170,
-   "color": "6"
-  },
-  {
-   "id": "pdata",
-   "type": "text",
-   "text": "**PolicyDetails**\nвкладка «Данные»\nячейка `declareOsagoLosses` (флаг)",
-   "x": -1320,
-   "y": 500,
-   "width": 320,
-   "height": 170,
-   "color": "6"
-  },
-  {
-   "id": "dl",
-   "type": "text",
-   "text": "**Deeplink**\n`/losses/osago`\n`/losses/osago/:draftId`\n`reset([RootTabs, Initial])`\n⚠️ без проверки флага",
-   "x": -1320,
-   "y": 700,
-   "width": 320,
-   "height": 190,
-   "color": "6"
-  },
-  {
-   "id": "extnote",
-   "type": "text",
-   "text": "[[01 Внешние входы]]",
-   "x": -1320,
-   "y": 930,
-   "width": 320,
-   "height": 60
-  },
-  {
-   "id": "init",
-   "type": "text",
-   "text": "### [[OsagoLossesInitialScreen]]\nQ1: оформили ДТП?\nQ2: пострадавший или виновный?\n`POST claims/draft` | `GET drafts/{id}`",
-   "x": -840,
-   "y": 300,
-   "width": 320,
-   "height": 200,
-   "color": "5"
-  },
-  {
-   "id": "bs_ep",
-   "type": "text",
-   "text": "**BS «Сначала оформите ДТП»**\n→ gosuslugi.ru/europrotokol\n→ звонок 112",
-   "x": -840,
-   "y": -100,
-   "width": 320,
-   "height": 130,
-   "color": "1"
-  },
-  {
-   "id": "bs_guilty",
-   "type": "text",
-   "text": "**BS «Вы виновник»**\nсообщать не нужно\n«Вернуться на главную» = `goBack`",
-   "x": -840,
-   "y": 640,
-   "width": 320,
-   "height": 140,
-   "color": "1"
-  },
-  {
-   "id": "gu",
-   "type": "text",
-   "text": "### [[OsagoLossesInitialScreenGU]]\nВойти через Госуслуги?\n(нет `oid`)",
-   "x": -400,
-   "y": 640,
-   "width": 320,
-   "height": 160,
-   "color": "5"
-  },
-  {
-   "id": "esia",
-   "type": "text",
-   "text": "**GenericWebview ЕСИА**\n`postLoginRedirect = /losses/osago/:draftId`",
-   "x": -400,
-   "y": 900,
-   "width": 320,
-   "height": 130,
-   "color": "6"
-  },
-  {
-   "id": "check",
-   "type": "text",
-   "text": "### [[OsagoLossesCheckProfileDataScreen]]\nданные заявителя\n`PATCH stepApplicant`\n`PATCH stepApplicationSelected = false×3`",
-   "x": -400,
-   "y": 300,
-   "width": 320,
-   "height": 200,
-   "color": "5"
-  },
-  {
-   "id": "res",
-   "type": "text",
-   "text": "## [[OsagoLossesResultantScreen]]\n**ХАБ**\nсводка шагов\n«Продолжить» = виновник ∧ ДТП ∧ ≥1 ущерб",
-   "x": 420,
-   "y": 300,
-   "width": 360,
-   "height": 220,
-   "color": "3"
-  },
-  {
-   "id": "rbs",
-   "type": "text",
-   "text": "### [[OsagoLossesRouterBottomSheet]]\n«Есть незавершённое заявление»\nПродолжить | Начать заново\n(`DELETE` + `POST`)",
-   "x": 420,
-   "y": -40,
-   "width": 360,
-   "height": 180,
-   "color": "3"
-  },
-  {
-   "id": "sp",
-   "type": "text",
-   "text": "### [[OsagoLossesSecondParticipantScreen]]\nВиновник ДТП\n`POST info/transport` (blur)\n`PATCH stepSecondParticipant`",
-   "x": 960,
-   "y": -580,
-   "width": 320,
-   "height": 190
-  },
-  {
-   "id": "nopol",
-   "type": "text",
-   "text": "**BS «У виновника нет ОСАГО»**\nвыплата невозможна",
-   "x": 1400,
-   "y": -580,
-   "width": 320,
-   "height": 110,
-   "color": "1"
-  },
-  {
-   "id": "inc",
-   "type": "text",
-   "text": "### [[OsagoLossesIncidentDataScreen]]\nДанные о ДТП + файлы\n`PATCH stepAccidentDetails`\n`PATCH files.AccidentDetails`",
-   "x": 960,
-   "y": -340,
-   "width": 320,
-   "height": 190
-  },
-  {
-   "id": "map",
-   "type": "text",
-   "text": "### [[OsagoLossesAccidentMapScreen]]\nместо на карте\n`POST geolocate/address`\n→ Redux → назад",
-   "x": 1400,
-   "y": -340,
-   "width": 320,
-   "height": 170
-  },
-  {
-   "id": "vd",
-   "type": "text",
-   "text": "### [[OsagoLossesVehicleDamageScreen]]\nУщерб ТС: полис, собственник, водитель, возмещение\n4×PATCH (+signType)",
-   "x": 960,
-   "y": -100,
-   "width": 320,
-   "height": 200
-  },
-  {
-   "id": "av",
-   "type": "text",
-   "text": "### [[OsagoLossesAddVehicleScreen]]\nпоиск ТС по ГРЗ/VIN/кузову/шасси\n`POST info/transport`",
-   "x": 1400,
-   "y": -100,
-   "width": 320,
-   "height": 170
-  },
-  {
-   "id": "avf",
-   "type": "text",
-   "text": "### [[OsagoLossesAddVehicleFormScreen]]\nручной ввод ТС\n`PATCH stepVehicleDamage`",
-   "x": 1820,
-   "y": -100,
-   "width": 320,
-   "height": 170
-  },
-  {
-   "id": "prop",
-   "type": "text",
-   "text": "### [[OsagoLossesPropertyDamageScreen]]\nУщерб имуществу\n(флаг `…property_damage`)\n4×PATCH (+signType)",
-   "x": 960,
-   "y": 160,
-   "width": 320,
-   "height": 190
-  },
-  {
-   "id": "health",
-   "type": "text",
-   "text": "### [[OsagoLossesHealthDamageScreen]]\nВред жизни/здоровью\n(⚠️ тоже флаг property)\n3×PATCH",
-   "x": 960,
-   "y": 400,
-   "width": 320,
-   "height": 190
-  },
-  {
-   "id": "svc",
-   "type": "text",
-   "text": "### [[OsagoLossesServiceMapScreen]]\n⚠️ недостижим, моки СТОА",
-   "x": 1820,
-   "y": 400,
-   "width": 320,
-   "height": 130,
-   "color": "1"
-  },
-  {
-   "id": "si1",
-   "type": "text",
-   "text": "### [[OsagoLossesSelfInspectionScreen]]\n1/3 спереди и сзади (≥2)",
-   "x": 420,
-   "y": 1000,
-   "width": 320,
-   "height": 150,
-   "color": "4"
-  },
-  {
-   "id": "si2",
-   "type": "text",
-   "text": "### [[OsagoLossesSelfInspectionVinScreen]]\n2/3 VIN и пробег (≥1)",
-   "x": 840,
-   "y": 1000,
-   "width": 320,
-   "height": 150,
-   "color": "4"
-  },
-  {
-   "id": "si3",
-   "type": "text",
-   "text": "### [[OsagoLossesSelfInspectionDamageScreen]]\n3/3 повреждения + место\n`PATCH stepPhotoDamage`",
-   "x": 1260,
-   "y": 1000,
-   "width": 320,
-   "height": 170,
-   "color": "4"
-  },
-  {
-   "id": "bank",
-   "type": "text",
-   "text": "### [[OsagoLossesBankDetailsScreen]]\nреквизиты или почта + получатель\n`PATCH stepBankDetails`",
-   "x": 1680,
-   "y": 1300,
-   "width": 320,
-   "height": 170,
-   "color": "4"
-  },
-  {
-   "id": "sign",
-   "type": "text",
-   "text": "### [[OsagoLossesDocumentSignScreen]]\nпечатные формы, согласия, pep/goskey/ukep\n`PATCH stepPrintForm`\n`POST applications/submit`",
-   "x": 2100,
-   "y": 1000,
-   "width": 320,
-   "height": 210,
-   "color": "4"
-  },
-  {
-   "id": "ok",
-   "type": "text",
-   "text": "### [[OsagoLossesSuccessScreen]]\n«Заявление отправлено!»\n`claimId`, `extDocNumber`",
-   "x": 2560,
-   "y": 960,
-   "width": 320,
-   "height": 160,
-   "color": "4"
-  },
-  {
-   "id": "fail",
-   "type": "text",
-   "text": "### [[OsagoLossesFailureScreen]]\n«Не смогли подписать»",
-   "x": 2560,
-   "y": 1260,
-   "width": 320,
-   "height": 130,
-   "color": "1"
-  },
-  {
-   "id": "claimwv",
-   "type": "text",
-   "text": "**GenericWebview «Детали убытка»**\n| RootTabs → Health",
-   "x": 2560,
-   "y": 700,
-   "width": 320,
-   "height": 110,
-   "color": "6"
-  },
-  {
-   "id": "legend",
-   "type": "text",
-   "text": "**Легенда**\n🟪 внешний мир / выходы\n🟦 старт\n🟨 хаб\n⬜ шаги черновика (возврат на хаб)\n🟩 оформление\n🟥 тупики, ошибки, мёртвый код\n\n[[00 Обзор]] · [[02 Флоу и навигация]]",
-   "x": -1360,
-   "y": 1200,
-   "width": 400,
-   "height": 260
-  }
- ],
- "edges": [
-  {
-   "id": "e0",
-   "fromNode": "sos",
-   "toNode": "init",
-   "fromSide": "right",
-   "toSide": "left",
-   "label": "флаг вкл"
-  },
-  {
-   "id": "e1",
-   "fromNode": "connect",
-   "toNode": "init",
-   "fromSide": "right",
-   "toSide": "left",
-   "label": "флаг вкл"
-  },
-  {
-   "id": "e2",
-   "fromNode": "ptab",
-   "toNode": "init",
-   "fromSide": "right",
-   "toSide": "left",
-   "label": "флаг вкл"
-  },
-  {
-   "id": "e3",
-   "fromNode": "pdata",
-   "toNode": "init",
-   "fromSide": "right",
-   "toSide": "left",
-   "label": "флаг вкл"
-  },
-  {
-   "id": "e4",
-   "fromNode": "dl",
-   "toNode": "init",
-   "fromSide": "right",
-   "toSide": "left",
-   "label": "reset (+draftId)"
-  },
-  {
-   "id": "e5",
-   "fromNode": "init",
-   "toNode": "bs_ep",
-   "fromSide": "top",
-   "toSide": "bottom",
-   "label": "Q1: нет"
-  },
-  {
-   "id": "e6",
-   "fromNode": "init",
-   "toNode": "bs_guilty",
-   "fromSide": "bottom",
-   "toSide": "top",
-   "label": "Q2: виновный"
-  },
-  {
-   "id": "e7",
-   "fromNode": "init",
-   "toNode": "check",
-   "fromSide": "right",
-   "toSide": "left",
-   "label": "пострадавший + oid · replace"
-  },
-  {
-   "id": "e8",
-   "fromNode": "init",
-   "toNode": "gu",
-   "fromSide": "bottom",
-   "toSide": "left",
-   "label": "пострадавший, нет oid · replace"
-  },
-  {
-   "id": "e9",
-   "fromNode": "init",
-   "toNode": "res",
-   "fromSide": "top",
-   "toSide": "left",
-   "label": "черновик со stepApplicant · replace + шторка"
-  },
-  {
-   "id": "e10",
-   "fromNode": "gu",
-   "toNode": "check",
-   "fromSide": "top",
-   "toSide": "bottom",
-   "label": "Продолжить · replace"
-  },
-  {
-   "id": "e11",
-   "fromNode": "gu",
-   "toNode": "esia",
-   "fromSide": "bottom",
-   "toSide": "top",
-   "label": "Войти через ГУ"
-  },
-  {
-   "id": "e12",
-   "fromNode": "esia",
-   "toNode": "dl",
-   "fromSide": "left",
-   "toSide": "right",
-   "label": "после логина: deeplink"
-  },
-  {
-   "id": "e13",
-   "fromNode": "check",
-   "toNode": "res",
-   "fromSide": "right",
-   "toSide": "left",
-   "label": "сохранить · replace"
-  },
-  {
-   "id": "e14",
-   "fromNode": "res",
-   "toNode": "rbs",
-   "fromSide": "top",
-   "toSide": "bottom"
-  },
-  {
-   "id": "e15",
-   "fromNode": "rbs",
-   "toNode": "init",
-   "fromSide": "left",
-   "toSide": "top",
-   "label": "Начать заново · replace"
-  },
-  {
-   "id": "e16",
-   "fromNode": "res",
-   "toNode": "sp",
-   "fromSide": "right",
-   "toSide": "left",
-   "label": "Виновник"
-  },
-  {
-   "id": "e17",
-   "fromNode": "res",
-   "toNode": "inc",
-   "fromSide": "right",
-   "toSide": "left",
-   "label": "Данные о ДТП"
-  },
-  {
-   "id": "e18",
-   "fromNode": "res",
-   "toNode": "vd",
-   "fromSide": "right",
-   "toSide": "left",
-   "label": "Ущерб ТС"
-  },
-  {
-   "id": "e19",
-   "fromNode": "res",
-   "toNode": "prop",
-   "fromSide": "right",
-   "toSide": "left",
-   "label": "Имущество"
-  },
-  {
-   "id": "e20",
-   "fromNode": "res",
-   "toNode": "health",
-   "fromSide": "right",
-   "toSide": "left",
-   "label": "Здоровье"
-  },
-  {
-   "id": "e21",
-   "fromNode": "sp",
-   "toNode": "nopol",
-   "fromSide": "right",
-   "toSide": "left",
-   "label": "«Полиса нет»"
-  },
-  {
-   "id": "e22",
-   "fromNode": "inc",
-   "toNode": "map",
-   "fromSide": "right",
-   "toSide": "left",
-   "label": "Указать на карте"
-  },
-  {
-   "id": "e23",
-   "fromNode": "vd",
-   "toNode": "av",
-   "fromSide": "right",
-   "toSide": "left",
-   "label": "нет полисов / Добавить ТС"
-  },
-  {
-   "id": "e24",
-   "fromNode": "vd",
-   "toNode": "avf",
-   "fromSide": "top",
-   "toSide": "top",
-   "label": "неполный СТС/ПТС"
-  },
-  {
-   "id": "e25",
-   "fromNode": "av",
-   "toNode": "avf",
-   "fromSide": "right",
-   "toSide": "left",
-   "label": "найти"
-  },
-  {
-   "id": "e26",
-   "fromNode": "avf",
-   "toNode": "vd",
-   "fromSide": "bottom",
-   "toSide": "bottom",
-   "label": "popTo"
-  },
-  {
-   "id": "e27",
-   "fromNode": "res",
-   "toNode": "si1",
-   "fromSide": "bottom",
-   "toSide": "top",
-   "label": "Продолжить: ТС выбран"
-  },
-  {
-   "id": "e28",
-   "fromNode": "res",
-   "toNode": "bank",
-   "fromSide": "bottom",
-   "toSide": "left",
-   "label": "Продолжить: ТС не выбран"
-  },
-  {
-   "id": "e29",
-   "fromNode": "si1",
-   "toNode": "si2",
-   "fromSide": "right",
-   "toSide": "left"
-  },
-  {
-   "id": "e30",
-   "fromNode": "si2",
-   "toNode": "si3",
-   "fromSide": "right",
-   "toSide": "left"
-  },
-  {
-   "id": "e31",
-   "fromNode": "si3",
-   "toNode": "sign",
-   "fromSide": "right",
-   "toSide": "left",
-   "label": "только ТС + ремонт"
-  },
-  {
-   "id": "e32",
-   "fromNode": "si3",
-   "toNode": "bank",
-   "fromSide": "bottom",
-   "toSide": "left",
-   "label": "иначе"
-  },
-  {
-   "id": "e33",
-   "fromNode": "bank",
-   "toNode": "sign",
-   "fromSide": "right",
-   "toSide": "bottom",
-   "label": "продолжить"
-  },
-  {
-   "id": "e34",
-   "fromNode": "sign",
-   "toNode": "ok",
-   "fromSide": "right",
-   "toSide": "left",
-   "label": "submit ok"
-  },
-  {
-   "id": "e35",
-   "fromNode": "sign",
-   "toNode": "fail",
-   "fromSide": "right",
-   "toSide": "left",
-   "label": "submit error"
-  },
-  {
-   "id": "e36",
-   "fromNode": "fail",
-   "toNode": "sign",
-   "fromSide": "left",
-   "toSide": "bottom",
-   "label": "Повторить"
-  },
-  {
-   "id": "e37",
-   "fromNode": "ok",
-   "toNode": "claimwv",
-   "fromSide": "top",
-   "toSide": "bottom"
-  }
- ]
+	"nodes":[
+		{"id":"g_ext","type":"group","label":"Внешние входы","x":-1360,"y":-140,"width":400,"height":1300,"color":"6"},
+		{"id":"g_start","type":"group","label":"Старт","x":-880,"y":-140,"width":1180,"height":1300,"color":"5"},
+		{"id":"g_hub","type":"group","label":"Хаб и шаги черновика","x":380,"y":-620,"width":1840,"height":1500,"color":"3"},
+		{"id":"g_tail","type":"group","label":"Оформление и отправка","x":380,"y":940,"width":2600,"height":620,"color":"4"},
+		{"id":"sos","type":"text","text":"**Таб SOS**\n`DisasterScreen`\nсобытие `slug = osago`\n→ флаг `osago_losses`, иначе webview","x":-1320,"y":-100,"width":320,"height":170,"color":"6"},
+		{"id":"connect","type":"text","text":"**Connect → ReportInsuranceScreen**\nсобытие `slug = osago`\n→ флаг, иначе webview","x":-1320,"y":100,"width":320,"height":170,"color":"6"},
+		{"id":"ptab","type":"text","text":"**PolicyDetails**\nвкладка «Страховые случаи»\nкнопка для OSAGO (флаг)","x":-1320,"y":300,"width":320,"height":170,"color":"6"},
+		{"id":"pdata","type":"text","text":"**PolicyDetails**\nвкладка «Данные»\nячейка `declareOsagoLosses` (флаг)","x":-1320,"y":500,"width":320,"height":170,"color":"6"},
+		{"id":"dl","type":"text","text":"**Deeplink**\n`/losses/osago`\n`/losses/osago/:draftId`\n`reset([RootTabs, Initial])`\n⚠️ без проверки флага","x":-1320,"y":700,"width":320,"height":190,"color":"6"},
+		{"id":"extnote","type":"text","text":"[[01 Внешние входы]]","x":-1320,"y":930,"width":320,"height":60},
+		{"id":"init","type":"text","text":"### [[OsagoLossesInitialScreen]]\nQ1: оформили ДТП?\nQ2: пострадавший или виновный?\n`POST claims/draft` | `GET drafts/{id}`","x":-840,"y":300,"width":320,"height":200,"color":"5"},
+		{"id":"bs_ep","type":"text","text":"**BS «Сначала оформите ДТП»**\n→ gosuslugi.ru/europrotokol\n→ звонок 112","x":-840,"y":-100,"width":320,"height":130,"color":"1"},
+		{"id":"bs_guilty","type":"text","text":"**BS «Вы виновник»**\nсообщать не нужно\n«Вернуться на главную» = `goBack`","x":-840,"y":640,"width":320,"height":140,"color":"1"},
+		{"id":"gu","type":"text","text":"### [[OsagoLossesInitialScreenGU]]\nВойти через Госуслуги?\n(нет `oid`)","x":-400,"y":640,"width":320,"height":160,"color":"5"},
+		{"id":"esia","type":"text","text":"**GenericWebview ЕСИА**\n`postLoginRedirect = /losses/osago/:draftId`","x":-400,"y":900,"width":320,"height":130,"color":"6"},
+		{"id":"check","type":"text","text":"### [[OsagoLossesCheckProfileDataScreen]]\nданные заявителя\n`PATCH stepApplicant`\n`PATCH stepApplicationSelected = false×3`","x":-400,"y":300,"width":320,"height":200,"color":"5"},
+		{"id":"res","type":"text","text":"## [[OsagoLossesResultantScreen]]\n**ХАБ**\nсводка шагов\n«Продолжить» = виновник ∧ ДТП ∧ ≥1 ущерб","x":420,"y":300,"width":360,"height":220,"color":"3"},
+		{"id":"rbs","type":"text","text":"### [[OsagoLossesRouterBottomSheet]]\n«Есть незавершённое заявление»\nПродолжить | Начать заново\n(`DELETE` + `POST`)","x":420,"y":-40,"width":360,"height":180,"color":"3"},
+		{"id":"sp","type":"text","text":"### [[OsagoLossesSecondParticipantScreen]]\nВиновник ДТП\n`POST info/transport` (blur)\n`PATCH stepSecondParticipant`","x":960,"y":-580,"width":320,"height":190},
+		{"id":"nopol","type":"text","text":"**BS «У виновника нет ОСАГО»**\nвыплата невозможна","x":1400,"y":-580,"width":320,"height":110,"color":"1"},
+		{"id":"inc","type":"text","text":"### [[OsagoLossesIncidentDataScreen]]\nДанные о ДТП + файлы\n`PATCH stepAccidentDetails`\n`PATCH files.AccidentDetails`","x":960,"y":-340,"width":320,"height":190},
+		{"id":"map","type":"text","text":"### [[OsagoLossesAccidentMapScreen]]\nместо на карте\n`POST geolocate/address`\n→ Redux → назад","x":1400,"y":-340,"width":320,"height":170},
+		{"id":"vd","type":"text","text":"### [[OsagoLossesVehicleDamageScreen]]\nУщерб ТС: полис, собственник, водитель, возмещение\n4×PATCH (+signType)","x":960,"y":-100,"width":320,"height":200},
+		{"id":"av","type":"text","text":"### [[OsagoLossesAddVehicleScreen]]\nпоиск ТС по ГРЗ/VIN/кузову/шасси\n`POST info/transport`","x":1400,"y":-100,"width":320,"height":170},
+		{"id":"avf","type":"text","text":"### [[OsagoLossesAddVehicleFormScreen]]\nручной ввод ТС\n`PATCH stepVehicleDamage`","x":1820,"y":-100,"width":320,"height":170},
+		{"id":"prop","type":"text","text":"### [[OsagoLossesPropertyDamageScreen]]\nУщерб имуществу\n(флаг `…property_damage`)\n4×PATCH (+signType)","x":960,"y":160,"width":320,"height":190},
+		{"id":"health","type":"text","text":"### [[OsagoLossesHealthDamageScreen]]\nВред жизни/здоровью\n(⚠️ тоже флаг property)\n3×PATCH","x":960,"y":400,"width":320,"height":190},
+		{"id":"svc","type":"text","text":"### [[OsagoLossesServiceMapScreen]]\n⚠️ недостижим, моки СТОА","x":1820,"y":400,"width":320,"height":130,"color":"1"},
+		{"id":"si1","type":"text","text":"### [[OsagoLossesSelfInspectionScreen]]\n1/3 спереди и сзади (≥2)","x":420,"y":1000,"width":320,"height":150,"color":"4"},
+		{"id":"si2","type":"text","text":"### [[OsagoLossesSelfInspectionVinScreen]]\n2/3 VIN и пробег (≥1)","x":840,"y":1000,"width":320,"height":150,"color":"4"},
+		{"id":"si3","type":"text","text":"### [[OsagoLossesSelfInspectionDamageScreen]]\n3/3 повреждения + место\n`PATCH stepPhotoDamage`","x":1260,"y":1000,"width":320,"height":170,"color":"4"},
+		{"id":"bank","type":"text","text":"### [[OsagoLossesBankDetailsScreen]]\nреквизиты или почта + получатель\n`PATCH stepBankDetails`","x":1680,"y":1300,"width":320,"height":170,"color":"4"},
+		{"id":"sign","type":"text","text":"### [[OsagoLossesDocumentSignScreen]]\nпечатные формы, согласия, pep/goskey/ukep\n`PATCH stepPrintForm`\n`POST applications/submit`","x":2100,"y":1000,"width":320,"height":210,"color":"4"},
+		{"id":"ok","type":"text","text":"### [[OsagoLossesSuccessScreen]]\n«Заявление отправлено!»\n`claimId`, `extDocNumber`","x":2560,"y":960,"width":320,"height":160,"color":"4"},
+		{"id":"fail","type":"text","text":"### [[OsagoLossesFailureScreen]]\n«Не смогли подписать»","x":2560,"y":1260,"width":320,"height":130,"color":"1"},
+		{"id":"claimwv","type":"text","text":"**GenericWebview «Детали убытка»**\n| RootTabs → Health","x":2560,"y":700,"width":320,"height":110,"color":"6"},
+		{"id":"legend","type":"text","text":"**Легенда**\n🟪 внешний мир / выходы\n🟦 старт\n🟨 хаб\n⬜ шаги черновика (возврат на хаб)\n🟩 оформление\n🟥 тупики, ошибки, мёртвый код\n\n[[00 Обзор]] · [[02 Флоу и навигация]]","x":-1360,"y":1200,"width":400,"height":260}
+	],
+	"edges":[
+		{"id":"e0","fromNode":"sos","toNode":"init","fromSide":"right","toSide":"left","label":"флаг вкл"},
+		{"id":"e1","fromNode":"connect","toNode":"init","fromSide":"right","toSide":"left","label":"флаг вкл"},
+		{"id":"e2","fromNode":"ptab","toNode":"init","fromSide":"right","toSide":"left","label":"флаг вкл"},
+		{"id":"e3","fromNode":"pdata","toNode":"init","fromSide":"right","toSide":"left","label":"флаг вкл"},
+		{"id":"e4","fromNode":"dl","toNode":"init","fromSide":"right","toSide":"left","label":"reset (+draftId)"},
+		{"id":"e5","fromNode":"init","toNode":"bs_ep","fromSide":"top","toSide":"bottom","label":"Q1: нет"},
+		{"id":"e6","fromNode":"init","toNode":"bs_guilty","fromSide":"bottom","toSide":"top","label":"Q2: виновный"},
+		{"id":"e7","fromNode":"init","toNode":"check","fromSide":"right","toSide":"left","label":"пострадавший + oid · replace"},
+		{"id":"e8","fromNode":"init","toNode":"gu","fromSide":"bottom","toSide":"left","label":"пострадавший, нет oid · replace"},
+		{"id":"e9","fromNode":"init","toNode":"res","fromSide":"top","toSide":"left","label":"черновик со stepApplicant · replace + шторка"},
+		{"id":"e10","fromNode":"gu","toNode":"check","fromSide":"top","toSide":"bottom","label":"Продолжить · replace"},
+		{"id":"e11","fromNode":"gu","toNode":"esia","fromSide":"bottom","toSide":"top","label":"Войти через ГУ"},
+		{"id":"e12","fromNode":"esia","toNode":"dl","fromSide":"left","toSide":"right","label":"после логина: deeplink"},
+		{"id":"e13","fromNode":"check","toNode":"res","fromSide":"right","toSide":"left","label":"сохранить · replace"},
+		{"id":"e14","fromNode":"res","toNode":"rbs","fromSide":"top","toSide":"bottom"},
+		{"id":"e15","fromNode":"rbs","toNode":"init","fromSide":"left","toSide":"top","label":"Начать заново · replace"},
+		{"id":"e16","fromNode":"res","toNode":"sp","fromSide":"right","toSide":"left","label":"Виновник"},
+		{"id":"e17","fromNode":"res","toNode":"inc","fromSide":"right","toSide":"left","label":"Данные о ДТП"},
+		{"id":"e18","fromNode":"res","toNode":"vd","fromSide":"right","toSide":"left","label":"Ущерб ТС"},
+		{"id":"e19","fromNode":"res","toNode":"prop","fromSide":"right","toSide":"left","label":"Имущество"},
+		{"id":"e20","fromNode":"res","toNode":"health","fromSide":"right","toSide":"left","label":"Здоровье"},
+		{"id":"e21","fromNode":"sp","toNode":"nopol","fromSide":"right","toSide":"left","label":"«Полиса нет»"},
+		{"id":"e22","fromNode":"inc","toNode":"map","fromSide":"right","toSide":"left","label":"Указать на карте"},
+		{"id":"e23","fromNode":"vd","toNode":"av","fromSide":"right","toSide":"left","label":"нет полисов / Добавить ТС"},
+		{"id":"e24","fromNode":"vd","toNode":"avf","fromSide":"top","toSide":"top","label":"неполный СТС/ПТС"},
+		{"id":"e25","fromNode":"av","toNode":"avf","fromSide":"right","toSide":"left","label":"найти"},
+		{"id":"e26","fromNode":"avf","toNode":"vd","fromSide":"bottom","toSide":"bottom","label":"popTo"},
+		{"id":"e27","fromNode":"res","toNode":"si1","fromSide":"bottom","toSide":"top","label":"Продолжить: ТС выбран"},
+		{"id":"e28","fromNode":"res","toNode":"bank","fromSide":"bottom","toSide":"left","label":"Продолжить: ТС не выбран"},
+		{"id":"e29","fromNode":"si1","toNode":"si2","fromSide":"right","toSide":"left"},
+		{"id":"e30","fromNode":"si2","toNode":"si3","fromSide":"right","toSide":"left"},
+		{"id":"e31","fromNode":"si3","toNode":"sign","fromSide":"right","toSide":"left","label":"только ТС + ремонт"},
+		{"id":"e32","fromNode":"si3","toNode":"bank","fromSide":"bottom","toSide":"left","label":"иначе"},
+		{"id":"e33","fromNode":"bank","toNode":"sign","fromSide":"right","toSide":"bottom","label":"продолжить"},
+		{"id":"e34","fromNode":"sign","toNode":"ok","fromSide":"right","toSide":"left","label":"submit ok"},
+		{"id":"e35","fromNode":"sign","toNode":"fail","fromSide":"right","toSide":"left","label":"submit error"},
+		{"id":"e36","fromNode":"fail","toNode":"sign","fromSide":"left","toSide":"bottom","label":"Повторить"},
+		{"id":"e37","fromNode":"ok","toNode":"claimwv","fromSide":"top","toSide":"bottom"}
+	]
 }
