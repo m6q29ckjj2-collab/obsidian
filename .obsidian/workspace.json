@@ -11,12 +11,14 @@
             "id": "dee5124f0ea9f0a3",
             "type": "leaf",
             "state": {
-              "type": "audio",
+              "type": "markdown",
               "state": {
-                "file": "06 english/National Treasure — аудио (EN).mp3"
+                "file": "05 history/rome/1_Рим основали бандиты и братоубийцы/1_Рим основали бандиты и братоубийцы.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-audio",
-              "title": "National Treasure — аудио (EN)"
+              "icon": "lucide-file",
+              "title": "1_Рим основали бандиты и братоубийцы"
             }
           }
         ]
@@ -239,8 +241,8 @@
   },
   "active": "dee5124f0ea9f0a3",
   "lastOpenFiles": [
-    "06 english/National Treasure — словарь.md",
     "06 english/National Treasure — аудио (EN).mp3",
+    "06 english/National Treasure — словарь.md",
     "06 english/National Treasure — субтитры (EN).md",
     "06 english/Life is Strange.md",
     "06 english/National Treasure — рассказ со словами.md",
