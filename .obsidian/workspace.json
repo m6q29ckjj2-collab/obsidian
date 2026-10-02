@@ -11,14 +11,12 @@
             "id": "dee5124f0ea9f0a3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "audio",
               "state": {
-                "file": "06 english/National Treasure — словарь.md",
-                "mode": "source",
-                "source": false
+                "file": "06 english/National Treasure — аудио (EN).mp3"
               },
-              "icon": "lucide-file",
-              "title": "National Treasure — словарь"
+              "icon": "lucide-file-audio",
+              "title": "National Treasure — аудио (EN)"
             }
           }
         ]
@@ -241,9 +239,9 @@
   },
   "active": "dee5124f0ea9f0a3",
   "lastOpenFiles": [
+    "06 english/National Treasure — словарь.md",
     "06 english/National Treasure — аудио (EN).mp3",
     "06 english/National Treasure — субтитры (EN).md",
-    "06 english/National Treasure — словарь.md",
     "06 english/Life is Strange.md",
     "06 english/National Treasure — рассказ со словами.md",
     "06 english/Плейлист — грамматика.md",
