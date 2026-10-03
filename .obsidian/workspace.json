@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7d0c3c185e04a826",
+        "id": "ec3f18f0068c27c3",
         "type": "tabs",
         "children": [
           {
-            "id": "df34b28dbdc7db05",
+            "id": "8be6abeb7ab80c02",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -235,8 +235,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "df34b28dbdc7db05",
+  "active": "8be6abeb7ab80c02",
   "lastOpenFiles": [
+    "Home.md",
     "06 english/Плейлист — грамматика.md",
     "06 english/Модуль 1.md",
     "06 english/Гарри Поттер 1 — как читать.md",
@@ -253,7 +254,6 @@
     "06 english/National Treasure — рассказ со словами.md",
     "СОГАЗ/ОСАГО Убытки/11 План переезда и карта переходов.md",
     "СОГАЗ/ОСАГО Убытки/09 Документы и UUID.md",
-    "Home.md",
     "СОГАЗ/ОСАГО Убытки/Карта клиентского пути.canvas",
     "СОГАЗ/ОСАГО Убытки/10 Глоссарий.md",
     "СОГАЗ/ОСАГО Убытки/08 Тех долг и странности.md",
