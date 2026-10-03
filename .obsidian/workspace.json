@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dee5124f0ea9f0a3",
+            "id": "df34b28dbdc7db05",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 english/Плейлист — грамматика.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Плейлист — грамматика"
+              "title": "Home"
             }
           }
         ]
@@ -194,23 +194,9 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
-          {
-            "id": "2d7052ec3deb6dce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Home"
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -239,8 +225,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dee5124f0ea9f0a3",
+  "active": "df34b28dbdc7db05",
   "lastOpenFiles": [
+    "06 english/Плейлист — грамматика.md",
     "06 english/Модуль 1.md",
     "06 english/Гарри Поттер 1 — как читать.md",
     "06 english/Detroit 2.md",
@@ -254,7 +241,6 @@
     "06 english/National Treasure — субтитры (EN).md",
     "06 english/Life is Strange.md",
     "06 english/National Treasure — рассказ со словами.md",
-    "06 english/Плейлист — грамматика.md",
     "СОГАЗ/ОСАГО Убытки/11 План переезда и карта переходов.md",
     "СОГАЗ/ОСАГО Убытки/09 Документы и UUID.md",
     "Home.md",
