@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ec3f18f0068c27c3",
+        "id": "55ec9fa6fdf35a59",
         "type": "tabs",
         "children": [
           {
-            "id": "8be6abeb7ab80c02",
+            "id": "04ac7885d34c53c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -235,7 +235,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8be6abeb7ab80c02",
+  "active": "04ac7885d34c53c4",
   "lastOpenFiles": [
     "Home.md",
     "06 english/Плейлист — грамматика.md",
