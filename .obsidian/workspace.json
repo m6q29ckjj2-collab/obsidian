@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "55ec9fa6fdf35a59",
+        "id": "c9417e3e6ec0022e",
         "type": "tabs",
         "children": [
           {
-            "id": "04ac7885d34c53c4",
+            "id": "6157420772c7490f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "02 programming/Mari Med — оплата и подписки.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Mari Med — оплата и подписки"
             }
           }
         ]
@@ -235,7 +235,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "04ac7885d34c53c4",
+  "active": "6157420772c7490f",
   "lastOpenFiles": [
     "Home.md",
     "06 english/Плейлист — грамматика.md",
