@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 programming/Python Tutorial/04 Дополнительные средства управления потоком.md",
+                "file": "02 programming/Python Tutorial/01 Знакомство с Python.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04 Дополнительные средства управления потоком"
+              "title": "01 Знакомство с Python"
             }
           }
         ]
@@ -237,7 +237,10 @@
   },
   "active": "468788c8fcedd23d",
   "lastOpenFiles": [
+    "02 programming/Python Tutorial/02 Интерпретатор Python.md",
+    "02 programming/Python Tutorial/01 Знакомство с Python.md",
     "02 programming/Python Tutorial/00 Оглавление.md",
+    "02 programming/Python Tutorial/04 Дополнительные средства управления потоком.md",
     "02 programming/Python Tutorial/16 Приложение.md",
     "02 programming/Python Tutorial/15 Арифметика с плавающей точкой — проблемы и ограничения.md",
     "02 programming/Python Tutorial/14 Интерактивное редактирование ввода и подстановка из истории.md",
@@ -251,9 +254,6 @@
     "02 programming/Python Tutorial/06 Модули.md",
     "02 programming/Python Tutorial/05 Структуры данных.md",
     "02 programming/Python Tutorial/03 Неформальное введение в Python.md",
-    "02 programming/Python Tutorial/04 Дополнительные средства управления потоком.md",
-    "02 programming/Python Tutorial/02 Интерпретатор Python.md",
-    "02 programming/Python Tutorial/01 Знакомство с Python.md",
     "Home.md",
     "02 programming/Mari Med — оплата и подписки.md",
     "06 english/Плейлист — грамматика.md",
