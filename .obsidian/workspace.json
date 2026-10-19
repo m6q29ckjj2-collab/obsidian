@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 programming/offline/fastapi/docs/ru/docs/tutorial/body-updates.md",
+                "file": "02 programming/FastAPI офлайн/История подготовки FastAPI офлайн.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "body-updates"
+              "title": "История подготовки FastAPI офлайн"
             }
           }
         ]
@@ -237,6 +237,9 @@
   },
   "active": "a12a0b6a4e14ac0a",
   "lastOpenFiles": [
+    "02 programming/offline/pydantic/README.md",
+    "02 programming/offline/pydantic/HISTORY.md",
+    "02 programming/offline/fastapi/docs/ru/docs/tutorial/body-updates.md",
     "02 programming/offline/fastapi/docs/ru/docs/tutorial/body-nested-models.md",
     "02 programming/offline/fastapi/docs/ru/docs/tutorial/body-multiple-params.md",
     "02 programming/FastAPI офлайн/История подготовки FastAPI офлайн.md",
@@ -280,9 +283,6 @@
     "02 programming/offline/pydantic/docs/integrations/aws_lambda.md",
     "02 programming/offline/pydantic/docs/examples/requests.md",
     "02 programming/offline/pydantic/docs/examples/queues.md",
-    "02 programming/offline/pydantic/docs/examples/pydantic_ai.md",
-    "02 programming/offline/pydantic/docs/examples/orms.md",
-    "02 programming/offline/pydantic/docs/examples/files.md",
     "СОГАЗ/ОСАГО Убытки/Карта клиентского пути.canvas",
     "02 programming/TODO/Без названия.canvas",
     "Home.canvas",
