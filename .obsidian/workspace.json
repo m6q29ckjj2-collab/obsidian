@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "49d1c31888a988a2",
+        "id": "24e6611a82c3fdfd",
         "type": "tabs",
         "children": [
           {
-            "id": "59fbc8a4db9fbfee",
+            "id": "855d54a8b3dca1eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -235,8 +235,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "59fbc8a4db9fbfee",
+  "active": "855d54a8b3dca1eb",
   "lastOpenFiles": [
+    "Home.md",
     "СОГАЗ/ОСАГО Убытки/11 План переезда и карта переходов.md",
     "СОГАЗ/ОСАГО Убытки/10 Глоссарий.md",
     "СОГАЗ/Таймлайн событий/02 Баги и план правок.md",
@@ -251,7 +252,6 @@
     "СОГАЗ/Адаптив (breakpoints)",
     "СОГАЗ/Таймлайн событий/01 Карточки и шевроны.md",
     "СОГАЗ/Таймлайн событий/00 Обзор.md",
-    "Home.md",
     "02 programming/FastAPI офлайн/История подготовки FastAPI офлайн.md",
     "02 programming/offline/pydantic/README.md",
     "02 programming/offline/pydantic/HISTORY.md",
