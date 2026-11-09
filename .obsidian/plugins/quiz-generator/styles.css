@@ -324,6 +324,28 @@ a compact, clearly set-off style instead of the theme's default block spacing. *
 	font-size: 1em;
 }
 
+/* ShortOrLongAnswerQuestion, flashcard mode */
+.flashcard-answer-qg {
+	padding: 0.75em 1em;
+	border-radius: var(--radius-m);
+}
+
+.flashcard-reveal-btn-qg {
+	width: 100%;
+	padding: 1.5em;
+	margin-bottom: 0.5em;
+	border: 0.125em solid;
+	background-color: transparent !important;
+	box-shadow: none !important;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+.flashcard-reveal-btn-qg:hover {
+	border-color: hsl(210, 80%, 70%);
+	transition: border-color 0.3s ease;
+}
+
 /* MatchingQuestion */
 .matching-button-container-qg {
 	position: relative;
@@ -385,68 +407,181 @@ a compact, clearly set-off style instead of the theme's default block spacing. *
 
 /* QuizBrowserModal */
 .modal-browser-qg {
-	width: 35%;
-	height: 75%;
+	width: min(40rem, 92vw);
+	height: 80%;
 }
 
-/* QuizBrowserModal */
+/* Quiz Browser tree */
+.modal-browser-qg .modal-content {
+	display: flex;
+	flex-direction: column;
+	min-height: 0;
+}
+
+.browser-toolbar-qg {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0.75rem 0 0.25rem;
+	padding: 0 0.25rem 0.4rem;
+	border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.browser-toolbar-title-qg {
+	font-size: var(--font-ui-smaller);
+	font-weight: var(--font-semibold);
+	color: var(--text-muted);
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.browser-toolbar-actions-qg {
+	display: flex;
+	gap: 0.15rem;
+}
+
+.browser-toolbar-btn-qg {
+	padding: 0.25rem !important;
+	background: transparent !important;
+	box-shadow: none !important;
+}
+
 .browser-tree-qg {
+	flex: 1;
+	min-height: 0;
 	overflow-y: auto;
-	height: 100%;
-	padding: 0.25rem 0;
+	padding: 0.25rem 0 1rem;
 }
 
-/* QuizBrowserModal */
 .browser-row-qg {
 	display: flex;
 	align-items: center;
-	gap: 0.4rem;
-	padding: 0.35rem 0.75rem;
-	border-radius: 0.3rem;
+	gap: 0.5rem;
+	min-height: 2.1rem;
+	padding: 0.25rem 0.6rem 0.25rem 0.4rem;
+	border-radius: var(--radius-s);
 	cursor: pointer;
 	user-select: none;
+	transition: background-color 0.12s ease;
 }
 
-/* QuizBrowserModal */
 .browser-row-qg:hover {
 	background-color: var(--background-modifier-hover);
 }
 
-/* QuizBrowserModal */
-.browser-toggle-qg {
-	font-size: 0.65em;
-	color: var(--text-muted);
-	width: 0.8rem;
+.browser-toggle-qg,
+.browser-icon-qg {
+	display: flex;
+	align-items: center;
 	flex-shrink: 0;
+	color: var(--text-faint);
 }
 
-/* QuizBrowserModal */
+.browser-toggle-qg svg {
+	width: 0.9rem;
+	height: 0.9rem;
+	transition: transform 0.15s ease;
+}
+
+.browser-icon-qg svg {
+	width: 1rem;
+	height: 1rem;
+}
+
+.browser-folder-qg .browser-icon-qg {
+	color: var(--interactive-accent);
+}
+
+/* Files have no chevron; pad them so their icon lines up with sibling folder icons. */
+.browser-file-qg {
+	padding-left: calc(0.4rem + 0.9rem + 0.5rem);
+}
+
 .browser-name-qg {
 	flex: 1;
+	min-width: 0;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
 }
 
-/* QuizBrowserModal */
 .browser-folder-qg .browser-name-qg {
 	font-weight: var(--font-semibold);
 }
 
-/* QuizBrowserModal */
-.browser-badge-qg {
-	font-size: var(--font-ui-smaller);
-	color: var(--text-muted);
-	background-color: var(--background-modifier-border);
-	border-radius: 0.75rem;
-	padding: 0.1rem 0.45rem;
+.browser-file-qg .browser-name-qg {
+	color: var(--text-normal);
+}
+
+.browser-children-qg {
+	margin-left: 0.85rem;
+	padding-left: 0.4rem;
+	border-left: 1px solid var(--background-modifier-border);
+}
+
+.browser-branch-qg.is-collapsed-qg > .browser-children-qg {
+	display: none;
+}
+
+.browser-branch-qg.is-collapsed-qg > .browser-row-qg .browser-toggle-qg svg {
+	transform: rotate(-90deg);
+}
+
+.browser-badges-qg {
+	display: flex;
+	align-items: center;
+	gap: 0.3rem;
 	flex-shrink: 0;
 }
 
-/* QuizBrowserModal */
-.browser-file-icon-qg {
-	font-size: 0.85em;
+.stat-badge-qg {
+	min-width: 1.6rem;
+	padding: 0.05rem 0.45rem;
+	border-radius: 1rem;
+	font-size: var(--font-ui-smaller);
+	font-weight: var(--font-semibold);
+	font-variant-numeric: tabular-nums;
+	text-align: center;
+}
+
+.badge-due-qg {
+	color: var(--color-orange);
+	background-color: color-mix(in srgb, var(--color-orange) 15%, transparent);
+}
+
+.badge-new-qg {
+	color: var(--color-blue);
+	background-color: color-mix(in srgb, var(--color-blue) 15%, transparent);
+}
+
+.browser-total-qg {
+	min-width: 1.8rem;
+	font-size: var(--font-ui-smaller);
+	font-variant-numeric: tabular-nums;
+	color: var(--text-faint);
+	text-align: right;
+}
+
+.browser-progress-qg {
 	flex-shrink: 0;
+	width: 3rem;
+	height: 0.3rem;
+	border-radius: 1rem;
+	background-color: var(--background-modifier-border);
+	overflow: hidden;
+}
+
+.browser-progress-fill-qg {
+	height: 100%;
+	border-radius: inherit;
+	background-color: var(--color-green);
+	transition: width 0.3s ease;
+}
+
+@media (max-width: 600px) {
+	.browser-progress-qg {
+		display: none;
+	}
 }
 
 /* Paused quiz panel */
@@ -513,35 +648,6 @@ a compact, clearly set-off style instead of the theme's default block spacing. *
 }
 .due-panel-btn-qg:hover {
 	background-color: color-mix(in srgb, var(--color-orange) 15%, transparent) !important;
-}
-
-/* Stat badges in browser */
-.browser-badges-qg { display: flex; gap: 0.3rem; margin-left: auto; flex-shrink: 0; }
-
-.stat-badge-qg {
-	font-size: var(--font-ui-smaller);
-	border-radius: 0.75rem;
-	padding: 0.1rem 0.5rem;
-}
-
-.badge-due-qg {
-	color: var(--color-orange);
-	background-color: color-mix(in srgb, var(--color-orange) 15%, transparent);
-}
-
-.badge-new-qg {
-	color: var(--color-blue);
-	background-color: color-mix(in srgb, var(--color-blue) 15%, transparent);
-}
-
-.badge-learned-qg {
-	color: var(--text-muted);
-	background-color: var(--background-modifier-border);
-}
-
-.badge-total-qg {
-	color: var(--text-muted);
-	background-color: var(--background-modifier-border);
 }
 
 /* Rating buttons */
@@ -1113,4 +1219,3043 @@ a compact, clearly set-off style instead of the theme's default block spacing. *
 	font-size: var(--font-ui-smaller);
 	text-align: center;
 	margin-top: 0.5rem;
+}
+
+/* Quiz Browser: study a whole folder */
+.browser-play-qg {
+	flex-shrink: 0;
+	padding: 0.2rem !important;
+	background: transparent !important;
+	box-shadow: none !important;
+	color: var(--text-faint);
+	opacity: 0.6;
+	transition: opacity 0.12s ease, color 0.12s ease;
+}
+
+.browser-play-qg svg {
+	width: 0.95rem;
+	height: 0.95rem;
+}
+
+.browser-row-qg:hover .browser-play-qg {
+	opacity: 1;
+}
+
+.browser-play-qg:hover {
+	color: var(--interactive-accent);
+}
+
+/* Quiz hints */
+.hint-bar-qg {
+	margin-top: 0.75rem;
+}
+
+.hint-buttons-qg {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.35rem;
+}
+
+.hint-label-qg {
+	margin-right: 0.15rem;
+	font-size: var(--font-ui-smaller);
+	font-weight: var(--font-semibold);
+	color: var(--text-muted);
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.hint-btn-qg {
+	padding: 0.15rem 0.6rem !important;
+	height: auto !important;
+	border: 1px solid var(--background-modifier-border) !important;
+	border-radius: 1rem !important;
+	background-color: transparent !important;
+	box-shadow: none !important;
+	font-size: var(--font-ui-small);
+	cursor: pointer;
+	transition: border-color 0.12s ease, background-color 0.12s ease;
+}
+
+.hint-btn-qg:hover:not(:disabled) {
+	border-color: var(--color-yellow) !important;
+	background-color: color-mix(in srgb, var(--color-yellow) 12%, transparent) !important;
+}
+
+.hint-btn-qg.is-open-qg {
+	opacity: 0.45;
+	cursor: default;
+}
+
+.hint-key-qg {
+	margin-left: auto;
+	font-size: var(--font-ui-smaller);
+	color: var(--text-faint);
+}
+
+.hint-list-qg {
+	display: flex;
+	flex-direction: column;
+	gap: 0.35rem;
+	margin-top: 0.5rem;
+}
+
+.hint-item-qg {
+	display: flex;
+	align-items: baseline;
+	gap: 0.6rem;
+	padding: 0.4rem 0.75rem;
+	border-left: 3px solid var(--color-yellow);
+	border-radius: var(--radius-s);
+	background-color: color-mix(in srgb, var(--color-yellow) 8%, transparent);
+}
+
+.hint-num-qg {
+	flex-shrink: 0;
+	font-size: var(--font-ui-smaller);
+	font-weight: var(--font-semibold);
+	color: var(--color-yellow);
+}
+
+.hint-text-qg > p {
+	margin: 0;
+}
+
+/* A hint listing the meanings of a word: one per line, the level as a badge. */
+.hint-meanings-qg {
+	display: flex;
+	flex-direction: column;
+	gap: 0.35rem;
+	min-width: 0;
+}
+
+.hint-meaning-qg {
+	display: flex;
+	align-items: baseline;
+	gap: 0.55rem;
+}
+
+.hint-level-qg {
+	flex-shrink: 0;
+	min-width: 2.1em;
+	padding: 0.05em 0.45em;
+	border-radius: 999px;
+	text-align: center;
+	font-size: var(--font-ui-smaller);
+	font-weight: var(--font-semibold);
+	letter-spacing: 0.02em;
+	color: var(--qg-level, var(--text-muted));
+	background-color: color-mix(in srgb, var(--qg-level, var(--text-muted)) 16%, transparent);
+	border: 1px solid color-mix(in srgb, var(--qg-level, var(--text-muted)) 40%, transparent);
+}
+
+.hint-level-a-qg { --qg-level: var(--color-green); }
+.hint-level-b-qg { --qg-level: var(--color-blue); }
+.hint-level-c-qg { --qg-level: var(--color-purple); }
+
+@media (max-width: 600px) {
+	.hint-key-qg {
+		display: none;
+	}
+}
+
+/* Quiz Browser: flashcard direction toggle */
+.browser-direction-qg {
+	display: flex;
+	align-items: center;
+	gap: 0.35rem;
+	margin-right: 0.35rem;
+	padding: 0.2rem 0.65rem !important;
+	height: auto !important;
+	border: 1px solid var(--background-modifier-border) !important;
+	border-radius: 1rem !important;
+	background-color: transparent !important;
+	box-shadow: none !important;
+	font-size: var(--font-ui-smaller);
+	color: var(--text-muted);
+	cursor: pointer;
+	transition: border-color 0.12s ease, color 0.12s ease, background-color 0.12s ease;
+}
+
+.browser-direction-qg:hover {
+	color: var(--text-normal);
+	border-color: var(--interactive-accent) !important;
+}
+
+.browser-direction-qg.is-reversed-qg {
+	color: var(--interactive-accent);
+	border-color: var(--interactive-accent) !important;
+	background-color: color-mix(in srgb, var(--interactive-accent) 10%, transparent) !important;
+}
+
+.browser-direction-icon-qg {
+	display: flex;
+}
+
+.browser-direction-icon-qg svg {
+	width: 0.85rem;
+	height: 0.85rem;
+}
+
+/* QuizModal: fullscreen. Placed last so it wins over the sized .modal-qg rules above. */
+.modal-qg.modal-quiz-fullscreen-qg {
+	width: 100vw !important;
+	max-width: 100vw !important;
+	height: 100dvh !important;
+	max-height: 100dvh !important;
+	margin: 0 !important;
+	top: 0 !important;
+	left: 0 !important;
+	transform: none !important;
+	border: none !important;
+	border-radius: 0 !important;
+}
+
+/* Keep the question readable instead of stretching lines across a wide screen. */
+.modal-quiz-fullscreen-qg .modal-content {
+	width: 100%;
+	max-width: 52rem;
+	margin: 0 auto;
+	padding-bottom: max(1.5rem, env(safe-area-inset-bottom));
+}
+
+.modal-quiz-fullscreen-qg .modal-header {
+	position: relative;
+	padding-top: max(0.9rem, env(safe-area-inset-top));
+}
+
+.quiz-back-btn-qg {
+	position: absolute;
+	top: max(0.75rem, env(safe-area-inset-top));
+	left: max(0.75rem, env(safe-area-inset-left));
+	display: flex;
+	align-items: center;
+	gap: 0.3rem;
+	padding: 0.35rem !important;
+	background: transparent !important;
+	box-shadow: none !important;
+	color: var(--text-muted);
+}
+
+.quiz-back-btn-qg:hover {
+	color: var(--text-normal);
+}
+
+.quiz-back-btn-qg svg {
+	width: 1.25rem;
+	height: 1.25rem;
+}
+
+/* QuizModal: user-chosen size (settings → Quiz font size). zoom scales text, spacing and
+   buttons together, including the parts sized in UI units rather than em. */
+.modal-quiz-fullscreen-qg .modal-content {
+	zoom: var(--qg-quiz-scale, 1);
+}
+
+/* ───────────── Quiz animations ─────────────
+   Progress bar and streak chip are always shown; every motion rule is scoped under
+   .qg-anim-on, which QuizModal sets only when animations are enabled and the system
+   doesn't ask for reduced motion. */
+
+.quiz-progress-qg {
+	height: 0.3rem;
+	margin-bottom: 0.75rem;
+	border-radius: 1rem;
+	background-color: var(--background-modifier-border);
+	overflow: hidden;
+}
+
+.quiz-progress-fill-qg {
+	height: 100%;
+	border-radius: inherit;
+	background: linear-gradient(90deg, var(--interactive-accent), var(--color-green));
+}
+
+.modal-quiz-fullscreen-qg .modal-button-container-qg {
+	position: relative;
+	align-items: center;
+}
+
+.quiz-streak-qg {
+	position: absolute;
+	left: 0;
+	padding: 0.15rem 0.6rem;
+	border-radius: 1rem;
+	font-weight: var(--font-bold);
+	font-variant-numeric: tabular-nums;
+	color: var(--color-orange);
+	background-color: color-mix(in srgb, var(--color-orange) 14%, transparent);
+}
+
+.quiz-banner-qg {
+	position: absolute;
+	top: 22%;
+	left: 50%;
+	z-index: 20;
+	transform: translateX(-50%);
+	padding: 0.6rem 1.4rem;
+	border-radius: 2rem;
+	font-size: 1.5em;
+	font-weight: var(--font-bold);
+	color: var(--text-on-accent);
+	background: linear-gradient(135deg, var(--color-orange), var(--color-red));
+	box-shadow: 0 10px 30px color-mix(in srgb, var(--color-orange) 35%, transparent);
+	pointer-events: none;
+	white-space: nowrap;
+}
+
+.confetti-piece-qg {
+	position: absolute;
+	z-index: 30;
+	width: 0.55rem;
+	height: 0.8rem;
+	border-radius: 2px;
+	pointer-events: none;
+	animation: qg-confetti var(--dur, 1200ms) cubic-bezier(0.2, 0.7, 0.3, 1) var(--delay, 0ms) forwards;
+}
+
+.confetti-round-qg {
+	width: 0.55rem;
+	height: 0.55rem;
+	border-radius: 50%;
+}
+
+@keyframes qg-confetti {
+	0%   { transform: translate(-50%, -50%) rotate(0) scale(0.6); opacity: 1; }
+	60%  { opacity: 1; }
+	100% { transform: translate(calc(-50% + var(--dx)), calc(-50% + var(--dy) + 260px)) rotate(var(--rot)) scale(1); opacity: 0; }
+}
+
+.qg-anim-on .quiz-progress-fill-qg {
+	transition: width 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* New card slides in from the right. */
+.qg-anim-on .quiz-card-qg {
+	animation: qg-card-in 0.38s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes qg-card-in {
+	from { opacity: 0; transform: translateX(2.5rem) scale(0.98); }
+	to   { opacity: 1; transform: none; }
+}
+
+/* Rating feedback, played on the card for the brief pause before the next one. */
+.qg-anim-on .quiz-card-qg.feedback-again-qg { animation: qg-shake 0.34s ease both; }
+.qg-anim-on .quiz-card-qg.feedback-hard-qg  { animation: qg-pulse-hard 0.34s ease both; }
+.qg-anim-on .quiz-card-qg.feedback-good-qg  { animation: qg-pop-good 0.34s ease both; }
+.qg-anim-on .quiz-card-qg.feedback-easy-qg  { animation: qg-pop-easy 0.34s ease both; }
+
+.qg-anim-on .quiz-card-qg[class*="feedback-"] {
+	border-radius: var(--radius-l);
+}
+
+@keyframes qg-shake {
+	0%, 100% { transform: none; box-shadow: none; }
+	20% { transform: translateX(-10px); box-shadow: 0 0 0 2px color-mix(in srgb, var(--color-red) 55%, transparent); }
+	40% { transform: translateX(9px); }
+	60% { transform: translateX(-6px); }
+	80% { transform: translateX(3px); }
+}
+
+@keyframes qg-pulse-hard {
+	0%   { box-shadow: 0 0 0 0 color-mix(in srgb, var(--color-orange) 60%, transparent); }
+	100% { box-shadow: 0 0 0 18px transparent; }
+}
+
+@keyframes qg-pop-good {
+	0%   { transform: scale(1); box-shadow: 0 0 0 0 color-mix(in srgb, var(--color-green) 60%, transparent); }
+	45%  { transform: scale(1.025); }
+	100% { transform: scale(1); box-shadow: 0 0 0 22px transparent; }
+}
+
+@keyframes qg-pop-easy {
+	0%   { transform: scale(1); box-shadow: 0 0 0 0 color-mix(in srgb, var(--color-yellow) 70%, transparent); }
+	40%  { transform: scale(1.04) rotate(-0.4deg); }
+	100% { transform: scale(1); box-shadow: 0 0 0 30px transparent; }
+}
+
+/* Flashcard answer flips into view. */
+.qg-anim-on .flashcard-answer-qg {
+	transform-origin: top center;
+	animation: qg-flip-in 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes qg-flip-in {
+	from { opacity: 0; transform: perspective(900px) rotateX(-75deg); }
+	to   { opacity: 1; transform: perspective(900px) rotateX(0); }
+}
+
+.qg-anim-on .flashcard-reveal-btn-qg {
+	transition: transform 0.15s ease, border-color 0.3s ease;
+}
+
+.qg-anim-on .flashcard-reveal-btn-qg:active {
+	transform: scale(0.97);
+}
+
+/* Rating buttons arrive in a quick wave. */
+.qg-anim-on .quiz-rating-btn-qg {
+	animation: qg-rise 0.32s cubic-bezier(0.22, 1, 0.36, 1) both;
+	animation-delay: calc(var(--i, 0) * 45ms);
+	transition: transform 0.12s ease;
+}
+
+.qg-anim-on .quiz-rating-btn-qg:hover {
+	transform: translateY(-2px);
+}
+
+.qg-anim-on .quiz-rating-btn-qg:active {
+	transform: scale(0.95);
+}
+
+@keyframes qg-rise {
+	from { opacity: 0; transform: translateY(0.75rem); }
+	to   { opacity: 1; transform: none; }
+}
+
+/* Choice questions: the right answer springs, a wrong pick shakes. */
+.qg-anim-on .correct-choice-qg {
+	animation: qg-spring 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+.qg-anim-on .incorrect-choice-qg {
+	animation: qg-shake 0.34s ease both;
+}
+
+@keyframes qg-spring {
+	0%   { transform: scale(0.96); }
+	60%  { transform: scale(1.03); }
+	100% { transform: scale(1); }
+}
+
+.qg-anim-on .hint-item-qg {
+	animation: qg-hint-in 0.28s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes qg-hint-in {
+	from { opacity: 0; transform: translateY(-0.4rem); }
+	to   { opacity: 1; transform: none; }
+}
+
+.qg-anim-on .quiz-streak-qg {
+	animation: qg-bump 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+@keyframes qg-bump {
+	0%   { transform: scale(0.6); }
+	60%  { transform: scale(1.2); }
+	100% { transform: scale(1); }
+}
+
+.qg-anim-on .quiz-banner-qg {
+	animation: qg-banner 1.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes qg-banner {
+	0%   { opacity: 0; transform: translateX(-50%) translateY(1rem) scale(0.7); }
+	15%  { opacity: 1; transform: translateX(-50%) translateY(0) scale(1.08); }
+	25%  { transform: translateX(-50%) scale(1); }
+	80%  { opacity: 1; }
+	100% { opacity: 0; transform: translateX(-50%) translateY(-1.5rem) scale(0.95); }
+}
+
+.qg-anim-on .results-verdict-qg {
+	animation: qg-spring 0.55s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+.qg-anim-on .results-item-qg {
+	animation: qg-rise 0.3s ease both;
+}
+
+/* Belt and braces: the JS check already turns animations off, this covers changes mid-quiz. */
+@media (prefers-reduced-motion: reduce) {
+	.qg-anim-on *,
+	.qg-anim-on {
+		animation: none !important;
+		transition: none !important;
+	}
+	.confetti-piece-qg { display: none; }
+}
+
+/* Confetti and the streak banner are positioned against the quiz window and clipped to it. */
+.modal-qg.modal-quiz-fullscreen-qg {
+	position: relative;
+	overflow: hidden;
+}
+
+/* The animation wrapper sits between the flex column and the question, so it has to grow
+   in the question's place — otherwise the bottom navigation rides up under the card. */
+.quiz-card-qg {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	min-height: 0;
+}
+
+/* ───────────── Quiz color themes ─────────────
+   QuizModal sets --qg-a / --qg-b / --qg-c / --qg-on-a on the window and adds .qg-themed.
+   Rating colors (Again red, Good green…) are deliberately left alone so they keep meaning. */
+
+.qg-themed {
+	--interactive-accent: var(--qg-a);
+	--interactive-accent-hover: color-mix(in srgb, var(--qg-a) 85%, black);
+	--text-on-accent: var(--qg-on-a);
+	--text-accent: var(--qg-a);
+	isolation: isolate;
+}
+
+/* Soft colored glows behind the content; drawn on a pseudo-element so they can drift
+   without repainting the content. z-index -1 inside the isolated window keeps them above
+   its background and below everything else. */
+.qg-themed::before {
+	content: "";
+	position: absolute;
+	inset: -25%;
+	z-index: -1;
+	pointer-events: none;
+	background:
+		radial-gradient(circle at 18% 12%, color-mix(in srgb, var(--qg-a) 22%, transparent), transparent 38%),
+		radial-gradient(circle at 85% 80%, color-mix(in srgb, var(--qg-b) 20%, transparent), transparent 40%),
+		radial-gradient(circle at 70% 18%, color-mix(in srgb, var(--qg-c) 12%, transparent), transparent 32%);
+}
+
+.qg-themed.qg-anim-on::before {
+	animation: qg-drift 22s ease-in-out infinite alternate;
+}
+
+@keyframes qg-drift {
+	0%   { transform: translate(0, 0) rotate(0deg) scale(1); }
+	50%  { transform: translate(3%, -2%) rotate(6deg) scale(1.05); }
+	100% { transform: translate(-3%, 2%) rotate(-5deg) scale(1.02); }
+}
+
+.qg-themed .quiz-progress-fill-qg {
+	background: linear-gradient(90deg, var(--qg-a), var(--qg-b), var(--qg-c));
+}
+
+.qg-themed .quiz-streak-qg {
+	color: var(--qg-a);
+	background-color: color-mix(in srgb, var(--qg-a) 15%, transparent);
+}
+
+.qg-themed .quiz-banner-qg {
+	color: var(--qg-on-a);
+	background: linear-gradient(135deg, var(--qg-a), var(--qg-b));
+	box-shadow: 0 10px 30px color-mix(in srgb, var(--qg-a) 40%, transparent);
+}
+
+.qg-themed .flashcard-reveal-btn-qg {
+	border-color: color-mix(in srgb, var(--qg-a) 55%, var(--background-modifier-border)) !important;
+}
+
+.qg-themed .flashcard-reveal-btn-qg:hover {
+	border-color: var(--qg-a) !important;
+	background-color: color-mix(in srgb, var(--qg-a) 8%, transparent) !important;
+}
+
+.qg-themed .answer-qg {
+	border-color: color-mix(in srgb, var(--qg-b) 45%, var(--background-modifier-border)) !important;
+	background-color: color-mix(in srgb, var(--qg-b) 5%, transparent) !important;
+}
+
+.qg-themed .quiz-divider-qg {
+	border-color: color-mix(in srgb, var(--qg-a) 25%, var(--background-modifier-border));
+}
+
+.qg-themed .modal-title-qg {
+	color: color-mix(in srgb, var(--qg-a) 60%, var(--text-normal));
+}
+
+/* Palette badge in the header, next to the close button; click cycles palettes. */
+.quiz-theme-chip-qg {
+	position: absolute;
+	top: max(0.7rem, env(safe-area-inset-top));
+	right: 3.25rem;
+	padding: 0.2rem 0.7rem !important;
+	height: auto !important;
+	border: 1px solid color-mix(in srgb, var(--qg-a) 45%, transparent) !important;
+	border-radius: 1rem !important;
+	background: linear-gradient(135deg, color-mix(in srgb, var(--qg-a) 14%, transparent), color-mix(in srgb, var(--qg-b) 14%, transparent)) !important;
+	box-shadow: none !important;
+	font-size: var(--font-ui-smaller);
+	color: var(--text-normal);
+	cursor: pointer;
+}
+
+.qg-anim-on .quiz-theme-chip-qg {
+	animation: qg-bump 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+	transition: transform 0.12s ease;
+}
+
+.qg-anim-on .quiz-theme-chip-qg:active {
+	transform: scale(0.94);
+}
+
+@media (max-width: 600px) {
+	.quiz-theme-chip-qg {
+		right: 2.75rem;
+		padding: 0.15rem 0.5rem !important;
+	}
+}
+
+/* ───────────── Typed answers (reverse and fill-the-gap cards) ───────────── */
+
+.type-answer-qg {
+	display: flex;
+	flex-direction: column;
+	gap: 0.6rem;
+	margin-top: 0.75rem;
+}
+
+.type-input-qg {
+	width: 100%;
+	padding: 0.8rem 1rem !important;
+	height: auto !important;
+	border: 2px solid var(--background-modifier-border) !important;
+	border-radius: var(--radius-m) !important;
+	font-size: 1.2em !important;
+	text-align: center;
+	transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.type-input-qg:focus {
+	border-color: var(--interactive-accent) !important;
+	box-shadow: 0 0 0 3px color-mix(in srgb, var(--interactive-accent) 20%, transparent) !important;
+}
+
+.type-actions-qg {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.type-check-btn-qg,
+.type-giveup-btn-qg {
+	flex: 1;
+	padding: 0.6rem !important;
+	height: auto !important;
+	cursor: pointer;
+}
+
+.type-check-btn-qg {
+	background-color: var(--interactive-accent) !important;
+	color: var(--text-on-accent) !important;
+}
+
+.type-giveup-btn-qg {
+	background-color: transparent !important;
+	border: 1px solid var(--background-modifier-border) !important;
+	box-shadow: none !important;
+	color: var(--text-muted);
+}
+
+.type-result-qg {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	gap: 0.4rem 0.9rem;
+	margin: 0.75rem 0;
+	padding: 0.7rem 1rem;
+	border-radius: var(--radius-m);
+	border-left: 4px solid;
+}
+
+.type-result-label-qg {
+	font-weight: var(--font-semibold);
+}
+
+.verdict-correct-qg {
+	border-color: var(--color-green);
+	background-color: color-mix(in srgb, var(--color-green) 10%, transparent);
+}
+
+.verdict-correct-qg .type-result-label-qg { color: var(--color-green); }
+
+.verdict-typo-qg {
+	border-color: var(--color-yellow);
+	background-color: color-mix(in srgb, var(--color-yellow) 12%, transparent);
+}
+
+.verdict-typo-qg .type-result-label-qg { color: var(--color-yellow); }
+
+.verdict-wrong-qg {
+	border-color: var(--color-red);
+	background-color: color-mix(in srgb, var(--color-red) 9%, transparent);
+}
+
+.verdict-wrong-qg .type-result-label-qg { color: var(--color-red); }
+
+.type-result-typed-qg {
+	color: var(--text-muted);
+	text-decoration: line-through;
+	text-decoration-color: color-mix(in srgb, var(--color-red) 70%, transparent);
+}
+
+.type-result-expected-qg {
+	margin-left: auto;
+	font-size: 1.25em;
+	font-weight: var(--font-bold);
+	letter-spacing: 0.02em;
+}
+
+.letter-ok-qg { color: var(--text-normal); }
+
+/* Letters the user missed or got wrong. */
+.letter-miss-qg {
+	color: var(--color-red);
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+	text-underline-offset: 3px;
+}
+
+.verdict-wrong-qg .letter-miss-qg {
+	text-decoration: none;
+}
+
+/* Fill-the-gap sentence: a touch larger, it's the whole prompt. */
+.cloze-question-qg {
+	font-size: 1.15em;
+	line-height: 1.6;
+}
+
+.qg-anim-on .type-result-qg {
+	animation: qg-hint-in 0.3s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.qg-anim-on .verdict-wrong-qg {
+	animation: qg-shake 0.34s ease both;
+}
+
+.qg-anim-on .verdict-correct-qg .type-result-expected-qg {
+	display: inline-block;
+	animation: qg-spring 0.45s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+/* Quiz Browser: study mode dropdown inside the pill */
+.browser-mode-select-qg {
+	height: auto !important;
+	padding: 0 1.1rem 0 0 !important;
+	border: none !important;
+	background-color: transparent !important;
+	box-shadow: none !important;
+	font-size: var(--font-ui-smaller) !important;
+	color: inherit !important;
+	cursor: pointer;
+}
+
+.browser-mode-select-qg:focus {
+	outline: none;
+}
+
+.browser-mode-select-qg option {
+	color: var(--text-normal);
+	background-color: var(--background-primary);
+}
+
+/* ───────────── Quiz Browser: aligned columns ─────────────
+   Every row ends with the same fixed-width cells, right-aligned, so numbers line up
+   vertically across folders and decks at any nesting depth. */
+
+.browser-badges-qg {
+	gap: 0;
+}
+
+.browser-col-qg {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+}
+
+.col-due-qg,
+.col-new-qg,
+.col-total-qg {
+	width: 2.75rem;
+}
+
+.col-total-qg {
+	justify-content: flex-end;
+	padding-right: 0.5rem;
+}
+
+.col-progress-qg {
+	width: 3.5rem;
+}
+
+.col-action-qg {
+	width: 1.9rem;
+}
+
+.col-progress-qg .browser-progress-qg {
+	width: 100%;
+}
+
+.browser-total-qg {
+	min-width: 0;
+	text-align: right;
+}
+
+.browser-columns-qg {
+	position: sticky;
+	top: 0;
+	z-index: 2;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.2rem 0.6rem 0.35rem 0.4rem;
+	background-color: var(--background-primary);
+	border-bottom: 1px solid var(--background-modifier-border);
+	font-size: var(--font-ui-smaller);
+	font-weight: var(--font-semibold);
+	color: var(--text-faint);
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+}
+
+.browser-columns-qg .browser-name-qg {
+	flex: 1;
+}
+
+/* The old rule made the play button half-transparent as a floating extra; now it owns a column. */
+.col-action-qg .browser-play-qg {
+	margin: 0;
+}
+
+@media (max-width: 600px) {
+	.col-progress-qg {
+		display: none;
+	}
+}
+
+/* ───────────── Quiz Browser: focus on recently added cards ───────────── */
+
+.browser-focus-qg {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.3rem;
+	margin: 0.2rem 0 0.5rem;
+	padding: 0 0.25rem;
+}
+
+.browser-focus-label-qg {
+	margin-right: 0.2rem;
+	font-size: var(--font-ui-smaller);
+	font-weight: var(--font-semibold);
+	color: var(--text-faint);
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.browser-focus-chip-qg {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.35rem;
+	padding: 0.15rem 0.6rem !important;
+	height: auto !important;
+	border: 1px solid var(--background-modifier-border) !important;
+	border-radius: 1rem !important;
+	background-color: transparent !important;
+	box-shadow: none !important;
+	font-size: var(--font-ui-smaller);
+	color: var(--text-muted);
+	cursor: pointer;
+	transition: border-color 0.12s ease, color 0.12s ease, background-color 0.12s ease;
+}
+
+.browser-focus-chip-qg:hover {
+	color: var(--text-normal);
+	border-color: var(--interactive-accent) !important;
+}
+
+.browser-focus-chip-qg.is-active-qg {
+	color: var(--text-on-accent);
+	border-color: var(--interactive-accent) !important;
+	background-color: var(--interactive-accent) !important;
+}
+
+.browser-focus-count-qg {
+	min-width: 1.2rem;
+	padding: 0 0.35rem;
+	border-radius: 1rem;
+	font-variant-numeric: tabular-nums;
+	text-align: center;
+	background-color: var(--background-modifier-border);
+}
+
+.browser-focus-chip-qg.is-active-qg .browser-focus-count-qg {
+	background-color: color-mix(in srgb, var(--text-on-accent) 25%, transparent);
+}
+
+.browser-focus-chip-qg.is-zero-qg:not(.is-active-qg) {
+	opacity: 0.55;
+}
+
+/* Under a focus, decks and folders with no matching cards fade back. */
+.browser-row-qg.is-empty-qg {
+	opacity: 0.4;
+}
+
+.browser-file-qg.is-empty-qg {
+	cursor: default;
+}
+
+/* ───────────── Quiz window: scroll inside, header and footer pinned ─────────────
+   The window is a fixed-height column: header on top, then the content area, which is itself a
+   column. Only the card (question, hints) and the results list scroll; the bars above them and
+   the rating buttons / arrows below stay in place. min-height: 0 is what lets a flex child
+   shrink below its content instead of pushing the footer off screen. */
+
+.modal-qg.modal-quiz-fullscreen-qg {
+	display: flex;
+	flex-direction: column;
+}
+
+.modal-quiz-fullscreen-qg .modal-header {
+	flex: 0 0 auto;
+}
+
+.modal-quiz-fullscreen-qg .modal-content {
+	flex: 1 1 auto;
+	min-height: 0;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+/* Top bars and the footer never shrink or scroll. */
+.modal-quiz-fullscreen-qg .modal-content > * {
+	flex-shrink: 0;
+}
+
+.modal-quiz-fullscreen-qg .quiz-card-qg,
+.modal-quiz-fullscreen-qg .results-container-qg {
+	flex: 1 1 0;
+	min-height: 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+	overscroll-behavior: contain;
+}
+
+/* Keep the content from touching the scrollbar. */
+.modal-quiz-fullscreen-qg .quiz-card-qg {
+	padding: 0 0.35rem;
+	scrollbar-gutter: stable;
+}
+
+.modal-quiz-fullscreen-qg .results-container-qg {
+	height: auto;
+	scrollbar-gutter: stable;
+}
+
+/* Footer: breathing room against the scrolling area. */
+.modal-quiz-fullscreen-qg .quiz-rating-qg,
+.modal-quiz-fullscreen-qg .quiz-nav-qg {
+	flex-shrink: 0;
+	margin-top: 0.75rem;
+}
+
+/* ───────────── Tap-a-word dictionary panel ─────────────
+   Bottom sheet by default; on wide screens a drawer on the right, so the card stays readable. */
+
+.qg-lookup-on .quiz-card-qg .question-qg,
+.qg-lookup-on .quiz-card-qg .flashcard-answer-qg,
+.qg-lookup-on .quiz-card-qg .hint-text-qg,
+.qg-lookup-on .quiz-card-qg .quiz-explanation-qg {
+	cursor: pointer;
+}
+
+/* The shell is what slides; the panel inside it swaps content without re-animating. */
+.dict-shell-qg {
+	position: absolute;
+	z-index: 25;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	max-height: 55%;
+	border-top: 2px solid var(--qg-a, var(--interactive-accent));
+	border-radius: var(--radius-l) var(--radius-l) 0 0;
+	background-color: var(--background-primary);
+	box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.dict-panel-qg {
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 auto;
+	min-height: 0;
+	padding: 0.75rem 1rem max(0.9rem, env(safe-area-inset-bottom));
+}
+
+@media (min-width: 1400px) {
+	.dict-shell-qg {
+		left: auto;
+		top: 4.5rem;
+		bottom: 0;
+		width: 24rem;
+		max-height: none;
+		border-top: none;
+		border-left: 2px solid var(--qg-a, var(--interactive-accent));
+		border-radius: var(--radius-l) 0 0 0;
+		box-shadow: -10px 0 30px rgba(0, 0, 0, 0.2);
+	}
+}
+
+/* Slide in from outside the window edge, decelerating; slide out a little quicker, accelerating.
+   Bottom sheet up from below, drawer in from the right. */
+.qg-anim-on .dict-shell-qg {
+	animation: qg-dict-up 0.36s cubic-bezier(0.22, 1, 0.36, 1) both;
+	will-change: transform;
+}
+
+.qg-anim-on .dict-shell-qg.is-closing-qg {
+	animation: qg-dict-down 0.24s cubic-bezier(0.5, 0, 0.9, 0.5) both;
+	pointer-events: none;
+}
+
+@keyframes qg-dict-up {
+	from { transform: translateY(100%); opacity: 0.6; }
+	to   { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes qg-dict-down {
+	from { transform: translateY(0); opacity: 1; }
+	to   { transform: translateY(100%); opacity: 0.6; }
+}
+
+@keyframes qg-dict-right {
+	from { transform: translateX(100%); opacity: 0.6; }
+	to   { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes qg-dict-left-out {
+	from { transform: translateX(0); opacity: 1; }
+	to   { transform: translateX(100%); opacity: 0.6; }
+}
+
+@media (min-width: 1400px) {
+	.qg-anim-on .dict-shell-qg {
+		animation-name: qg-dict-right;
+	}
+
+	.qg-anim-on .dict-shell-qg.is-closing-qg {
+		animation-name: qg-dict-left-out;
+	}
+
+	/* The quiz eases aside for the drawer instead of jumping. */
+	.modal-quiz-fullscreen-qg.qg-anim-on {
+		transition: padding-right 0.36s cubic-bezier(0.22, 1, 0.36, 1);
+	}
+}
+
+.dict-header-qg {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	flex: 0 0 auto;
+	padding-bottom: 0.5rem;
+	border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.dict-word-qg {
+	flex: 1;
+	min-width: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 1.35em;
+	font-weight: var(--font-bold);
+	color: var(--qg-a, var(--interactive-accent));
+}
+
+.dict-icon-btn-qg {
+	padding: 0.15rem 0.5rem !important;
+	height: auto !important;
+	background: transparent !important;
+	box-shadow: none !important;
+	color: var(--text-muted);
+	cursor: pointer;
+}
+
+.dict-icon-btn-qg:hover {
+	color: var(--text-normal);
+}
+
+.dict-pin-qg {
+	opacity: 0.45;
+	filter: grayscale(1);
+}
+
+.dict-pin-qg.is-pinned-qg {
+	opacity: 1;
+	filter: none;
+}
+
+.dict-body-qg {
+	flex: 1 1 auto;
+	min-height: 0;
+	overflow-y: auto;
+	overscroll-behavior: contain;
+	padding-top: 0.6rem;
+}
+
+.dict-note-qg {
+	color: var(--text-muted);
+}
+
+.dict-retry-qg {
+	margin-left: 0.6rem;
+	cursor: pointer;
+}
+
+.dict-form-qg {
+	margin-bottom: 0.5rem;
+	font-size: var(--font-ui-small);
+	color: var(--text-muted);
+}
+
+.dict-pos-qg {
+	margin-bottom: 0.55rem;
+}
+
+.dict-pos-label-qg {
+	display: inline-block;
+	margin-bottom: 0.15rem;
+	padding: 0 0.5rem;
+	border-radius: 1rem;
+	font-size: var(--font-ui-smaller);
+	font-style: italic;
+	color: var(--text-muted);
+	background-color: var(--background-modifier-border);
+}
+
+.dict-defs-qg {
+	margin: 0.15rem 0 0;
+	padding-left: 1.3rem;
+}
+
+.dict-defs-qg li {
+	margin-bottom: 0.2rem;
+	line-height: 1.4;
+}
+
+.dict-section-qg {
+	margin-top: 0.7rem;
+}
+
+.dict-section-title-qg {
+	margin-bottom: 0.3rem;
+	font-size: var(--font-ui-smaller);
+	font-weight: var(--font-semibold);
+	color: var(--text-faint);
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.dict-chips-qg {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.35rem;
+}
+
+.dict-chip-qg {
+	padding: 0.1rem 0.65rem !important;
+	height: auto !important;
+	border: 1px solid color-mix(in srgb, var(--qg-a, var(--interactive-accent)) 55%, transparent) !important;
+	border-radius: 1rem !important;
+	background-color: color-mix(in srgb, var(--qg-a, var(--interactive-accent)) 10%, transparent) !important;
+	box-shadow: none !important;
+	font-size: var(--font-ui-small);
+	cursor: pointer;
+	transition: transform 0.1s ease, background-color 0.12s ease;
+}
+
+.dict-chip-qg:hover {
+	background-color: color-mix(in srgb, var(--qg-a, var(--interactive-accent)) 22%, transparent) !important;
+}
+
+.dict-chip-qg:active {
+	transform: scale(0.95);
+}
+
+.dict-chip-qg.is-opposite-qg {
+	border-color: color-mix(in srgb, var(--color-red) 50%, transparent) !important;
+	background-color: color-mix(in srgb, var(--color-red) 8%, transparent) !important;
+}
+
+.dict-chip-qg.is-related-qg {
+	border-color: var(--background-modifier-border) !important;
+	background-color: transparent !important;
+	color: var(--text-muted);
+}
+
+.dict-trail-qg {
+	flex: 0 0 auto;
+	margin-top: 0.4rem;
+	padding-top: 0.35rem;
+	border-top: 1px solid var(--background-modifier-border);
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: var(--font-ui-smaller);
+	color: var(--text-faint);
+}
+
+.dict-form-qg .dict-chip-qg {
+	margin-left: 0.4rem;
+}
+
+/* The drawer lies on top of the quiz; the card keeps its size and place. */
+
+/* ───────────── Dictionary panel: loader, expressions, saving words ───────────── */
+
+/* Obsidian turns text selection off around its UI; the card and the panel need it on. */
+.qg-lookup-on .quiz-card-qg .question-qg,
+.qg-lookup-on .quiz-card-qg .flashcard-answer-qg,
+.qg-lookup-on .quiz-card-qg .hint-text-qg,
+.qg-lookup-on .quiz-card-qg .quiz-explanation-qg,
+.dict-body-qg,
+.dict-word-qg {
+	-webkit-user-select: text;
+	user-select: text;
+}
+
+.dict-spinner-qg {
+	flex: 0 0 auto;
+	width: 1rem;
+	height: 1rem;
+	border: 2px solid var(--background-modifier-border);
+	border-top-color: var(--qg-a, var(--interactive-accent));
+	border-radius: 50%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.dict-spinner-qg {
+		animation: qg-spin 0.7s linear infinite;
+	}
+
+	.dict-skel-line-qg,
+	.dict-skel-chips-qg span {
+		animation: qg-skel 1.2s ease-in-out infinite;
+	}
+}
+
+@keyframes qg-spin {
+	to { transform: rotate(360deg); }
+}
+
+@keyframes qg-skel {
+	0%, 100% { opacity: 0.45; }
+	50% { opacity: 1; }
+}
+
+.dict-skel-qg {
+	display: flex;
+	flex-direction: column;
+	gap: 0.55rem;
+}
+
+.dict-skel-line-qg {
+	height: 0.8rem;
+	border-radius: 0.4rem;
+	background-color: var(--background-modifier-border);
+}
+
+.dict-skel-chips-qg {
+	display: flex;
+	gap: 0.35rem;
+	margin-top: 0.4rem;
+}
+
+.dict-skel-chips-qg span {
+	width: 3.4rem;
+	height: 1.35rem;
+	border-radius: 1rem;
+	background-color: var(--background-modifier-border);
+}
+
+/* Expression builder: the words around the tap, tap neighbours to extend the pick. */
+.dict-phrase-qg {
+	flex: 0 0 auto;
+	padding: 0.5rem 0 0.1rem;
+}
+
+.dict-phrase-tokens-qg {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.25rem;
+}
+
+.dict-token-qg {
+	padding: 0.05rem 0.45rem !important;
+	height: auto !important;
+	border: 1px solid transparent !important;
+	border-radius: var(--radius-s) !important;
+	background-color: transparent !important;
+	box-shadow: none !important;
+	font-size: var(--font-ui-small);
+	color: var(--text-muted);
+	cursor: pointer;
+}
+
+.dict-token-qg:hover {
+	color: var(--text-normal);
+	background-color: var(--background-modifier-hover) !important;
+}
+
+.dict-token-qg.is-picked-qg {
+	color: var(--text-on-accent);
+	border-color: var(--qg-a, var(--interactive-accent)) !important;
+	background-color: var(--qg-a, var(--interactive-accent)) !important;
+}
+
+.dict-phrase-hint-qg {
+	margin-top: 0.2rem;
+	font-size: var(--font-ui-smaller);
+	color: var(--text-faint);
+}
+
+.dict-add-qg {
+	font-weight: var(--font-bold);
+	font-size: 1.15em;
+}
+
+.dict-add-qg:hover,
+.dict-add-qg.is-saved-qg {
+	color: var(--color-green);
+}
+
+/* Selection inside the panel: one tap adds it to the list. */
+.dict-selection-qg {
+	flex: 0 0 auto;
+	margin-top: 0.5rem;
+}
+
+.dict-selection-btn-qg {
+	width: 100%;
+	padding: 0.45rem 0.8rem !important;
+	height: auto !important;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	background-color: var(--qg-a, var(--interactive-accent)) !important;
+	color: var(--text-on-accent) !important;
+	cursor: pointer;
+}
+
+.dict-notice-qg {
+	flex: 0 0 auto;
+	margin-top: 0.5rem;
+	padding: 0.35rem 0.7rem;
+	border-radius: var(--radius-s);
+	font-size: var(--font-ui-small);
+	color: var(--color-green);
+	background-color: color-mix(in srgb, var(--color-green) 12%, transparent);
+}
+
+/* ───────────── Dictionary panel: pronunciation ───────────── */
+
+.dict-speak-qg,
+.dict-speak-mini-qg {
+	display: inline-flex;
+	align-items: center;
+}
+
+.dict-speak-qg:hover,
+.dict-speak-mini-qg:hover {
+	color: var(--qg-a, var(--interactive-accent));
+}
+
+.dict-speak-mini-qg {
+	margin-left: 0.25rem;
+	padding: 0 0.3rem !important;
+	vertical-align: middle;
+}
+
+.dict-phrase-foot-qg {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.3rem 0.8rem;
+	margin-top: 0.25rem;
+}
+
+.dict-phrase-foot-qg .dict-phrase-hint-qg {
+	margin-top: 0;
+}
+
+.dict-sentence-speak-qg {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.35rem;
+	margin-left: auto;
+	padding: 0.1rem 0.6rem !important;
+	height: auto !important;
+	border: 1px solid var(--background-modifier-border) !important;
+	border-radius: 1rem !important;
+	background-color: transparent !important;
+	box-shadow: none !important;
+	font-size: var(--font-ui-smaller);
+	color: var(--text-muted);
+	cursor: pointer;
+}
+
+.dict-sentence-speak-qg:hover {
+	color: var(--qg-a, var(--interactive-accent));
+	border-color: var(--qg-a, var(--interactive-accent)) !important;
+}
+
+/* Lit while a voice is talking. */
+.is-speaking-qg {
+	color: var(--qg-a, var(--interactive-accent)) !important;
+}
+
+.dict-sentence-speak-qg.is-speaking-qg {
+	border-color: var(--qg-a, var(--interactive-accent)) !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.dict-speak-qg.is-speaking-qg svg,
+	.dict-speak-mini-qg.is-speaking-qg svg,
+	.dict-sentence-speak-qg.is-speaking-qg svg {
+		animation: qg-speaking 0.9s ease-in-out infinite;
+	}
+}
+
+@keyframes qg-speaking {
+	0%, 100% { opacity: 1; transform: scale(1); }
+	50% { opacity: 0.55; transform: scale(1.12); }
+}
+
+.dict-speak-qg svg {
+	width: 1.2em;
+	height: 1.2em;
+}
+
+/* ───────────── 🔊 beside words, hints and examples ───────────── */
+
+.speak-inline-qg {
+	display: inline-flex;
+	align-items: center;
+	vertical-align: middle;
+	margin-left: 0.4rem;
+	padding: 0.1rem 0.25rem !important;
+	height: auto !important;
+	border: none !important;
+	background: transparent !important;
+	box-shadow: none !important;
+	color: var(--text-faint);
+	font-size: 0.95em;
+	cursor: pointer;
+	-webkit-user-select: none;
+	user-select: none;
+	transition: color 0.12s ease, transform 0.1s ease;
+}
+
+.speak-inline-qg:hover {
+	color: var(--qg-a, var(--interactive-accent));
+}
+
+.speak-inline-qg:active {
+	transform: scale(0.9);
+}
+
+.speak-inline-qg.is-speaking-qg {
+	color: var(--qg-a, var(--interactive-accent));
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.speak-inline-qg.is-speaking-qg svg {
+		animation: qg-speaking 0.9s ease-in-out infinite;
+	}
+}
+
+/* ───────────── 🎤 pronunciation check ───────────── */
+
+.mic-inline-qg {
+	display: inline-flex;
+	align-items: center;
+	vertical-align: middle;
+	margin-left: 0.1rem;
+	padding: 0.1rem 0.25rem !important;
+	height: auto !important;
+	border: none !important;
+	background: transparent !important;
+	box-shadow: none !important;
+	color: var(--text-faint);
+	font-size: 0.95em;
+	cursor: pointer;
+	-webkit-user-select: none;
+	user-select: none;
+	transition: color 0.12s ease, transform 0.1s ease;
+}
+
+.mic-inline-qg:hover {
+	color: var(--qg-a, var(--interactive-accent));
+}
+
+.mic-inline-qg.is-recording-qg {
+	color: var(--color-red);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.mic-inline-qg.is-recording-qg svg {
+		animation: qg-speaking 0.8s ease-in-out infinite;
+	}
+}
+
+.mic-toast-qg {
+	position: absolute;
+	z-index: 26;
+	top: 3.6rem;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	align-items: center;
+	gap: 0.6rem;
+	max-width: min(40rem, 92%);
+	padding: 0.5rem 1rem;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 2rem;
+	background-color: var(--background-primary);
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+	font-size: var(--font-ui-small);
+}
+
+.mic-toast-text-qg {
+	min-width: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.mic-listening-qg {
+	border-color: var(--color-red);
+}
+
+.mic-dot-qg {
+	flex: 0 0 auto;
+	width: 0.7rem;
+	height: 0.7rem;
+	border-radius: 50%;
+	background-color: var(--color-red);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.mic-dot-qg {
+		animation: qg-skel 0.9s ease-in-out infinite;
+	}
+}
+
+.mic-error-qg {
+	border-color: var(--color-orange);
+}
+
+.mic-toast-qg.verdict-correct-qg { border-color: var(--color-green); }
+.mic-toast-qg.verdict-close-qg   { border-color: var(--color-yellow); }
+.mic-toast-qg.verdict-wrong-qg   { border-color: var(--color-red); }
+
+.mic-toast-qg.verdict-correct-qg strong:first-child { color: var(--color-green); }
+.mic-toast-qg.verdict-close-qg strong:first-child   { color: var(--color-yellow); }
+.mic-toast-qg.verdict-wrong-qg strong:first-child   { color: var(--color-red); }
+
+.mic-clarity-qg {
+	color: var(--text-muted);
+}
+
+/* ───────────── Dictionary panel: verb forms ───────────── */
+
+.dict-forms-qg {
+	margin: 0.2rem 0 0.7rem;
+}
+
+.dict-forms-qg .dict-section-title-qg {
+	display: flex;
+	align-items: center;
+	gap: 0.3rem;
+}
+
+.dict-forms-all-qg {
+	display: inline-flex;
+	align-items: center;
+	padding: 0 0.3rem !important;
+}
+
+.dict-forms-grid-qg {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(6.2rem, 1fr));
+	gap: 0.35rem;
+}
+
+.dict-form-item-qg {
+	min-width: 0;
+	white-space: normal;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 0.05rem;
+	padding: 0.3rem 0.6rem !important;
+	height: auto !important;
+	border: 1px solid var(--background-modifier-border) !important;
+	border-radius: var(--radius-m) !important;
+	background-color: transparent !important;
+	box-shadow: none !important;
+	text-align: left;
+	cursor: pointer;
+	transition: border-color 0.12s ease, background-color 0.12s ease;
+}
+
+.dict-form-item-qg:hover {
+	border-color: var(--qg-a, var(--interactive-accent)) !important;
+}
+
+.dict-form-label-qg {
+	font-size: var(--font-ui-smaller);
+	line-height: 1.2;
+	color: var(--text-faint);
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+	/* Obsidian's buttons never wrap; the longer labels ("past participle · V3") must. */
+	white-space: normal;
+}
+
+.dict-form-value-qg {
+	font-weight: var(--font-semibold);
+	overflow-wrap: anywhere;
+}
+
+/* Past and participle that are not just "-ed": the ones worth learning by heart. */
+.dict-form-item-qg.is-irregular-qg {
+	border-color: color-mix(in srgb, var(--color-orange) 60%, transparent) !important;
+	background-color: color-mix(in srgb, var(--color-orange) 10%, transparent) !important;
+}
+
+.dict-form-item-qg.is-irregular-qg .dict-form-value-qg {
+	color: var(--color-orange);
+}
+
+.dict-form-item-qg.is-speaking-qg {
+	border-color: var(--qg-a, var(--interactive-accent)) !important;
+}
+
+.dict-forms-badge-qg {
+	margin-left: 0.2rem;
+	padding: 0 0.5rem;
+	border-radius: 1rem;
+	font-size: var(--font-ui-smaller);
+	font-weight: var(--font-semibold);
+	text-transform: none;
+	letter-spacing: 0;
+	color: var(--text-muted);
+	background-color: var(--background-modifier-border);
+}
+
+.dict-forms-badge-qg.is-irregular-qg {
+	color: var(--color-orange);
+	background-color: color-mix(in srgb, var(--color-orange) 15%, transparent);
+}
+
+/* The longest label gets two cells so "past participle · V3" stays on one line. */
+.dict-form-item-qg.is-wide-qg {
+	grid-column: span 2;
+}
+
+/* ───────────── More contexts: sentences for a word ───────────── */
+
+.more-contexts-btn-qg {
+	display: inline-flex;
+	align-items: center;
+	margin-top: 0;
+	padding: 0.25rem 0.8rem !important;
+	height: auto !important;
+	border: 1px solid var(--background-modifier-border) !important;
+	border-radius: 1rem !important;
+	background: transparent !important;
+	box-shadow: none !important;
+	font-size: var(--font-ui-smaller);
+	color: var(--text-muted);
+	cursor: pointer;
+}
+
+.more-contexts-btn-qg:hover {
+	color: var(--qg-a, var(--interactive-accent));
+	border-color: var(--qg-a, var(--interactive-accent)) !important;
+}
+
+.ctx-qg {
+	margin: 0.6rem 0;
+}
+
+.ctx-find-qg {
+	padding: 0.35rem 0.9rem !important;
+	height: auto !important;
+	border: 1px dashed var(--background-modifier-border) !important;
+	border-radius: var(--radius-m) !important;
+	background: transparent !important;
+	box-shadow: none !important;
+	color: var(--text-muted);
+	cursor: pointer;
+}
+
+.ctx-find-qg:hover {
+	color: var(--qg-a, var(--interactive-accent));
+	border-color: var(--qg-a, var(--interactive-accent)) !important;
+}
+
+.ctx-lead-qg,
+.ctx-note-qg {
+	margin-bottom: 0.4rem;
+	font-size: var(--font-ui-smaller);
+	color: var(--text-faint);
+}
+
+.ctx-group-qg {
+	margin-bottom: 0.7rem;
+}
+
+.ctx-item-qg {
+	margin-bottom: 0.45rem;
+	padding: 0.45rem 0.7rem;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: var(--radius-m);
+}
+
+.ctx-sentence-qg {
+	line-height: 1.4;
+}
+
+.ctx-translation-qg {
+	margin-top: 0.15rem;
+	font-size: var(--font-ui-small);
+	color: var(--text-muted);
+}
+
+.ctx-actions-qg {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.2rem 0.3rem;
+	margin-top: 0.3rem;
+}
+
+.ctx-source-qg {
+	flex: 1 1 4rem;
+	min-width: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: var(--font-ui-smaller);
+	color: var(--text-faint);
+}
+
+.ctx-add-qg,
+
+.ctx-add-qg {
+	border: 1px solid var(--qg-a, var(--interactive-accent)) !important;
+	background-color: color-mix(in srgb, var(--qg-a, var(--interactive-accent)) 12%, transparent) !important;
+	box-shadow: none !important;
+}
+
+
+.ctx-done-qg {
+	font-size: var(--font-ui-smaller);
+	color: var(--color-green);
+}
+
+/* ───────────── Context: opens like a hint, above the hints ───────────── */
+
+.context-bar-qg {
+	margin-top: 0.75rem;
+}
+
+.context-btn-qg:hover:not(:disabled) {
+	border-color: var(--color-yellow) !important;
+	background-color: color-mix(in srgb, var(--color-yellow) 12%, transparent) !important;
+}
+
+.context-item-qg {
+	display: flex;
+	align-items: baseline;
+	gap: 0.6rem;
+	margin-top: 0.5rem;
+	padding: 0.5rem 0.8rem;
+	border-left: 3px solid var(--qg-a, var(--interactive-accent));
+	border-radius: var(--radius-s);
+	background-color: color-mix(in srgb, var(--qg-a, var(--interactive-accent)) 9%, transparent);
+}
+
+.qg-anim-on .context-item-qg {
+	animation: qg-hint-in 0.28s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.context-star-qg {
+	flex-shrink: 0;
+	color: var(--color-yellow);
+}
+
+.context-text-qg {
+	line-height: 1.45;
+}
+
+.context-gap-qg {
+	display: inline-block;
+	min-width: 3.5rem;
+	margin: 0 0.1rem;
+	border-bottom: 2px solid var(--text-muted);
+	text-align: center;
+	color: transparent;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+/* Opened context sentences stack like opened hints. */
+.context-list-qg {
+	display: flex;
+	flex-direction: column;
+	gap: 0.35rem;
+	margin-top: 0.5rem;
+}
+
+.context-list-qg .context-item-qg {
+	margin-top: 0;
+}
+
+.context-star-qg {
+	min-width: 1ch;
+	font-size: var(--font-ui-smaller);
+	font-weight: var(--font-semibold);
+}
+
+/* Words in an opened context sentence can be tapped for the dictionary like any other card text. */
+.qg-lookup-on .quiz-card-qg .context-text-qg {
+	cursor: pointer;
+	-webkit-user-select: text;
+	user-select: text;
+}
+
+/* ───────────── Compact footer that blurs what scrolls under it ─────────────
+   The card and the footer share one scroll area. The footer sticks to its bottom edge, is
+   translucent, and blurs whatever passes beneath it. Last in the file so it wins over the
+   earlier, taller footer rules. */
+
+.modal-quiz-fullscreen-qg .quiz-scroll-qg {
+	flex: 1 1 0;
+	min-height: 0;
+	display: flex;
+	flex-direction: column;
+	overflow-x: hidden;
+	overflow-y: auto;
+	overscroll-behavior: contain;
+	scrollbar-gutter: stable;
+}
+
+/* The card no longer scrolls on its own; it just takes the height its content needs. */
+.modal-quiz-fullscreen-qg .quiz-scroll-qg > .quiz-card-qg {
+	flex: 1 0 auto;
+	min-height: auto;
+	overflow: visible;
+	scrollbar-gutter: auto;
+	padding: 0 0.35rem 0.75rem;
+}
+
+.modal-quiz-fullscreen-qg .quiz-scroll-qg > .quiz-explanation-qg {
+	margin: 0.25rem 0.35rem 0.75rem;
+}
+
+.quiz-footer-qg {
+	position: sticky;
+	bottom: 0;
+	z-index: 4;
+	flex-shrink: 0;
+	margin-top: auto;
+	padding: 0.4rem 0.35rem 0.5rem;
+	background-color: transparent;
+}
+
+/* Rating buttons: one short row each instead of three stacked lines, and no caption. */
+.quiz-footer-qg .quiz-rating-qg {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.quiz-footer-qg .quiz-rating-buttons-qg {
+	gap: 0.4rem;
+}
+
+.quiz-footer-qg .quiz-rating-btn-qg {
+	flex-direction: row;
+	justify-content: center;
+	align-items: baseline;
+	gap: 0.45rem;
+	min-height: 0;
+	padding: 0.45rem 0.5rem;
+	border-radius: var(--radius-m);
+	background-color: var(--background-primary) !important;
+}
+
+/* The backing is clear, so each button carries its own solid fill (tinted per rating). */
+.quiz-footer-qg .rating-again-qg { background-color: color-mix(in srgb, var(--color-red) 12%, var(--background-primary)) !important; }
+.quiz-footer-qg .rating-hard-qg { background-color: color-mix(in srgb, var(--color-orange) 12%, var(--background-primary)) !important; }
+.quiz-footer-qg .rating-good-qg { background-color: color-mix(in srgb, var(--color-green) 12%, var(--background-primary)) !important; }
+.quiz-footer-qg .rating-easy-qg { background-color: color-mix(in srgb, var(--color-blue) 12%, var(--background-primary)) !important; }
+.quiz-footer-qg .rating-again-qg:hover { background-color: color-mix(in srgb, var(--color-red) 24%, var(--background-primary)) !important; }
+.quiz-footer-qg .rating-hard-qg:hover { background-color: color-mix(in srgb, var(--color-orange) 24%, var(--background-primary)) !important; }
+.quiz-footer-qg .rating-good-qg:hover { background-color: color-mix(in srgb, var(--color-green) 24%, var(--background-primary)) !important; }
+.quiz-footer-qg .rating-easy-qg:hover { background-color: color-mix(in srgb, var(--color-blue) 24%, var(--background-primary)) !important; }
+
+.quiz-footer-qg .rating-btn-label-qg { font-size: 1em; }
+.quiz-footer-qg .rating-btn-interval-qg { font-size: 0.8em; }
+.quiz-footer-qg .rating-btn-key-qg { margin-top: 0; font-size: 0.7em; }
+
+/* Arrows: a slim bar. */
+.quiz-footer-qg .quiz-nav-qg {
+	margin: 0;
+	padding: 0;
+	border: none;
+	gap: 0.6rem;
+}
+
+.quiz-footer-qg .quiz-nav-btn-qg {
+	padding: 0.3rem 0;
+	font-size: 1.1em;
+	border-radius: var(--radius-m);
+	background-color: var(--background-primary) !important;
+}
+
+.quiz-footer-qg .quiz-nav-btn-qg:hover:not(:disabled) {
+	background-color: color-mix(in srgb, var(--interactive-accent) 14%, var(--background-primary)) !important;
+}
+
+@media (max-width: 600px) {
+	/* Two by two instead of a column of four tall rows. */
+	.quiz-footer-qg .quiz-rating-buttons-qg {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.quiz-footer-qg .quiz-rating-btn-qg {
+		justify-content: center;
+		padding: 0.5rem 0.4rem;
+	}
+
+	.quiz-footer-qg .rating-btn-interval-qg {
+		margin-left: 0;
+		padding-right: 0;
+	}
+
+	.quiz-footer-qg {
+		padding-bottom: max(0.5rem, env(safe-area-inset-bottom));
+	}
+}
+
+/* ───────────── Roomier card: one-line header, side column, answer takes the question's place ─────────────
+   Last in the file so it wins over the earlier stacked layout. */
+
+/* Header: back · counter (· streak) · theme · tools, with the progress bar as a hairline below. */
+.modal-quiz-fullscreen-qg .modal-header {
+	display: flex;
+	align-items: center;
+	gap: 0.6rem;
+	padding: max(0.5rem, env(safe-area-inset-top)) 2.75rem 0.4rem 3rem;
+}
+
+.modal-quiz-fullscreen-qg .modal-header .modal-title {
+	flex: 1 1 auto;
+	margin: 0;
+	text-align: left;
+	font-size: var(--font-ui-medium);
+	font-variant-numeric: tabular-nums;
+}
+
+.modal-quiz-fullscreen-qg .modal-header .quiz-streak-qg {
+	position: static;
+}
+
+.modal-quiz-fullscreen-qg .modal-header .quiz-tools-qg {
+	margin: 0;
+	flex: 0 0 auto;
+	gap: 0.15rem;
+}
+
+.modal-quiz-fullscreen-qg .quiz-progress-qg {
+	height: 0.2rem;
+	margin: 0 0 0.5rem;
+}
+
+/* Wide windows use the room: question and answer on the left, Context and Hints on the right. */
+.modal-quiz-fullscreen-qg .modal-content {
+	max-width: 76rem;
+}
+
+.modal-quiz-fullscreen-qg .quiz-scroll-qg {
+	container-type: inline-size;
+}
+
+.quiz-card-qg:not(.has-side-qg) .quiz-main-qg {
+	max-width: 52rem;
+	margin: 0 auto;
+}
+
+.quiz-card-qg.has-side-qg .quiz-side-qg {
+	margin-top: 0.75rem;
+}
+
+@container (min-width: 820px) {
+	.quiz-card-qg.has-side-qg {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) minmax(18rem, 24rem);
+		column-gap: 1.5rem;
+		align-items: start;
+	}
+
+	.quiz-card-qg.has-side-qg .quiz-side-qg {
+		position: sticky;
+		top: 0;
+		margin-top: 0;
+		max-height: calc(100dvh - 10rem);
+		overflow-y: auto;
+		padding-left: 1.25rem;
+		border-left: 1px solid var(--background-modifier-border);
+	}
+}
+
+/* Header: the theme chip sits in the row, left of the tools, instead of floating over them. */
+.modal-quiz-fullscreen-qg .modal-header .quiz-theme-chip-qg {
+	position: static;
+	flex: 0 0 auto;
+}
+
+/* Rating buttons: label and interval are centred as a pair; the key hint hangs at the right edge. */
+.quiz-footer-qg .quiz-rating-btn-qg {
+	position: relative;
+	align-items: center;
+	text-align: center;
+}
+
+.quiz-footer-qg .rating-btn-key-qg {
+	position: absolute;
+	right: 0.6rem;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: 0;
+}
+
+@media (max-width: 600px) {
+	.quiz-footer-qg .rating-btn-key-qg {
+		display: none;
+	}
+}
+
+/* "📌 Last": keep the last hint open on every card. Lit while on. */
+.hint-pin-btn-qg.is-on-qg {
+	border-color: var(--color-yellow) !important;
+	background-color: color-mix(in srgb, var(--color-yellow) 18%, transparent) !important;
+}
+
+/* Saved word searches. */
+.browser-saved-qg {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.3rem;
+	margin: 0 0 0.5rem;
+	padding: 0 0.25rem;
+}
+
+.browser-saved-qg.is-empty-qg {
+	display: none;
+}
+
+.browser-saved-chip-qg {
+	display: inline-flex;
+	align-items: stretch;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 1rem;
+	overflow: hidden;
+}
+
+.browser-saved-chip-qg button {
+	height: auto !important;
+	padding: 0.15rem 0.55rem !important;
+	border: none !important;
+	border-radius: 0 !important;
+	background: transparent !important;
+	box-shadow: none !important;
+	font-size: var(--font-ui-smaller);
+	cursor: pointer;
+}
+
+.browser-saved-open-qg {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.35rem;
+}
+
+.browser-saved-open-qg:hover,
+.browser-saved-remove-qg:hover {
+	background: var(--background-modifier-hover) !important;
+}
+
+.browser-saved-remove-qg {
+	color: var(--text-faint);
+}
+
+.browser-saved-flag-qg {
+	color: var(--text-faint);
+}
+
+/* Word list in the quiz: translations on/off. Covered ones show again under the pointer. */
+.quiz-wordlist-actions-qg {
+	display: inline-flex;
+	gap: 0.4rem;
+}
+
+.quiz-wordlist-toggle-qg.is-on-qg {
+	border-color: var(--interactive-accent);
+}
+
+.quiz-wordlist-items-qg.is-covered-qg .quiz-wordlist-meaning-qg {
+	visibility: hidden;
+}
+
+.quiz-wordlist-items-qg.is-covered-qg .results-item-qg:hover .quiz-wordlist-meaning-qg {
+	visibility: visible;
+}
+
+/* ───────────── Quiz Browser: lighter header ─────────────
+   Resume / Review / Errors share one slim strip, Focus and the study mode are small menus in the
+   toolbar, and the word search is a single row. Last in the file so it wins over the older panels. */
+
+.browser-strip-qg {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+	gap: 0.5rem;
+	margin-bottom: 0.6rem;
+}
+
+.browser-strip-qg.is-empty-qg {
+	display: none;
+}
+
+.browser-strip-qg > .paused-panel-qg,
+.browser-strip-qg > .due-panel-qg,
+.browser-strip-qg > .error-bank-panel-qg {
+	margin: 0;
+	padding: 0.45rem 0.45rem 0.45rem 0.8rem;
+	gap: 0.6rem;
+	min-width: 0;
+}
+
+.browser-strip-qg .paused-panel-title-qg,
+.browser-strip-qg .due-panel-title-qg,
+.browser-strip-qg .error-bank-title-qg {
+	font-size: 0.9em;
+	line-height: 1.2;
+}
+
+.browser-strip-qg .paused-panel-count-qg,
+.browser-strip-qg .due-panel-count-qg,
+.browser-strip-qg .error-bank-count-qg {
+	font-size: var(--font-ui-smaller);
+	line-height: 1.2;
+}
+
+.browser-strip-qg .paused-panel-info-qg,
+.browser-strip-qg .due-panel-info-qg,
+.browser-strip-qg .error-bank-info-qg {
+	gap: 0;
+	min-width: 0;
+}
+
+.browser-strip-qg .paused-panel-title-qg {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.browser-strip-qg .paused-panel-btn-qg,
+.browser-strip-qg .due-panel-btn-qg,
+.browser-strip-qg .error-bank-btn-qg {
+	flex: 0 0 auto;
+	padding: 0.25rem 0.8rem;
+	font-size: var(--font-ui-small);
+}
+
+/* Toolbar: the count on the left, Focus / mode / fold buttons on the right. */
+.browser-toolbar-qg {
+	margin: 0.2rem 0 0.5rem;
+	padding: 0 0.25rem 0.5rem;
+}
+
+.browser-toolbar-actions-qg {
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	gap: 0.35rem;
+}
+
+.browser-toolbar-actions-qg .browser-direction-qg {
+	margin-right: 0;
+}
+
+/* Word search: one row. */
+.browser-search-qg {
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
+	margin: 0 0 0.5rem;
+	padding: 0 0.25rem;
+}
+
+.browser-search-field-qg {
+	flex: 1 1 auto;
+	min-width: 0;
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
+	padding: 0 0.7rem;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: var(--radius-m);
+	background-color: var(--background-modifier-form-field);
+}
+
+.browser-search-field-qg:focus-within {
+	border-color: var(--interactive-accent);
+}
+
+.browser-search-icon-qg {
+	display: flex;
+	color: var(--text-faint);
+}
+
+.browser-search-icon-qg svg {
+	width: 0.95rem;
+	height: 0.95rem;
+}
+
+.browser-search-qg .browser-search-input-qg {
+	flex: 1 1 auto;
+	min-width: 0;
+	height: 2.1rem;
+	padding: 0;
+	border: none;
+	background: transparent;
+	box-shadow: none;
+}
+
+.browser-search-qg .browser-search-input-qg:focus {
+	box-shadow: none;
+}
+
+.browser-search-count-qg {
+	flex: 0 0 auto;
+	font-size: var(--font-ui-smaller);
+	color: var(--text-muted);
+	white-space: nowrap;
+}
+
+.browser-search-toggle-qg {
+	flex: 0 0 auto;
+	height: auto;
+	padding: 0.3rem 0.65rem;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 1rem;
+	background: transparent !important;
+	box-shadow: none !important;
+	font-size: var(--font-ui-smaller);
+	color: var(--text-muted);
+	cursor: pointer;
+}
+
+.browser-search-toggle-qg.is-on-qg {
+	color: var(--interactive-accent);
+	border-color: var(--interactive-accent);
+	background-color: color-mix(in srgb, var(--interactive-accent) 10%, transparent) !important;
+}
+
+.browser-search-go-qg {
+	flex: 0 0 auto;
+	font-weight: var(--font-semibold);
+	color: var(--text-on-accent);
+	background-color: var(--interactive-accent);
+}
+
+.browser-search-go-qg:disabled {
+	color: var(--text-faint);
+	background-color: var(--background-modifier-border);
+	opacity: 1;
+}
+
+.browser-search-save-qg {
+	flex: 0 0 auto;
+	padding: 0.3rem 0.5rem !important;
+	background: transparent !important;
+	box-shadow: none !important;
+	color: var(--text-muted);
+}
+
+.browser-search-save-qg:hover:not(:disabled),
+.browser-search-save-qg.is-saved-qg {
+	color: var(--color-yellow);
+}
+
+.browser-search-save-qg:disabled {
+	opacity: 0.35;
+}
+
+.browser-search-save-qg svg {
+	width: 1rem;
+	height: 1rem;
+}
+
+/* Saved searches sit under the field and stay small. */
+.browser-saved-qg {
+	margin: -0.15rem 0 0.5rem;
+}
+
+.browser-saved-label-qg {
+	margin-right: 0.15rem;
+	font-size: var(--font-ui-smaller);
+	color: var(--text-faint);
+}
+
+@media (max-width: 600px) {
+	.browser-search-qg {
+		flex-wrap: wrap;
+	}
+
+	.browser-search-field-qg {
+		flex-basis: 100%;
+	}
+}
+
+/* The sticky column captions stick to the scroll area's padding edge, so any top padding on the
+   tree left a strip above them where rows showed through while scrolling. */
+.browser-tree-qg {
+	padding-top: 0;
+}
+
+/* A long title (the paused folder's path) shortens with "…" instead of pushing the button out of its tile. */
+.browser-strip-qg > .paused-panel-qg,
+.browser-strip-qg > .due-panel-qg,
+.browser-strip-qg > .error-bank-panel-qg {
+	overflow: hidden;
+}
+
+.browser-strip-qg .paused-panel-left-qg,
+.browser-strip-qg .due-panel-left-qg,
+.browser-strip-qg .error-bank-left-qg {
+	flex: 1 1 0;
+	min-width: 0;
+}
+
+.browser-strip-qg .paused-panel-title-qg,
+.browser-strip-qg .paused-panel-count-qg,
+.browser-strip-qg .due-panel-title-qg,
+.browser-strip-qg .due-panel-count-qg,
+.browser-strip-qg .error-bank-title-qg,
+.browser-strip-qg .error-bank-count-qg {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+/* Pronunciation beside the word in the dictionary panel. */
+.dict-ipa-qg {
+	flex: 0 1 auto;
+	min-width: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 0.9em;
+	font-weight: var(--font-normal);
+	color: var(--text-muted);
+	-webkit-user-select: text;
+	user-select: text;
+}
+
+/* ───────────── Dictation (🎧 cards) ───────────── */
+.dictation-qg {
+	display: flex;
+	flex-direction: column;
+	gap: 0.6rem;
+	padding: 0.5rem 0.25rem 0.25rem;
+}
+
+.dictation-head-qg {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	gap: 0.75rem;
+}
+
+.dictation-title-qg {
+	font-size: 1.1em;
+	font-weight: var(--font-semibold);
+}
+
+.dictation-count-qg {
+	font-size: var(--font-ui-smaller);
+	color: var(--text-muted);
+	white-space: nowrap;
+}
+
+.dictation-bar-qg {
+	height: 0.25rem;
+	border-radius: 1rem;
+	background-color: var(--background-modifier-border);
+	overflow: hidden;
+}
+
+.dictation-bar-qg > div {
+	height: 100%;
+	border-radius: inherit;
+	background: linear-gradient(90deg, var(--interactive-accent), var(--color-green));
+	transition: width 0.3s ease;
+}
+
+.dictation-controls-qg {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.4rem;
+}
+
+.dictation-controls-qg button {
+	height: auto;
+	padding: 0.4rem 0.8rem;
+	white-space: nowrap;
+}
+
+.dictation-controls-qg .dictation-play-qg {
+	min-width: 6.5rem;
+	font-weight: var(--font-semibold);
+	color: var(--text-on-accent);
+	background-color: var(--interactive-accent);
+}
+
+.dictation-controls-qg .dictation-play-qg.is-playing-qg {
+	background-color: color-mix(in srgb, var(--interactive-accent) 70%, var(--background-primary));
+}
+
+.dictation-controls-qg button.is-on-qg {
+	border-color: var(--interactive-accent);
+	color: var(--interactive-accent);
+}
+
+.dictation-pos-qg {
+	min-height: 1em;
+	font-size: var(--font-ui-smaller);
+	color: var(--text-faint);
+	font-variant-numeric: tabular-nums;
+}
+
+.dictation-input-qg {
+	width: 100%;
+	resize: vertical;
+	font-size: 1.05em;
+	line-height: 1.5;
+}
+
+.dictation-actions-qg {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.dictation-check-qg {
+	font-weight: var(--font-semibold);
+	color: var(--text-on-accent);
+	background-color: var(--interactive-accent);
+}
+
+.dictation-actions-qg .instruction-footnote-qg {
+	flex: 1 1 100%;
+}
+
+.dictation-result-qg {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	padding: 0.75rem 0.9rem;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: var(--radius-m);
+}
+
+.dictation-result-head-qg {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.dictation-verdict-qg {
+	font-weight: var(--font-bold);
+}
+
+.dictation-verdict-qg.is-perfect-qg,
+.dictation-verdict-qg.is-good-qg { color: var(--color-green); }
+.dictation-verdict-qg.is-bad-qg { color: var(--color-red); }
+
+.dictation-diff-qg {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.15rem 0.45rem;
+	line-height: 1.7;
+}
+
+.dictation-word-qg {
+	position: relative;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.dictation-word-qg.is-ok-qg { color: var(--text-normal); }
+.dictation-word-qg.is-typo-qg { color: var(--color-orange); text-decoration: underline wavy; }
+.dictation-word-qg.is-wrong-qg { color: var(--color-red); font-weight: var(--font-semibold); }
+.dictation-word-qg.is-missing-qg { color: var(--color-red); text-decoration: underline dotted; }
+
+.dictation-typed-qg {
+	font-size: 0.7em;
+	line-height: 1;
+	color: var(--text-faint);
+	text-decoration: line-through;
+}
+
+.dictation-extra-qg {
+	font-size: 0.85em;
+	color: var(--text-faint);
+}
+
+.dictation-legend-qg {
+	display: flex;
+	gap: 0.75rem;
+	font-size: var(--font-ui-smaller);
+}
+
+.dictation-legend-qg .is-ok-qg { color: var(--text-normal); }
+.dictation-legend-qg .is-typo-qg { color: var(--color-orange); }
+.dictation-legend-qg .is-wrong-qg,
+.dictation-legend-qg .is-missing-qg { color: var(--color-red); }
+
+.dictation-done-qg .dictation-score-qg {
+	font-size: 2em;
+	font-weight: var(--font-bold);
+	color: var(--color-green);
+}
+
+.dictation-done-qg .dictation-score-qg span {
+	font-size: 0.45em;
+	font-weight: var(--font-normal);
+	color: var(--text-muted);
+}
+
+.dictation-review-qg {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.dictation-review-item-qg {
+	display: grid;
+	grid-template-columns: 1.6rem 1fr auto;
+	gap: 0.5rem;
+	align-items: start;
+	padding-bottom: 0.5rem;
+	border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.dictation-review-num-qg,
+.dictation-review-pct-qg {
+	font-size: var(--font-ui-smaller);
+	color: var(--text-muted);
+	font-variant-numeric: tabular-nums;
+}
+
+/* Start screen for long decks: pick which part of the deck the session takes. */
+.start-screen-modal-qg {
+	width: min(32rem, 92vw);
+}
+
+.start-screen-title-qg {
+	margin: 0 0 0.2rem;
+}
+
+.start-screen-sub-qg {
+	color: var(--text-muted);
+	margin-bottom: 1rem;
+}
+
+.start-screen-list-qg {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.start-screen-btn-qg {
+	display: block;
+	width: 100%;
+	height: auto;
+	padding: 0.7rem 0.9rem;
+	text-align: left;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: var(--radius-m);
+	background: var(--background-secondary);
+	cursor: pointer;
+}
+
+.start-screen-btn-qg:hover:not(:disabled),
+.start-screen-btn-qg:focus-visible {
+	border-color: var(--interactive-accent);
+	box-shadow: 0 0 0 1px var(--interactive-accent);
+}
+
+.start-screen-btn-qg.is-last-qg {
+	border-color: var(--interactive-accent);
+	background: color-mix(in srgb, var(--interactive-accent) 10%, var(--background-secondary));
+}
+
+.start-screen-btn-qg:disabled {
+	opacity: 0.45;
+	cursor: not-allowed;
+}
+
+.start-screen-btn-head-qg {
+	display: flex;
+	align-items: baseline;
+	gap: 0.6rem;
+}
+
+.start-screen-key-qg {
+	color: var(--text-faint);
+	font-size: var(--font-ui-smaller);
+}
+
+.start-screen-name-qg {
+	flex: 1 1 auto;
+	font-weight: var(--font-semibold);
+}
+
+.start-screen-count-qg {
+	color: var(--interactive-accent);
+	font-weight: var(--font-semibold);
+}
+
+.start-screen-desc-qg {
+	margin-top: 0.15rem;
+	color: var(--text-muted);
+	font-size: var(--font-ui-smaller);
+	white-space: normal;
+}
+
+.start-screen-foot-qg {
+	margin-top: 0.9rem;
+	color: var(--text-faint);
+	font-size: var(--font-ui-smaller);
+}
+
+.start-screen-never-qg {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	color: var(--text-normal);
+	font-size: var(--font-ui-small);
+	cursor: pointer;
+}
+
+.start-screen-note-qg {
+	margin-top: 0.3rem;
+}
+
+/* The top-bar switch for the start screen: lit while the question is being asked. */
+.start-screen-toggle-qg.is-on-qg {
+	color: var(--interactive-accent);
+}
+
+.quiz-voice-select-qg {
+	max-width: 11em;
+	height: auto;
+	padding: 2px 8px;
+	font-size: var(--font-ui-smaller);
+	border-radius: 999px;
+	background: var(--background-modifier-hover);
+	border: none;
+	box-shadow: none;
+	color: var(--text-muted);
+	cursor: pointer;
+}
+
+/* ───────── Video study: full-screen, in the quiz's look ───────── */
+/* The window is the quiz's .modal-quiz-fullscreen-qg (same frame, colors from --qg-a/b/c); only the content differs. */
+.qgv-modal .modal-content {
+	max-width: 1480px;
+	width: 100%;
+	padding: 0 1.25rem max(1rem, env(safe-area-inset-bottom));
+	zoom: 1;
+}
+.qgv-modal .modal-content > .qgv-body { flex: 1 1 0; min-height: 0; flex-shrink: 1; }
+.qgv-hidden { display: none !important; }
+.qgv-dict-host { display: contents; }
+
+.qgv-root { position: relative; outline: none; }
+.qgv-body { display: flex; flex-direction: column; gap: 0.75rem; overflow: hidden; }
+.qgv-note { color: var(--text-muted); font-size: var(--font-ui-small); }
+
+/* Pills: buttons and chips share one rounded look that follows the theme. */
+.qgv-pill,
+.qgv-controls button,
+.qgv-dict-controls button,
+.qgv-dict-actions button,
+.qgv-dict-extras button,
+.qgv-dict-head button,
+.qgv-status button {
+	border-radius: 999px;
+	padding: 0.3rem 0.85rem;
+	height: auto;
+	background: var(--background-secondary);
+	border: 1px solid var(--background-modifier-border);
+	box-shadow: none;
+	cursor: pointer;
+	transition: border-color 0.15s, background-color 0.15s, transform 0.1s;
+}
+.qgv-pill:hover,
+.qgv-controls button:hover,
+.qgv-dict-controls button:hover,
+.qgv-dict-actions button:hover,
+.qgv-dict-extras button:hover,
+.qgv-dict-head button:hover {
+	border-color: var(--qg-a, var(--interactive-accent));
+	background: color-mix(in srgb, var(--qg-a, var(--interactive-accent)) 12%, var(--background-secondary));
+}
+.qg-anim-on .qgv-controls button:active,
+.qg-anim-on .qgv-pill:active { transform: scale(0.95); }
+.qgv-controls button.is-on,
+.qgv-dict-controls button.is-on {
+	border-color: transparent;
+	color: var(--text-on-accent);
+	background: linear-gradient(135deg, var(--qg-a, var(--interactive-accent)), var(--qg-b, var(--interactive-accent-hover)));
+}
+.qgv-dict-actions button.mod-cta,
+.qgv-home button.mod-cta {
+	border-color: transparent;
+	color: var(--text-on-accent);
+	background: linear-gradient(135deg, var(--qg-a, var(--interactive-accent)), var(--qg-b, var(--interactive-accent-hover)));
+}
+
+/* Home: the library as cards. */
+.qgv-home { width: 100%; max-width: 40rem; margin: 1.5rem auto; display: flex; flex-direction: column; gap: 0.8rem; overflow-y: auto; }
+.qgv-home h2 { margin: 0; font-size: 1.6em; }
+.qgv-home h3 { margin: 0.6rem 0 0; color: var(--text-muted); font-size: var(--font-ui-small); text-transform: uppercase; letter-spacing: 0.06em; }
+.qgv-library { display: flex; flex-direction: column; gap: 0.5rem; }
+.qgv-library-row {
+	display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2rem 0.8rem;
+	padding: 0.7rem 1rem;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: var(--radius-l);
+	background: color-mix(in srgb, var(--background-secondary) 80%, transparent);
+}
+.qgv-library-open { flex: 1 1 100%; text-align: left; background: none; border: none; box-shadow: none; padding: 0; height: auto; font-weight: var(--font-semibold); font-size: 1.05em; cursor: pointer; }
+.qgv-library-open:hover { color: var(--qg-a, var(--interactive-accent)); }
+.qgv-library-state { color: var(--text-faint); font-size: var(--font-ui-smaller); white-space: nowrap; }
+
+/* Toolbar above the player. */
+.qgv-top { flex: 0 0 auto; display: flex; align-items: center; gap: 0.6rem; }
+.qgv-progress-text { flex: 1 1 auto; text-align: center; color: var(--text-muted); font-variant-numeric: tabular-nums; font-size: var(--font-ui-small); }
+
+/* Player on the left, the phrases (or the dictation) on the right; one column on a narrow window. */
+.qgv-layout { flex: 1 1 0; min-height: 0; display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(20rem, 1fr); gap: 1rem; }
+.qgv-left { min-height: 0; overflow-y: auto; display: flex; flex-direction: column; gap: 0.75rem; padding: 0.15rem; }
+.qgv-right { min-height: 0; display: flex; flex-direction: column; }
+@media (max-width: 1000px) {
+	.qgv-layout { grid-template-columns: 1fr; overflow-y: auto; }
+	.qgv-left { overflow: visible; }
+	.qgv-right { min-height: 55vh; }
+}
+
+.qgv-stage {
+	flex: 0 0 auto;
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	display: flex; align-items: center; justify-content: center;
+	background: #000;
+	border-radius: var(--radius-l);
+	overflow: hidden;
+	box-shadow: 0 12px 34px rgba(0, 0, 0, 0.35), 0 0 0 1px color-mix(in srgb, var(--qg-a, var(--interactive-accent)) 35%, transparent);
+}
+.qgv-stage .qgv-note { padding: 1rem; color: #bbb; text-align: center; }
+.qgv-video { width: 100%; height: 100%; object-fit: contain; outline: none; }
+.qgv-offline { display: flex; flex-direction: column; align-items: center; gap: 0.6rem; padding: 1.5rem 1rem; color: #ddd; text-align: center; }
+
+/* The phrase being played, large. */
+.qgv-now {
+	flex: 0 0 auto; min-height: 3.6rem; padding: 0.5rem 1rem;
+	display: flex; align-items: center; justify-content: center; text-align: center;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: var(--radius-l);
+	background: color-mix(in srgb, var(--background-secondary) 75%, transparent);
+}
+.qgv-now-text { margin: 0; font-size: 1.4em; line-height: 1.35; }
+.qgv-now-text.is-hidden, .qgv-text-hidden .qgv-cue-text { filter: blur(7px); transition: filter 0.15s; }
+.qgv-text-hidden .qgv-cue-text:hover, .qgv-now-text.is-hidden:hover { filter: none; }
+.qgv-dictating .qgv-now, .qgv-dictating .qgv-help { display: none; }
+
+.qgv-controls { flex: 0 0 auto; display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; justify-content: center; }
+.qgv-controls select { border-radius: 999px; }
+
+/* The phrases. */
+.qgv-cues {
+	flex: 1 1 0; min-height: 0; overflow-y: auto; padding: 0.5rem;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: var(--radius-l);
+	background: color-mix(in srgb, var(--background-secondary) 70%, transparent);
+}
+.qgv-cue { display: flex; gap: 0.6rem; align-items: baseline; padding: 0.3rem 0.5rem; border-radius: var(--radius-m); }
+.qgv-cue.is-active {
+	background: color-mix(in srgb, var(--qg-a, var(--interactive-accent)) 16%, transparent);
+	box-shadow: inset 3px 0 0 var(--qg-a, var(--interactive-accent));
+}
+.qgv-cue-time { flex: 0 0 auto; background: none; box-shadow: none; border: none; padding: 0 0.2rem; height: auto; color: var(--text-faint); font-variant-numeric: tabular-nums; font-size: var(--font-ui-smaller); cursor: pointer; }
+.qgv-cue-time:hover { color: var(--qg-a, var(--interactive-accent)); }
+.qgv-cue-text { margin: 0; flex: 1 1 auto; }
+.qgv-help { flex: 0 0 auto; color: var(--text-faint); font-size: var(--font-ui-smaller); text-align: center; }
+
+/* Progress of a long job (conversion, reading subtitles, transcribing). */
+.qgv-status {
+	flex: 0 0 auto; display: flex; align-items: center; gap: 0.7rem; padding: 0.5rem 0.9rem;
+	font-size: var(--font-ui-small);
+	border: 1px solid var(--background-modifier-border);
+	border-radius: var(--radius-l);
+	background: color-mix(in srgb, var(--background-secondary) 75%, transparent);
+}
+.qgv-progress { flex: 1 1 auto; height: 6px; background: var(--background-modifier-border); border-radius: 3px; overflow: hidden; }
+.qgv-progress-fill { height: 100%; width: 0; background: linear-gradient(90deg, var(--qg-a, var(--interactive-accent)), var(--qg-b, var(--interactive-accent)), var(--qg-c, var(--interactive-accent))); transition: width 0.3s; }
+.qgv-pct { width: 3rem; text-align: right; font-variant-numeric: tabular-nums; }
+
+/* Dictation. */
+.qgv-cues.is-dictation { padding: 0.9rem 1rem; }
+.qgv-dict { display: flex; flex-direction: column; gap: 0.7rem; }
+.qgv-dict-head { display: flex; justify-content: space-between; align-items: center; }
+.qgv-dict-count { font-weight: var(--font-semibold); }
+.qgv-dict-bar { height: 5px; background: var(--background-modifier-border); border-radius: 3px; overflow: hidden; }
+.qgv-dict-bar > div { height: 100%; background: linear-gradient(90deg, var(--qg-a, var(--interactive-accent)), var(--qg-b, var(--interactive-accent)), var(--qg-c, var(--interactive-accent))); transition: width 0.3s; }
+.qgv-dict-controls, .qgv-dict-actions, .qgv-dict-extras { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; }
+.qgv-dict-input { width: 100%; resize: vertical; font-size: 1.1em; line-height: 1.45; border-radius: var(--radius-m); }
+.qgv-dict .dictation-review-item-qg { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: baseline; }
+
+/* Text in the video window can be selected and copied (Obsidian's panels don't allow it by default). */
+.qgv-root .qgv-now,
+.qgv-root .qgv-cue-text,
+.qgv-root .qgv-dict,
+.qgv-root .qgv-dict .dictation-diff-qg,
+.qgv-root .qgv-dict .dictation-word-qg,
+.qgv-root .qgv-dict-input {
+	-webkit-user-select: text;
+	user-select: text;
+	cursor: text;
+}
+
+/* Progress page. */
+.qgv-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr)); gap: 0.5rem; }
+.qgv-tile { padding: 0.6rem 0.8rem; border: 1px solid var(--background-modifier-border); border-radius: var(--radius-m); background: color-mix(in srgb, var(--qg-a, var(--interactive-accent)) 8%, var(--background-secondary)); }
+.qgv-tile-value { font-size: 1.6em; font-weight: var(--font-semibold); line-height: 1.1; }
+.qgv-tile-label { color: var(--text-muted); font-size: var(--font-ui-smaller); }
+.qgv-spark { display: flex; align-items: flex-end; gap: 4px; height: 3.2rem; }
+.qgv-spark-bar { flex: 1 1 0; max-width: 1.4rem; border-radius: 3px 3px 0 0; background: linear-gradient(180deg, var(--qg-a, var(--interactive-accent)), var(--qg-b, var(--interactive-accent))); }
+.qgv-stats-title { margin: 0.6rem 0 0; color: var(--text-muted); font-size: var(--font-ui-small); text-transform: uppercase; letter-spacing: 0.06em; }
+.qgv-weak-text { flex: 1 1 12rem; }
+.qgv-set-date { color: var(--text-faint); font-size: var(--font-ui-smaller); white-space: nowrap; }
+.qgv-clear { align-self: flex-start; background: none; box-shadow: none; border: none; color: var(--text-faint); cursor: pointer; padding: 0; height: auto; }
+.qgv-clear:hover { color: var(--color-red); }
+.qgv-library-restart { background: none; box-shadow: none; border: none; padding: 0; height: auto; color: var(--text-muted); font-size: var(--font-ui-smaller); cursor: pointer; }
+.qgv-library-restart:hover { color: var(--qg-a, var(--interactive-accent)); }
+
+/* ───────── Video study: layout polish (tabs, transport, home) ───────── */
+.qgv-root :focus-visible { outline: 2px solid var(--qg-a, var(--interactive-accent)); outline-offset: 2px; }
+.qgv-error { color: var(--color-red); font-size: var(--font-ui-small); margin: 0; }
+
+/* Top: back link, time, and a thin bar of how far the video is. */
+.qgv-top { gap: 0.8rem; }
+.qgv-timeline { flex: 0 0 auto; height: 4px; border-radius: 2px; background: var(--background-modifier-border); overflow: hidden; margin-top: -0.35rem; }
+.qgv-timeline > div { height: 100%; width: 0; background: linear-gradient(90deg, var(--qg-a, var(--interactive-accent)), var(--qg-b, var(--interactive-accent)), var(--qg-c, var(--interactive-accent))); transition: width 0.4s linear; }
+
+/* Controls: the ones that move in time are big and central, the rest are smaller below. */
+.qgv-transport { flex: 0 0 auto; display: flex; align-items: center; justify-content: center; gap: 0.5rem; flex-wrap: wrap; }
+.qgv-tbtn,
+.qgv-tool,
+.qgv-chip,
+.qgv-tab {
+	border-radius: 999px;
+	height: auto;
+	background: var(--background-secondary);
+	border: 1px solid var(--background-modifier-border);
+	box-shadow: none;
+	cursor: pointer;
+	transition: border-color 0.15s, background-color 0.15s, transform 0.1s;
+}
+.qgv-tbtn { padding: 0.55rem 1rem; font-size: var(--font-ui-small); min-height: 2.5rem; }
+.qgv-tool { padding: 0.3rem 0.8rem; font-size: var(--font-ui-smaller); min-height: 2rem; color: var(--text-muted); }
+.qgv-tool-icon { padding: 0.3rem 0.6rem; }
+.qgv-tbtn:hover, .qgv-tool:hover, .qgv-chip:hover, .qgv-tab:hover {
+	border-color: var(--qg-a, var(--interactive-accent));
+	color: var(--text-normal);
+	background: color-mix(in srgb, var(--qg-a, var(--interactive-accent)) 12%, var(--background-secondary));
+}
+.qgv-play {
+	width: 3.5rem; height: 3.5rem; padding: 0; border-radius: 50%; border: none; font-size: 1.3rem;
+	color: var(--text-on-accent);
+	background: linear-gradient(135deg, var(--qg-a, var(--interactive-accent)), var(--qg-b, var(--interactive-accent-hover)));
+	box-shadow: 0 6px 18px color-mix(in srgb, var(--qg-a, var(--interactive-accent)) 40%, transparent);
+	cursor: pointer; transition: transform 0.12s;
+}
+.qgv-play:hover { transform: scale(1.06); }
+.qg-anim-on .qgv-play:active, .qg-anim-on .qgv-tbtn:active { transform: scale(0.94); }
+.qgv-tools { flex: 0 0 auto; display: flex; align-items: center; justify-content: center; gap: 0.4rem; flex-wrap: wrap; }
+.qgv-tool.is-on { color: var(--text-on-accent); border-color: transparent; background: linear-gradient(135deg, var(--qg-a, var(--interactive-accent)), var(--qg-b, var(--interactive-accent-hover))); }
+.qgv-speed { height: 2rem; border-radius: 999px; font-size: var(--font-ui-smaller); }
+
+/* The current phrase. */
+.qgv-now-empty { margin: 0; color: var(--text-faint); }
+.qgv-now { min-height: 4rem; }
+
+/* Right panel: tabs, a bar for the list, the content. */
+.qgv-tabs { flex: 0 0 auto; display: flex; gap: 0.3rem; padding: 0.25rem; margin-bottom: 0.5rem; border: 1px solid var(--background-modifier-border); border-radius: 999px; background: var(--background-secondary); }
+.qgv-tab { flex: 1 1 0; padding: 0.4rem 0.6rem; border-color: transparent; background: transparent; color: var(--text-muted); font-size: var(--font-ui-small); white-space: nowrap; }
+.qgv-tab.is-active { color: var(--text-on-accent); border-color: transparent; background: linear-gradient(135deg, var(--qg-a, var(--interactive-accent)), var(--qg-b, var(--interactive-accent-hover))); font-weight: var(--font-semibold); }
+.qgv-panelbar { flex: 0 0 auto; display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.5rem; }
+.qgv-search { flex: 1 1 auto; min-width: 0; height: 2rem; border-radius: 999px; padding: 0 0.9rem; }
+.qgv-panelbar .qgv-pill { height: 2rem; padding: 0 0.8rem; }
+.qgv-panelbar .qgv-pill.is-on { color: var(--text-on-accent); border-color: transparent; background: linear-gradient(135deg, var(--qg-a, var(--interactive-accent)), var(--qg-b, var(--interactive-accent-hover))); }
+
+.qgv-empty, .qgv-dhome { max-width: 32rem; margin: 1rem auto; display: flex; flex-direction: column; gap: 0.7rem; }
+.qgv-empty h3, .qgv-panel-title { margin: 0; font-size: 1.25em; }
+.qgv-empty-actions { display: flex; flex-direction: column; gap: 0.4rem; align-items: stretch; }
+.qgv-empty-actions button, .qgv-dhome > button { border-radius: 999px; padding: 0.55rem 1rem; height: auto; min-height: 2.5rem; border: 1px solid var(--background-modifier-border); box-shadow: none; cursor: pointer; }
+.qgv-empty-actions button.mod-cta, .qgv-dhome > button.mod-cta { border-color: transparent; color: var(--text-on-accent); background: linear-gradient(135deg, var(--qg-a, var(--interactive-accent)), var(--qg-b, var(--interactive-accent-hover))); }
+.qgv-dcard { padding: 0.8rem 1rem; border: 1px solid color-mix(in srgb, var(--qg-a, var(--interactive-accent)) 45%, transparent); border-radius: var(--radius-l); background: color-mix(in srgb, var(--qg-a, var(--interactive-accent)) 8%, transparent); display: flex; flex-direction: column; gap: 0.5rem; }
+.qgv-dcard-title { font-weight: var(--font-semibold); }
+.qgv-size { display: flex; align-items: center; gap: 0.4rem; }
+.qgv-chip { padding: 0.25rem 0.8rem; min-width: 2.4rem; }
+.qgv-chip.is-on { color: var(--text-on-accent); border-color: transparent; background: linear-gradient(135deg, var(--qg-a, var(--interactive-accent)), var(--qg-b, var(--interactive-accent-hover))); }
+
+/* Keyboard shortcuts card. */
+.qgv-shortcuts { position: absolute; z-index: 30; left: 1.5rem; bottom: 1.5rem; width: min(24rem, calc(100% - 3rem)); padding: 0.9rem 1.1rem; border: 1px solid var(--background-modifier-border); border-radius: var(--radius-l); background: var(--background-primary); box-shadow: 0 14px 40px rgba(0, 0, 0, 0.45); display: flex; flex-direction: column; gap: 0.35rem; }
+.qgv-shortcuts h4 { margin: 0 0 0.2rem; }
+.qgv-sc-row { display: flex; gap: 0.7rem; align-items: baseline; font-size: var(--font-ui-small); }
+.qgv-sc-row kbd { flex: 0 0 6.4rem; text-align: center; padding: 0.1rem 0.4rem; border: 1px solid var(--background-modifier-border); border-bottom-width: 2px; border-radius: 5px; background: var(--background-secondary); font-size: var(--font-ui-smaller); white-space: nowrap; }
+.qgv-sc-group { margin-top: 0.4rem; color: var(--text-muted); font-size: var(--font-ui-smaller); text-transform: uppercase; letter-spacing: 0.06em; }
+.qgv-shortcuts button { align-self: flex-end; margin-top: 0.3rem; }
+
+/* Home. */
+.qgv-continue { padding: 1rem 1.2rem; border: 1px solid color-mix(in srgb, var(--qg-a, var(--interactive-accent)) 45%, transparent); border-radius: var(--radius-l); background: linear-gradient(135deg, color-mix(in srgb, var(--qg-a, var(--interactive-accent)) 14%, transparent), color-mix(in srgb, var(--qg-b, var(--interactive-accent)) 10%, transparent)); display: flex; flex-direction: column; gap: 0.45rem; }
+.qgv-continue-label { color: var(--text-muted); font-size: var(--font-ui-smaller); text-transform: uppercase; letter-spacing: 0.06em; }
+.qgv-continue-title { font-size: 1.3em; font-weight: var(--font-semibold); }
+.qgv-continue-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.3rem; }
+.qgv-continue-actions button { border-radius: 999px; padding: 0.5rem 1.1rem; height: auto; border: 1px solid var(--background-modifier-border); box-shadow: none; cursor: pointer; }
+.qgv-continue-actions button.mod-cta { border-color: transparent; color: var(--text-on-accent); background: linear-gradient(135deg, var(--qg-a, var(--interactive-accent)), var(--qg-b, var(--interactive-accent-hover))); }
+.qgv-drop { display: flex; flex-direction: column; align-items: center; gap: 0.2rem; padding: 1.3rem 1rem; height: auto; border: 2px dashed var(--background-modifier-border); border-radius: var(--radius-l); background: transparent; box-shadow: none; cursor: pointer; transition: border-color 0.15s, background-color 0.15s; }
+.qgv-drop:hover, .qgv-drop.is-over { border-color: var(--qg-a, var(--interactive-accent)); background: color-mix(in srgb, var(--qg-a, var(--interactive-accent)) 8%, transparent); }
+.qgv-drop-title { font-size: 1.05em; font-weight: var(--font-semibold); }
+.qgv-drop-hint { color: var(--text-muted); font-size: var(--font-ui-smaller); }
+.qgv-library-row { flex-direction: column; align-items: stretch; gap: 0.25rem; }
+.qgv-library-open { flex: 0 0 auto; }
+.qgv-mini-bar { height: 4px; border-radius: 2px; background: var(--background-modifier-border); overflow: hidden; }
+.qgv-mini-bar > div { height: 100%; background: linear-gradient(90deg, var(--qg-a, var(--interactive-accent)), var(--qg-b, var(--interactive-accent))); }
+
+/* Narrow window: one column, each block as tall as its content, the page scrolls. */
+@media (max-width: 1000px) {
+	.qgv-layout { grid-template-rows: auto auto; align-content: start; }
+	.qgv-left { min-height: auto; overflow: visible; }
+	.qgv-right { min-height: 60vh; }
+	.qgv-cues { max-height: 70vh; }
+}
+.qgv-home p, .qgv-empty p, .qgv-dhome p, .qgv-shortcuts h4 { margin: 0; }
+.qgv-home h2 { margin: 0; }
+.qgv-dict .dictation-review-item-qg { flex-wrap: nowrap; align-items: baseline; }
+.qgv-dict .dictation-review-item-qg .dictation-diff-qg { flex: 1 1 auto; min-width: 0; }
+.qgv-dict .dictation-review-item-qg button { flex: 0 0 auto; }
+.qgv-dict .dictation-review-pct-qg { flex: 0 0 auto; }
+.qgv-offline p { margin: 0; }
+
+/* The step forward after a check is the main action of the screen. */
+.qgv-dict .dictation-next-qg {
+	border-radius: 999px; padding: 0.4rem 1.1rem; height: auto; border: none; box-shadow: none; cursor: pointer;
+	color: var(--text-on-accent);
+	background: linear-gradient(135deg, var(--qg-a, var(--interactive-accent)), var(--qg-b, var(--interactive-accent-hover)));
+}
+
+/* Converted copies: deleting them, with a typed confirmation. */
+.qgv-copy, .qgv-cache { display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; flex-wrap: wrap; }
+.qgv-cache { margin-top: 0.6rem; padding-top: 0.8rem; border-top: 1px solid var(--background-modifier-border); }
+.qgv-delete-copy { background: none; box-shadow: none; border: 1px solid transparent; border-radius: 999px; padding: 0.15rem 0.7rem; height: auto; color: var(--text-muted); font-size: var(--font-ui-smaller); cursor: pointer; }
+.qgv-delete-copy:hover { color: var(--color-red); border-color: color-mix(in srgb, var(--color-red) 50%, transparent); background: color-mix(in srgb, var(--color-red) 8%, transparent); }
+.qgv-confirm-backdrop { position: absolute; inset: 0; z-index: 40; display: flex; align-items: center; justify-content: center; padding: 1rem; background: rgba(0, 0, 0, 0.55); }
+.qgv-confirm { width: min(30rem, 100%); padding: 1.2rem 1.3rem; display: flex; flex-direction: column; gap: 0.7rem; border: 1px solid var(--background-modifier-border); border-radius: var(--radius-l); background: var(--background-primary); box-shadow: 0 18px 50px rgba(0, 0, 0, 0.5); }
+.qgv-confirm h3 { margin: 0; }
+.qgv-confirm p { margin: 0; }
+.qgv-confirm-input { height: 2.4rem; padding: 0 0.8rem; border-radius: var(--radius-m); }
+.qgv-confirm .qgv-dict-actions button { border-radius: 999px; padding: 0.45rem 1.1rem; height: auto; cursor: pointer; border: 1px solid var(--background-modifier-border); box-shadow: none; }
+.qgv-confirm .qgv-danger { color: #fff; border-color: transparent; background: var(--color-red); }
+.qgv-confirm .qgv-danger:disabled { opacity: 0.35; cursor: not-allowed; }
+
+/* ───────── Video library: folders and search (the Quiz Browser's tree, reused) ───────── */
+.qgv-home { max-width: 54rem; }
+.qgv-libsearch { width: 100%; height: 2.6rem; padding: 0 1rem; border-radius: 999px; font-size: 1em; }
+.qgv-libarea { display: flex; flex-direction: column; gap: 0.9rem; }
+.qgv-libhead { display: flex; align-items: baseline; justify-content: space-between; gap: 0.6rem; margin-top: 0.4rem; }
+.qgv-libhead h3 { margin: 0; }
+.qgv-libhead-actions { display: flex; gap: 0.2rem; }
+.qgv-tree { flex: 0 0 auto; overflow: visible; padding: 0; border: 1px solid var(--background-modifier-border); border-radius: var(--radius-l); background: color-mix(in srgb, var(--background-secondary) 60%, transparent); }
+.qgv-tree .browser-columns-qg { position: static; background: transparent; padding-top: 0.45rem; }
+.qgv-tree .browser-row-qg { min-height: 2.3rem; }
+.qgv-tree .browser-columns-qg .browser-col-qg, .qgv-tree .browser-row-qg .browser-col-qg { flex-shrink: 0; }
+.qgv-col-pct { width: 3.4rem; justify-content: flex-end; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.qgv-col-dict { width: 5.4rem; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.qgv-col-size { width: 4.6rem; justify-content: flex-end; color: var(--text-faint); font-variant-numeric: tabular-nums; }
+.qgv-col-actions { width: 3.6rem; justify-content: flex-end; gap: 0.1rem; }
+.qgv-iconbtn { background: none; box-shadow: none; border: none; padding: 0.1rem 0.35rem; height: auto; border-radius: var(--radius-s); color: var(--text-muted); cursor: pointer; line-height: 1; }
+.qgv-iconbtn:hover { background: var(--background-modifier-hover); color: var(--text-normal); }
+.qgv-crumb { color: var(--text-faint); font-size: var(--font-ui-smaller); }
+@media (max-width: 760px) { .qgv-col-dict, .qgv-col-size { display: none; } }
+
+/* Search results. */
+.qgv-results { display: flex; flex-direction: column; gap: 0.35rem; }
+.qgv-results h3 { margin: 0.2rem 0 0; color: var(--text-muted); font-size: var(--font-ui-small); text-transform: uppercase; letter-spacing: 0.06em; }
+.qgv-hit-video { margin-top: 0.5rem; font-weight: var(--font-semibold); }
+.qgv-hit { display: flex; gap: 0.7rem; align-items: baseline; padding: 0.35rem 0.6rem; border-radius: var(--radius-m); cursor: pointer; border: 1px solid transparent; }
+.qgv-hit:hover, .qgv-hit:focus-visible { background: color-mix(in srgb, var(--qg-a, var(--interactive-accent)) 12%, transparent); border-color: color-mix(in srgb, var(--qg-a, var(--interactive-accent)) 35%, transparent); }
+.qgv-hit-time { flex: 0 0 auto; color: var(--text-faint); font-variant-numeric: tabular-nums; font-size: var(--font-ui-smaller); }
+.qgv-mark { background: color-mix(in srgb, var(--qg-c, var(--text-accent)) 35%, transparent); color: inherit; border-radius: 3px; padding: 0 1px; }
+
+.qgv-home > * { flex-shrink: 0; }
+
+/* The list is the offset parent of its rows, so a row can be scrolled to without moving anything else. */
+.qgv-cues { position: relative; }
+
+.qgv-dict-input[readonly] { opacity: 0.75; cursor: default; }
+
+/* ───────── Phrasal verb family sheet (in the quiz) ───────── */
+.phrasal-family-qg .dict-note-qg { margin-left: auto; margin-right: 0.4rem; }
+.phrasal-core-qg, .phrasal-idea-qg { margin: 0 0 0.5rem; }
+.phrasal-core-qg { color: var(--text-muted); }
+.phrasal-list-qg { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.15rem; }
+.phrasal-list-qg li { display: flex; gap: 0.7rem; align-items: baseline; padding: 0.3rem 0.5rem; border-radius: var(--radius-m); }
+.phrasal-list-qg li.is-current-qg { background: color-mix(in srgb, var(--qg-a, var(--interactive-accent)) 16%, transparent); box-shadow: inset 3px 0 0 var(--qg-a, var(--interactive-accent)); }
+.phrasal-combo-qg { flex: 0 0 9.5rem; font-weight: var(--font-semibold); }
+.phrasal-gist-qg { color: var(--text-muted); }
+
+/* "All cards" list: header stays put, the rows scroll. */
+.quiz-wordlist-qg {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	min-height: 0;
+}
+
+.quiz-wordlist-items-qg {
+	flex: 1;
+	min-height: 0;
+	overflow-y: auto;
 }
