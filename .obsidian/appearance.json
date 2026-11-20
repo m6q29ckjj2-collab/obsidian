@@ -8,5 +8,6 @@
   "interfaceFontFamily": "",
   "enabledCssSnippets": [
     "CustomIcon-AutoGen"
-  ]
+  ],
+  "showRibbon": true
 }
